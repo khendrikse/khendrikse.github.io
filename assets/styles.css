@@ -1,0 +1,53 @@
+/* Reset margin and padding of page */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styling */
+
+/* Home page */
+
+.start-card {
+  margin: auto;
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.backdrop {
+  background-image: url('backdrop.svg');
+  background-size: 500px;
+  margin-top: 20%;
+  margin: auto;
+  padding-top: 140px;
+  width: 500px;
+  height: 200px;
+}
+
+.start-card p {
+  font-family:'Quicksand', sans-serif;
+  font-size: 1em;
+  border-bottom: 2px solid black;
+  padding: 6px 0px 6px 0px;
+  text-transform: uppercase;
+}
+
+.start-card .read-blog {
+  text-align: right;
+  border-bottom: none;
+}
+
+.start-card a:link {
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+.start-card a:hover {
+  padding-left: 10px;
+  color: #000;
+  background-color: inherit;
+  -webkit-transition: padding-left 0.2s ease-out, background-color 0.2s ease-out, color 0.2s ease-out;
+  -moz-transition: padding-left 0.2s ease-out, background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: padding-left 0.2s ease-out, background-color 0.2s ease-out, color 0.2s ease-out;
+}
