@@ -141,7 +141,10 @@ footer {
 /* Media Queries */
 
 
-@media (max-width: 800px){
+@media (min-width: 320px) and (max-width: 800px){
+  .main-header {
+    height: 900px;
+  }
   .column30 {
     float: none;
     min-width: 100%;
