@@ -144,9 +144,17 @@ footer {
 @media (min-width: 320px) and (max-width: 800px){
   .main-header {
     height: 760px;
+    padding-top: 90px;
   }
   .column30 {
     float: none;
     min-width: 100%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
