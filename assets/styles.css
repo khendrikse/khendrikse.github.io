@@ -6,8 +6,12 @@
 
 body {
   margin: 0;
-  font: 1em/1 'Sanchez', serif;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Sanchez', serif;
 }
 
 h1 {
@@ -16,11 +20,9 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  text-align: center;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -55,78 +57,46 @@ footer {
   border-bottom: 3px solid #f5f5f5;
 }
 
-.image-box h1 {
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.image-box p {
-  text-align: center;
-  color: white;
-  font-size: 1em;
-  margin: 0;
-  padding: 0;
-}
-
 .work-button {
-  background-color: #568481;
-  background:
-  linear-gradient(
-    rgba(247, 207, 135, 0.6),
-    rgba(249, 185, 76, 0.8)
-  ),
-  /* bottom, image */
-  url(work.jpg);
+  background-color: rgb(247, 207, 135);
+  background: linear-gradient(rgba(247, 207, 135, 0.6), rgba(249, 185, 76, 0.8)), url(work.jpg);
   background-size: cover;
 }
 
 .about-button {
-  background-color: #e3d9d8;
-  background:
-  linear-gradient(
-    rgba(143, 202, 198, 0.6),
-    rgba(127, 249, 241, 0.8)
-  ),
-  /* bottom, image */
-  url(about.jpg);
+  background-color: rgb(143, 202, 198);
+  background: linear-gradient(rgba(143, 202, 198, 0.6), rgba(127, 249, 241, 0.8)), url(about.jpg);
   background-size: cover;
 }
 
 .helped-button {
-  background-color: #3a3d46;
-  background:
-  linear-gradient(
-    rgba(235, 189, 200, 0.6),
-    rgba(244, 136, 162, 0.8)
-  ),
-  url(helped.jpg);
+  background-color: rgb(235, 189, 200);
+  background: linear-gradient(rgba(235, 189, 200, 0.6), rgba(244, 136, 162, 0.8)), url(helped.jpg);
   background-size: cover;
 }
 
-#work {
+/* Subject Styles ------------------ */
+
+#work,
+#helped,
+#about {
   height: 400px;
-  background-color: #fff;
   padding: 5px;
+  text-align: center;
+}
+
+#work,
+#about {
+  background-color: #fff;
 }
 
 #helped {
-  height: 400px;
   background-color: #f5f5f5;
-  padding: 5px;
-}
-
-#about {
-  height: 400px;
-  background-color: #fff;
-  padding: 5px;
 }
 
 /* Column Styles --------------------- */
 
 .column30 {
-  display: inline-block;
   vertical-align: top;
   float: left;
   height: 500px;
@@ -158,4 +128,22 @@ footer {
 
 .text-shadow {
   text-shadow: 5px 5px #fff;
+}
+
+.image-box h1,
+.image-box p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 800px){
+  .column30 {
+    float: none;
+    min-width: 100%;
+  }
 }
