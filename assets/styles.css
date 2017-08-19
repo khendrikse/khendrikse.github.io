@@ -97,6 +97,7 @@ footer {
 /* Column Styles --------------------- */
 
 .column30 {
+  display: inline-block;
   vertical-align: top;
   float: left;
   height: 500px;
