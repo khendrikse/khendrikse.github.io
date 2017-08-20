@@ -15,11 +15,11 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 p {
@@ -40,9 +40,9 @@ footer {
 /* Main Styles --------------------- */
 
 .main-header {
-  height: 500px;
+  height: 760px;
+  padding-top: 90px;
   margin: auto;
-  padding-top: 170px; /* This padding also removes margin collapsing */
   background: linear-gradient(rgba(225, 225, 225, 0.6), rgba(242, 242, 242, 0.9)), url(backdrop2.svg);
   background-size: cover;
   text-align: center;
@@ -89,11 +89,10 @@ footer {
 /* Column Styles --------------------- */
 
 .column30 {
+  min-width: 100%;
   display: inline-block;
   vertical-align: top;
-  float: left;
   height: 500px;
-  min-width: 33.333%;
   padding-top: 200px;
 }
 
@@ -134,20 +133,21 @@ footer {
 /* Media Queries */
 
 
-@media (min-width: 320px) and (max-width: 800px){
+@media (min-width: 800px) {
+
+
   .main-header {
-    height: 760px;
-    padding-top: 90px;
+    height: 500px;
+    padding-top: 170px;
   }
   .column30 {
-    float: none;
-    min-width: 100%;
+    min-width: 33.333%;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
