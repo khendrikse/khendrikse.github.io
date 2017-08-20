@@ -22,13 +22,6 @@ h2 {
   font-size: 2rem;
 }
 
-p {
-}
-
-a {
-  text-decoration: none;
-}
-
 footer {
   height: 100px;
   background: linear-gradient(rgba(225, 225, 225, 0.6), rgba(242, 242, 242, 0.9)), url(backdrop2.svg);
@@ -40,7 +33,7 @@ footer {
 /* Main Styles --------------------- */
 
 .main-header {
-  height: 760px;
+  height: 700px;
   padding-top: 90px;
   margin: auto;
   background: linear-gradient(rgba(225, 225, 225, 0.6), rgba(242, 242, 242, 0.9)), url(backdrop2.svg);
@@ -49,21 +42,21 @@ footer {
   border-bottom: 3px solid #f5f5f5;
 }
 
-.work-button {
+.button1 {
   background-color: rgb(247, 207, 135);
   background: linear-gradient(rgba(247, 207, 135, 0.6), rgba(249, 185, 76, 0.8)), url(work.jpg);
   background-size: cover;
 }
 
-.about-button {
-  background-color: rgb(143, 202, 198);
-  background: linear-gradient(rgba(143, 202, 198, 0.6), rgba(127, 249, 241, 0.8)), url(about.jpg);
+.button2 {
+  background-color: rgb(235, 189, 200);
+  background: linear-gradient(rgba(235, 189, 200, 0.6), rgba(244, 136, 162, 0.8)), url(helped.jpg);
   background-size: cover;
 }
 
-.helped-button {
-  background-color: rgb(235, 189, 200);
-  background: linear-gradient(rgba(235, 189, 200, 0.6), rgba(244, 136, 162, 0.8)), url(helped.jpg);
+.button3 {
+  background-color: rgb(143, 202, 198);
+  background: linear-gradient(rgba(143, 202, 198, 0.6), rgba(127, 249, 241, 0.8)), url(about.jpg);
   background-size: cover;
 }
 
@@ -86,18 +79,17 @@ footer {
   background-color: #f5f5f5;
 }
 
-/* Column Styles --------------------- */
-
-.column30 {
-  min-width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  height: 500px;
-  padding-top: 200px;
+/* Flex Styles --------------------- */
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.clear {
-  clear: left;
+.item {
+  flex: 1 300px;
+  height: 500px;
 }
 
 /* Special elements ---------------- */
@@ -122,12 +114,16 @@ footer {
   text-shadow: 5px 5px #fff;
 }
 
-.image-box h1,
-.image-box p {
+.image-box a{
   text-align: center;
   color: #fff;
-  margin: 0;
-  padding: 0;
+  text-decoration: none;
+}
+.image-box h1 {
+  margin-top: 0;
+}
+.image-box p {
+  padding-top: 150px;
 }
 
 /* Media Queries */
@@ -135,14 +131,11 @@ footer {
 
 @media (min-width: 800px) {
 
-
   .main-header {
     height: 500px;
-    padding-top: 170px;
+    padding-top: 140px;
   }
-  .column30 {
-    min-width: 33.333%;
-  }
+
   h1 {
     font-size: 5rem;
   }
