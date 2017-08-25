@@ -236,7 +236,7 @@ footer {
 }
 
 #to-top h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   line-height: 0rem;
   margin: auto;
 }
@@ -260,5 +260,9 @@ footer {
 
   h2 {
     font-size: 3rem;
+  }
+
+  #to-top h1 {
+    font-size: 2rem;
   }
 }
