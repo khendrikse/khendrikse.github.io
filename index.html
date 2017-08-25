@@ -7,44 +7,111 @@
     <title>Portfolio | Karin Hendrikse</title>
     <meta name="description" content="">
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Sanchez|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sanchez|Open+Sans|Montserrat" rel="stylesheet">
   </head>
-
   <body>
     <div class="main-header">
       <h1 class="text-shadow">Hello World!</h1>
       <p>Welcome to my portfolio</p>
-      <a class="arrow text-shadow" href="#main-content">&dtrif;</a>
+      <a class="arrow text-shadow" href="#main-nav">&dtrif;</a>
     </div>
-    <section id="main-content" class="flex">
-          <div class="item button1 image-box">
+
+    <section id="main-nav" class="flex">
+          <div class="button1">
             <a href="#work"><p>check out my</p>
             <h1>work</h1></a>
-          </div><div class="item button2 image-box">
+          </div><div class="button2">
             <a href="#helped"><p>resources that</p>
             <h1>helped</h1></a>
-          </div><div class="item button3 image-box">
+          </div><div class="button3">
             <a href="#about"><p>more about</p>
             <h1>me</h1></a>
           </div>
     </section>
+
     <section id="work">
-      <div>
-        <h2>My work</h2>
+      <h2>My work</h2>
+      <div class="flex">
+        <div>
+          <h1>Tumbly.pstr</h1>
+          <img src="assets/ruby.svg"/>
+          <p>A Ruby on Rails app that uses the Tumblr API to fetch images from Tumblr and turn them into a downloadable PDF.</p><p>Still under construction.</p>
+          <ul>
+            <li><a href="www.tumblypstr.nl">Live demo</a></li>
+            <li><a href="https://github.com/khendrikse/tumblypstr">GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>GitHub Portfolio</h1>
+          <img src="assets/htmlcss.svg"/>
+          <p>You are looking at it right now! My first attempt at a responsive page using flexbox and media queries. Also my way of practicing clean code. Suggestions are welcome!</p><p>Always under construction</p>
+          <ul>
+            <li><a href="https://github.com/khendrikse/khendrikse.github.io">GitHub</a></li>
+          </ul>
+        </div>
+        <div>
+          <h1>More to come...</h1>
+          <img src="assets/javascript.svg"/><img src="assets/python.svg"/><img src="assets/databases.svg"/>
+          <p>There is always more to learn so more projects will follow!</p>
+        </div>
       </div>
     </section>
-    <section id="helped">
-      <div>
-        <h2>My resources</h2>
+
+    <section id="resources">
+      <h2>My resources</h2>
+      <p>These are some of the most important resources that helped me during my self-study.
+      <div class="flex">
+        <div>
+          <h1>HTML / CSS</h1>
+          <ul>
+            <li><a href="http://learnlayout.com">Learn CSS Layout</a></li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
+            <li><a href="http://getskeleton.com">Skeleton Boilerplate</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing">Mastering margin collapsing</a> (MDN web docs)</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_flexbox_to_lay_out_web_applications">Using Flexbox</a> (MDN web docs)</li>
+          </ul>
+        </div>
+        <div>
+          <h1>Ruby / Rails</h1>
+          <ul>
+            <li><a href="http://railsgirls.com">Rails Girls Rotterdam</a><p>The first time I started to learn more then just HTML/CSS was at the Rails Girls Rotterdam meetup. Nowadays I try to coach during these events as much as I can.</p></li>
+          </ul>
+        </div>
+        <div>
+          <h1>Other resources</h1>
+          <ul>
+            <li><a href="http://daysofcode.io">Days of Code Rotterdam</a><p>Two times have I participated in Days of Code. Both to give myself 10 days to work on my project <a href="#work">Tumblypstr</a>.</p></li>
+            <li><a href="http://teamtreehouse.com">Treehouse</a></li>
+            <li><a href="http://caniuse.com/">Can I Use</a></li>
+          </ul>
+        </div>
       </div>
     </section>
+
     <section id="about">
       <div>
         <h2>About me</h2>
+        <p>My name is Karin, I am a full-time Communications Adviser trying to learn how to code in her free time. I have always been obsessed by the internet and used to create webpages using HTML and a little bit of CSS during high school for me and my friends. After high-school I studied graphic design and majored in photography. Following my graduation I continued to study communications, using my graphic skills whenever possible.</p><p>Since the summer of 2017 I have actively picked up learning how to program again during my free time. After mastering the basics of HTML and CSS again, I am now working on small projects to better understand Ruby, Ruby on Rails, JavaScript, Databases, getting my digital literacy up-to-date and just to have fun.</p>
       </div>
     </section>
+    <button onclick="topFunction()" id="to-top" title="Go to top"><h1>&utrif;</h1><p>top</p></button>
     <footer>
     </footer>
-  </body>
+    <script>
+      window.onscroll = function() {scrollFunction()};
 
+      function scrollFunction() {
+          if (document.body.scrollTop > 980 || document.documentElement.scrollTop > 980) {
+              document.getElementById("to-top").style.display = "block";
+          } else {
+              document.getElementById("to-top").style.display = "none";
+          }
+      }
+
+      function topFunction() {
+          document.body.scrollTop = 0; // For Chrome, Safari and Opera
+          document.documentElement.scrollTop = 0; // For IE and Firefox
+      }
+    </script>
+  </body>
 </html>
