@@ -32,6 +32,24 @@ a {
   color: #000;
 }
 
+
+/* Flex Styles --------------------- */
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
 /* Main Styles --------------------- */
 
 .main-header {
@@ -168,9 +186,25 @@ a {
 
 #about p {
   text-align: left;
-  padding: 0% 10%;
+  padding: 0% 5%;
 }
 
+#about .flex {
+  align-items: center;
+  justify-content: space-around;
+}
+#about .flex div {
+  flex: 2;
+}
+#about .flex div:first-of-type {
+  flex: 1;
+}
+
+#about div img {
+  width: 300px;
+  height:300px;
+  border-radius: 100%;
+}
 
 footer {
   height: 100px;
@@ -179,23 +213,6 @@ footer {
   background-size: cover;
   background-position: bottom;
   border-top: 3px solid #f5f5f5;
-}
-
-/* Flex Styles --------------------- */
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 /* Special elements ---------------- */
