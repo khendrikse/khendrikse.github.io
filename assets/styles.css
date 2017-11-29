@@ -178,12 +178,6 @@ a {
   padding-left: 15px;
 }
 
-#resources a,
-#resources a:after{
-  color: #b73163;
-  content: " ›";
-}
-
 #about p {
   text-align: left;
   padding: 0% 5%;
