@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:700|Open+Sans:300,600");
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dosis', serif; }
+
+h1 {
+  font-size: 200px; }
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black; }
+
+.navbar__title {
+  font-size: 24px; }
+
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.home__section {
+  height: 90vh;
+  width: 100%; }
+
+.image__container {
+  z-index: -1;
+  width: 200px; }
+  .image__container--left {
+    order: 1; }
+  .image__container--right {
+    order: 2; }
+
+.content {
+  z-index: 2; }
+  .content__box {
+    width: 500px;
+    padding: 50px; }
+    .content__box--left {
+      order: 1;
+      text-align: right; }
+    .content__box--right {
+      order: 2; }
+    .content__box--centered {
+      width: 300px;
+      text-align: center; }
+  .content__header {
+    margin: 0px 0 -30px -100px; }
+    .content__header--smaller {
+      font-size: 100px;
+      margin-right: -100px; }
+    .content__header--centered {
+      font-size: 80px;
+      margin-top: -150px;
+      margin-bottom: -30px; }
+  .content__body {
+    text-align: left; }
+
+.hand {
+  text-align: center; }
