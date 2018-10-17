@@ -1,14 +1,11 @@
-<nav>
+<nav class="navbar">
   <div class="navbar__title">
-    <h4>Karin Hendrikse</h4>
   </div>
-  <div class="navbar__buttons">
+  <!-- <div class="navbar__list">
     {% for item in site.data.navigation %}
-    <p>
-      <a href="{{ item.link }}" {% if page.url==item.link %} class="current" {% endif %}>
+      <a href="{{ item.link }}" class="navbar__button{% if page.url==item.link %} current{% endif %}">
         {{ item.name }}
-      </a>
-    </p>
+      </a> 
     {% endfor %}
-  </div>
+  </div> -->
 </nav>
