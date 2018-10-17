@@ -20,12 +20,15 @@ a {
 }
 
 .navbar {
+  // position: fixed;
+  // margin-left: 20px;
+
   &__title {
     font-size: 24px;
+    text-align: center;
+    line-height: 0;
+    margin: 0;
   }
-
-  // &__buttons {
-  // }
 }
 
 .flex-wrapper {
