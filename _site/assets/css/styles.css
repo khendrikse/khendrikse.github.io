@@ -27,9 +27,8 @@ a {
   align-items: center;
   flex-wrap: wrap; }
 
-.home__section {
-  height: 90vh;
-  width: 100%; }
+.home__section + .home__section {
+  margin-top: 128px; }
 
 .image__container {
   z-index: -1;
@@ -66,3 +65,7 @@ a {
 
 .hand {
   text-align: center; }
+
+.center-content {
+  display: flex;
+  justify-content: space-between; }
