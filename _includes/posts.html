@@ -1,0 +1,18 @@
+<div class="container">
+  {% for post in site.posts %}
+  <div class="posts-card">
+    <div class="posts-label-wrapper">
+      <h2 class="posts-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div id="dayLabelToday" class="posts-label">
+        {{ post.date | date: '%B %d, %Y' }}
+      </div>
+    </div>
+    <div class="posts-content">
+      {{ post.excerpt }}
+    </div>
+    <div class="posts-read-button"><a href="{{ post.url }}">Read more ></a></div>
+  </div>
+  {% endfor %}
+</div>
