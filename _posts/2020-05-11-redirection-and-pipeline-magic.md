@@ -33,7 +33,7 @@ _Example_
 
 Let's say we have a list of animals in a file called `animals.txt`.
 
-```txt
+```text
 puppy
 kangaroo
 kitten
@@ -53,7 +53,7 @@ We call the `sort` command and give it `animals.txt` as input by using the `<` s
 
 When we open the `sortedAnimals.txt` file we will find:
 
-```txt
+```text
 bird
 kangaroo
 kitten
@@ -65,14 +65,14 @@ wombat
 
 Now, what if we wanted to sort a file that does not exist? For example:
 
-```
+```shell
 $ sort < ghostFile.txt > sortedGhostFile.txt
 -bash: ghostFile.txt: No such file or directory
 ```
 
 We get an error thrown into the terminal. Of course, this is good because we want to get feedback on why something is not working. But what if we didn’t want the error to be thrown into the terminal, but written to a file? We could redirect the standard error (`stderr`) to a file as well:
 
-```
+```shell
 $ sort 2> sortedGhostFileError.txt < ghostFile.txt
 ```
 
@@ -80,7 +80,7 @@ We first say where the `stderr` of `sort` needs to direct to with the 2> sign. T
 
 You can also write the standard output and standard error to the same file. There are two ways to do this.
 
-```
+```shell
 $ sort > ghostFileOutput.txt 2>&1 < ghostFile.txt
 ```
 
@@ -88,7 +88,7 @@ We first define that `ghostFileOutput.txt` is the output, and then use the `2>&1
 
 You can also use the shorthand:
 
-```
+```shell
 $ sort &> ghostFileOutput.txt < ghostFile.txt
 ```
 
@@ -98,7 +98,7 @@ Our next step in understanding redirection is by understanding ‘Pipelines’. 
 
 Let's say that we want to use the same `list.txt` we had before. We want to sort the list and grab the animal that is first in the list after sorting. We could do:
 
-```
+```shell
 $ sort animals.txt | head -1
 ```
 
@@ -106,7 +106,7 @@ This will first sort the `list.txt` file, use the outcome of that as the input o
 
 We could also save that animal as a separate file by combining our pipe symbol with one of the redirection symbols:
 
-```
+```shell
 $ sort animals.txt | head -1 > first-animal.txt
 ```
 
