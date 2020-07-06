@@ -2,11 +2,61 @@
 
 .navbar {
   width: 100vw;
-  height: 80px;
-  padding: 16px;
-  margin-bottom: 34px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFd2E1;
+  border-bottom: 2px solid $pastel-green;
+
+  &__inner {
+    margin: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    @include break-lg {
+      width: 70vw;
+      height: 100px;
+      flex-direction: row;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    margin: 0;
+
+    @include break-lg {
+      font-size: 40px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__menu {
+    margin: 8px auto 0;
+    padding: 0 16px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+
+    @include break-lg {
+      margin: 0;
+      width: fit-content;
+    }
+
+    &__item {
+      margin: 0 16px;
+      letter-spacing: 1px;
+      border-bottom: 2px solid $pastel-purple;
+      text-decoration: none;
+
+      &:hover {
+        color: $pastel-purple;
+      }
+
+      &--current {
+        font-weight: bold;
+      }
+    }
+  }
 }

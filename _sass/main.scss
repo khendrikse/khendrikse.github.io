@@ -1,8 +1,10 @@
 @import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@700&display=swap');
 
 * {
-  font-family: 'Roboto Mono', monospace;
   box-sizing: border-box;
+  line-height: 1.7;
 }
 
 body {
@@ -11,13 +13,42 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
+}
+
+p, ul, li, div {
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+}
+
+p {
+  margin: 24px 0;
+}
+
+hr {
+  border: 0.5px solid $pastel-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Rubik', sans-serif;
+  // font-size: 24px;
+  line-height: normal;
 }
 
 .container {
-  width: 100%;
+  width: 90vw;
+  margin: auto;
+
 
   @include break-md {
-    width: 40vw;
-    margin: auto;
+    min-width: 30vw;
+    max-width: 800px;
   }
 }

@@ -1,18 +1,18 @@
-<div class="container">
-  {% for post in site.posts %}
-  <div class="posts-card">
-    <div class="posts-label-wrapper">
-      <h2 class="posts-title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <div id="dayLabelToday" class="posts-label">
-        {{ post.date | date: '%B %d, %Y' }}
-      </div>
+{% for post in site.posts %}
+<div class="posts__card">
+  <div class="posts__label-wrapper">
+    <div id="dayLabelToday" class="posts__label">
+      {{ post.date | date: '%B %d, %Y' }}
     </div>
-    <div class="posts-content">
-      {{ post.excerpt }}
-    </div>
-    <div class="posts-read-button"><a href="{{ post.url }}">Read more ></a></div>
+    <h2 class="posts__title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
   </div>
-  {% endfor %}
+  <div class="posts__content">
+    {{ post.excerpt }}
+  </div>
+  <a href="{{ post.url }}" class="posts__read-button">Read more ></a>
 </div>
+{% endfor %}

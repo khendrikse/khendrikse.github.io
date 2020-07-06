@@ -1,88 +1,36 @@
 @import './mixins.scss';
 
-.posts-read-button {
-  padding: 16px;
-  text-align: right;
-  text-decoration: underline;
-}
+.post {
+  &__header {
+    &__image {
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      padding: 24px;
 
-.posts-card {
-  border: 2px solid black;
-  box-shadow: 5px 5px 0 0 black;
-  margin-right: 24px;
-  padding: 16px;
-  margin-bottom: 54px;
+      @include break-sm {
+        min-height: 250px;
+      }
+    }
 
-  @include break-sm {
-    padding: 0;
-    height: fit-content;
+    &__title {
+      box-shadow: 5px 5px 0 0 black;
+      background-color: white;
+      padding: 16px;
+      border: 2px solid black;
+
+      h1 {
+        margin-top: 0;
+      }
+    }
   }
-}
-
-.posts-label {
-  left: 32px;
-  order: 2;
-  width: fit-content;
-  height: fit-content;
-  padding: 8px;
-  position: relative;
-  z-index: 1;
-  background-color: #daddfb;
-  box-shadow: 5px 5px 0 0 black;
-  flex-shrink: 0;
-
-  @include break-sm {
-    left: -24px;
-    margin-top: 24px;
-    order: 1;
-  }
-}
-
-.posts-title {
-  left: 0;
-  order: 1;
-
-  a {
-    text-decoration: none;
-    color: black;
+  &__date-label {
+    text-align: right;
   }
 
-  @include break-sm {
-    order: 2;
-    padding: 16px;
-    margin: 0;
-  }
-}
-
-.posts-content {
-  padding: 0;
-  margin-bottom: 16px;
-
-  p {
-    margin: 0;
-  }
-
-  strong {
-    margin: 0;
-    font-weight: normal;
-  }
-
-  @include break-sm {
-    padding: 16px;
-    margin-bottom: 0;
-  }
-}
-
-.posts-label-wrapper {
-  flex-direction: column;
-  align-items: flex-end;
-  margin-bottom: 24px;
-  display: flex;
-  justify-content: space-between;
-
-  @include break-sm {
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 0;
+  &__intro {
+    font-size: 20px;
+    margin: 32px 0;
+    font-weight: bold;
   }
 }

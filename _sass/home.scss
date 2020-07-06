@@ -1,0 +1,11 @@
+@import './mixins.scss';
+
+.home {
+  &__intro {
+    margin: 48px 0;
+
+    a {
+      font-weight: bold;
+    }
+  }
+}
