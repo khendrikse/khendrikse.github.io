@@ -4,104 +4,117 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Arvo:700|Roboto+Mono:400,700&amp;display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
 
   <body>
-    <div class="home__section flex-wrapper">
-  <div class="image__container image__container--left">
-    <img src="/assets/images/hand.svg" alt="A waving hand" height="400px" width="230px" />
-  </div>
-  <div class="content__box content__box--right">
-    <h1 class="content__header">Hi!</h1>
-    <p class="content__body">
-      I am a Front-End Developer from The Netherlands with a background in communication, photography and design. I spend my workdays
-      happily coding at <a href="http://www.youngcapital.nl">YoungCapital</a>.
-      During my free time I like to learn more, tinker on projects and enjoy
-      myself with friends, games and plants.
-    </p>
-  </div>
-</div>
-<div class="home__section flex-wrapper">
-  <div class="image__container image__container--right">
-    <img src="/assets/images/code.svg" alt="A picture of code" height="400px" width="230px" />
-  </div>
-  <div class="content__box content__box--left">
-    <h1 class="content__header content__header--smaller">Technologies</h1>
-    <p class="content__body">
-      Next to HTML and CSS, I started learning Ruby as my first programming
-      language together with Ruby on Rails. My real learning experience started
-      when I became a Front-End Developer and started working full-time in
-      JavaScript and ReactJS. I now have two years of experience as a Front-End Developer
-      and each day is a new day for learning.
-    </p>
-  </div>
-</div>
-<div class="home__section flex-wrapper">
-  <div class="image__container image__container--left">
-    <img src="/assets/images/blog.svg" alt="A picture of code" height="400px" width="230px" />
-  </div>
-  <div class="content__box content__box--right">
-    <h1 class="content__header content__header--smaller">Blog</h1>
-    <p class="content__body">
-      <br>
-      <ul>
-        <li>
-          <a href="https://dev.to/khenhey/test-global-npm-packages-in-a-quick-and-easy-way-4nld">Test global npm packages in a quick and easy way</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/the-basics-of-a-function-illustrated-337n">The basics of a function: illustrated! ✨</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/redirection-and-pipeline-magic-mog">Redirection and pipeline magic</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/personalise-your-linux-terminal-prompt-2m18">Personalize your Linux terminal prompt</a>
-        </li>
-        <li>
-          <a href="https://dev.to/youngcapital/get-a-head-start-with-your-new-app-cra-custom-templates-2h4n">Get a head start with your new app: CRA custom templates</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/how-to-get-ready-for-hacktoberfest-1omi">How to get ready for Hacktoberfest ✨</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown-542">Light up LEDs when you start your Raspberry Pi and clear them on shutdown</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/beautify-your-raspberry-pi-with-the-pimoroni-blinkt-2ld6">Beautify your Raspberry Pi with the Pimoroni Blinkt!</a>
-        </li>
-        <li>
-          <a href="https://dev.to/youngcapital/coding-with-a-group-of-11-year-olds-139o">Coding with a group of 11 year olds</a>
-        </li>
-        <li>
-          <a href="https://dev.to/khenhey/awesome-soft-airy-and-fluffy-vsc-themes-570c">Awesome soft, airy and fluffy VSC themes</a>
-        </li>
-      </ul>
-    </p>
-  </div>
-</div>
-<div class="home__section flex-wrapper">
-  <div class="content__box content__box--centered">
-    <h2>other links</h2>
-    <div class="center-content">
-      <div>
-        <a href="https://github.com/khendrikse"><img src="/assets/images/github.svg" alt="An illustrated GitHub logo"
-            height="80px" width="80px" /></a>
-      </div>
-      <div>
-        <a href="https://dev.to/khenhey">
-          <img src="/assets/images/dev.svg" alt="An illustrated Dev.to logo" height="80px" width="80px" />
-        </a>
+    <nav class="navbar">
+  <div class="navbar__inner">
+    <h1 class="navbar__title">
+      <a href="/">
+        Karin Hendrikse
+      </a>
+    </h1>
 
-      </div>
-    </div>
+    <ul class="navbar__menu">
+      
+      <a
+        href="/"
+        class="navbar__menu__item  navbar__menu__item--current"
+      >
+        Home
+      </a>
+      
+      <a
+        href="/about.html"
+        class="navbar__menu__item "
+      >
+        About
+      </a>
+      
+      <a
+        href="/blog.html"
+        class="navbar__menu__item "
+      >
+        Blog
+      </a>
+      
+    </ul>
   </div>
+</nav>
+
+    <div class="container">
+  <div class='home__intro'>
+    I am a Front-End Developer from The Netherlands with a background in
+    communication, photography and design. I spend my workdays happily coding at
+    <a href="http://www.youngcapital.nl">YoungCapital</a>. During my free time I
+    like to learn more, tinker on projects and enjoy myself with friends, games
+    and plants.
+  </div>
+  <hr style="margin-bottom: 48px;" />
+  <h2 style="margin-bottom: 48px;">Latest posts</h2>
+  
+<div class="posts__card">
+  <div class="posts__label-wrapper">
+    <div id="dayLabelToday" class="posts__label">
+      June 16, 2020
+    </div>
+    <h2 class="posts__title">
+      <a href="/2020/06/16/Test-global-npm-packages-in-a-quick-and-easy-way.html">
+        Test global npm packages in a quick and easy way
+      </a>
+    </h2>
+  </div>
+  <div class="posts__content">
+    <p><strong>You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are  working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.</strong></p>
+
+
+  </div>
+  <a href="/2020/06/16/Test-global-npm-packages-in-a-quick-and-easy-way.html" class="posts__read-button">Read more ></a>
+</div>
+
+<div class="posts__card">
+  <div class="posts__label-wrapper">
+    <div id="dayLabelToday" class="posts__label">
+      May 21, 2020
+    </div>
+    <h2 class="posts__title">
+      <a href="/2020/05/21/The-basics-of-a-function-illustrated.html">
+        The basics of a function, illustrated! ✨
+      </a>
+    </h2>
+  </div>
+  <div class="posts__content">
+    <p><strong>One thing that can be difficult to understand when you just start out learning how to program is what a function is and how it works. As a beginner developer, it can be especially difficult to understand what arguments are and where they come from. This blog illustrates how a  javascript function works in its most basic form.</strong></p>
+
+
+  </div>
+  <a href="/2020/05/21/The-basics-of-a-function-illustrated.html" class="posts__read-button">Read more ></a>
+</div>
+
+<div class="posts__card">
+  <div class="posts__label-wrapper">
+    <div id="dayLabelToday" class="posts__label">
+      May 11, 2020
+    </div>
+    <h2 class="posts__title">
+      <a href="/2020/05/11/redirection-and-pipeline-magic.html">
+        Redirection and pipeline magic
+      </a>
+    </h2>
+  </div>
+  <div class="posts__content">
+    <p class="post__intro">
+Enough developers out there deliver great day-to-day work without having to touch bash whatsoever. Yet, every now and then we all encounter a piece of bash script, be it from a colleague or copied from a Stack Overflow post. Yeah, the script works, but do we understand what is happening? I wanted to know myself so I started small. Let's dive into redirection.
+</p>
+
+
+  </div>
+  <a href="/2020/05/11/redirection-and-pipeline-magic.html" class="posts__read-button">Read more ></a>
+</div>
+
+
 </div>
 
   </body>
