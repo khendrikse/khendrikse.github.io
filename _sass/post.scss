@@ -33,4 +33,34 @@
     margin: 32px 0;
     font-weight: bold;
   }
+
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 0%;
+    overflow-x: auto;
+    font-size: 14px;
+
+    @include break-sm {
+      font-size: 16px;
+    }
+  }
+
+  thead {
+    background-color: $pastel-blue;
+  }
+
+  table,
+  tr,
+  td + td {
+    border: 1px solid $pastel-blue;
+  }
+  td {
+    padding: 8px;
+
+    @include break-sm {
+      padding: 4px;
+    }
+  }
 }

@@ -2,27 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@700&display=swap');
 
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
-  line-height: 1.7;
 }
 
+
 body {
+  line-height: 1.5;
   background-color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
 }
 
 a {
   color: black;
   text-decoration: none;
-}
-
-p, ul, li, div {
-  font-size: 18px;
-  font-family: 'Karla', sans-serif;
-}
-
-p {
-  margin: 24px 0;
 }
 
 hr {
@@ -38,8 +34,8 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: 'Rubik', sans-serif;
-  // font-size: 24px;
   line-height: normal;
+  font-weight: bold;
 }
 
 .container {
