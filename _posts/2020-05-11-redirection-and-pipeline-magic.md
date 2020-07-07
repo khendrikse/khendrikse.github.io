@@ -3,12 +3,10 @@ layout: post
 title: Redirection and pipeline magic
 published: true
 description: For when you don't feel like diving deep into bash but do want to know what redirection is when you see it.
+intro: Enough developers out there deliver great day-to-day work without having to touch bash whatsoever. Yet, every now and then we all encounter a piece of bash script, be it from a colleague or copied from a Stack Overflow post. Yeah, the script works, but do we understand what is happening? I wanted to know myself so I started small. Let's dive into redirection.
 tags: #bash #linux #beginner #til
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/sp68ef6310avveg2dxjp.png
 ---
-<p class='post__intro'>
-Enough developers out there deliver great day-to-day work without having to touch bash whatsoever. Yet, every now and then we all encounter a piece of bash script, be it from a colleague or copied from a Stack Overflow post. Yeah, the script works, but do we understand what is happening? I wanted to know myself so I started small. Let's dive into redirection.
-</p>
 
 ## Redirection
 

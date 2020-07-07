@@ -3,12 +3,11 @@ layout: post
 title: The basics of a function, illustrated! ✨
 published: true
 description: Learn about JavaScript functions with a simple metaphor.
+intro: One thing that can be difficult to understand when you just start out learning how to program is what a function is and how it works. As a beginner developer, it can be especially difficult to understand what arguments are and where they come from. This blog illustrates how a  javascript function works in its most basic form.
 tags: beginner, javascript, codenewbie
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/tri97q55qgtexhhakgxe.png
 
 ---
-
-**One thing that can be difficult to understand when you just start out learning how to program is what a function is and how it works. As a beginner developer, it can be especially difficult to understand what arguments are and where they come from. This blog illustrates how a  javascript function works in its most basic form.**
 
 ## What is a function
 

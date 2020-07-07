@@ -63,4 +63,12 @@
       padding: 4px;
     }
   }
+  img {
+    width: 90vw;
+
+    @include break-md {
+      min-width: 30vw;
+      max-width: 800px;
+    }
+  }
 }
