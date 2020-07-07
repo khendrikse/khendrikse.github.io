@@ -3,11 +3,10 @@ layout: post
 title: Test global npm packages in a quick and easy way
 published: true
 description: A quick guide on testing out local global npm packages line using npm or yarn.
+intro: You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are  working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.
 tags: beginner, javascript, npm, yarn
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/746pm8atxc0iy33v9q1i.png
 ---
-
-**You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are  working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.**
 
 ## How do you link projects?
 
@@ -17,7 +16,7 @@ Let’s say you are working on a React app and you have another project, like a 
 
 First we need to make the package (in our example a component library) available in your local system by going into its folder using your terminal and running:
 
-```
+```shell
 # yarn
 yarn link
 
@@ -29,7 +28,7 @@ npm link
 
 This command creates a symlink to our package in a specific location. You can see them in the location by going to the location:
 
-```
+```shell
 # yarn
 cd ~/.config/yarn/link
 
@@ -56,7 +55,7 @@ Then run `ls` to see a list of all the packages that are installed.
 
 We now go to the project where you want to use the package (in our example the React app). In here we run
 
-```
+```shell
 # yarn
 yarn link <package name>
 
@@ -74,7 +73,7 @@ Awesome.
 
 Your project now has its package linked locally so you can test everything out. Are you done testing? Then make sure to unlink the package in your project folder by running:
 
-```
+```shell
 # yarn
 yarn unlink <package name>
 
@@ -84,7 +83,7 @@ npm unlink <package name>
 
 And remove the package from the symlinks list by going to the folder of your package and running:
 
-```
+```shell
 # yarn
 yarn unlink
 
@@ -97,7 +96,7 @@ npm unlink
 
 So it’s all great to know how to create local links between projects, but how about when you don’t have a project, but your computer that needs to globally link to your local package? Well, it’s actually a bit different, but still super easy. First, let’s check which packages you already have installed globally by running:
 
-```
+```shell
 # yarn
 yarn global list
 
