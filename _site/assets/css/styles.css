@@ -179,10 +179,10 @@ h6 {
     .navbar__menu__item {
       margin: 0 16px;
       letter-spacing: 1px;
-      border-bottom: 2px solid #daddfb;
+      border-bottom: 2px solid #DADDFB;
       text-decoration: none; }
       .navbar__menu__item:hover {
-        color: #daddfb; }
+        color: #DADDFB; }
       .navbar__menu__item--current {
         font-weight: bold; }
 
