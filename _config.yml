@@ -5,3 +5,7 @@ defaults:
       layout: "default"
 
 highlighter: rouge
+plugins:
+  - jekyll-paginate
+paginate_path: "/blog/page:num/"
+paginate: 5

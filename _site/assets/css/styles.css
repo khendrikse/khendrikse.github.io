@@ -144,7 +144,7 @@ h6 {
       max-width: 800px; } }
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   border-bottom: 2px solid #DAFBF8; }
   .navbar__inner {
     margin: auto;
@@ -512,3 +512,16 @@ span.lineno {
   font-weight: bold; }
 
 /* Literal.Number.Integer.Long */
+.blog {
+  margin-bottom: 48px; }
+
+.pagination {
+  display: flex;
+  justify-content: flex-end; }
+  .pagination__back-button, .pagination__next-button {
+    background-color: #FFFCDD;
+    margin: 0 16px;
+    border-radius: 8px;
+    padding: 8px; }
+  .pagination__page-number {
+    padding: 8px; }

@@ -12,5 +12,7 @@ title: Home
   </div>
   <hr style="margin-bottom: 48px;" />
   <h2 style="margin-bottom: 48px;">Latest posts</h2>
-  {% include posts.html %}
+  {% for post in site.posts limit:5 %}
+  {% include post-card.html post=post %}
+  {% endfor %}
 </div>

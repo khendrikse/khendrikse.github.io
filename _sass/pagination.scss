@@ -1,0 +1,18 @@
+@import './mixins.scss';
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+
+  &__back-button,
+  &__next-button {
+    background-color: $pastel-yellow;
+    margin: 0 16px;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  &__page-number {
+    padding: 8px;
+  }
+}
