@@ -1,0 +1,11 @@
+---
+title: Blog
+---
+
+<div class='blog'>
+  <div class="container">
+    <h2 style="margin-bottom: 48px;">Blog</h2>
+    {% for post in paginator.posts %} {% include post-card.html post=post %} {%
+    endfor %} {% include pagination.html %}
+  </div>
+</div>

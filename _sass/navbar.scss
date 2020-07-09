@@ -1,7 +1,7 @@
 @import './mixins.scss';
 
 .navbar {
-  width: 100vw;
+  width: 100%;
   border-bottom: 2px solid $pastel-green;
 
   &__inner {
