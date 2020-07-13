@@ -1,0 +1,16 @@
+<div class="posts__card">
+  <div class="posts__label-wrapper">
+    <div id="dayLabelToday" class="posts__label">
+      {{ include.post.date | date: '%B %d, %Y' }}
+    </div>
+    <h2 class="posts__title">
+      <a href="{{ include.post.url }}">
+        {{ include.post.title }}
+      </a>
+    </h2>
+  </div>
+  <div class="posts__content">
+    {{ include.post.intro }}
+  </div>
+  <a href="{{ include.post.url }}" class="posts__read-button">Read more ></a>
+</div>
