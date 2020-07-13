@@ -1,26 +1,11 @@
-collections:
-  authors:
-    output: true
-
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
   - scope:
       path: ""
     values:
       layout: "default"
 
-name: khenhey blog
-description: khendrikse.github.io blog
-url: http://khendrikse.github.io
-feed_items: 10
-feed_update_period: daily
-feed_update_frequency: 1
+highlighter: rouge
+plugins:
+  - jekyll-paginate
+paginate_path: "/blog/page:num/"
+paginate: 5
