@@ -15,6 +15,16 @@ body {
   font-size: 18px;
 }
 
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -100px;
+  padding-bottom: 148px;
+}
+
 a {
   color: black;
   text-decoration: none;
