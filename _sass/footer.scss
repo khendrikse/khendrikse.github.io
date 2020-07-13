@@ -1,0 +1,31 @@
+@import './mixins.scss';
+
+.footer {
+  margin-top: 48px;
+  height: 100px;
+  background-color: $pastel-purple;
+  text-align: center;
+  padding: 24px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-right: 16px;
+
+    img {
+      margin-right: 8px;
+      width: 24px;
+    }
+  }
+}
