@@ -18,8 +18,4 @@ const nextConfig = {
   }),
 };
 
-if (isProd) {
-  nextConfig.assetPrefix = assetPrefix
-}
-
 module.exports = withPlugins([optimizedImages], nextConfig);
