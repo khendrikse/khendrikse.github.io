@@ -2,7 +2,7 @@ const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 const isProd = (process.env.NODE_ENV || 'production') === 'production';
 const webpack = require('webpack');
-const assetPrefix = isProd ? 'https://khendrikse.github.io/newblog' : '';
+const assetPrefix = isProd ? 'https://khendrikse.github.io/' : '';
 
 const nextConfig = {
   target: 'serverless',
@@ -19,7 +19,6 @@ const nextConfig = {
 };
 
 if (isProd) {
-  nextConfig.basePath = '/newblog',
   nextConfig.assetPrefix = assetPrefix
 }
 
