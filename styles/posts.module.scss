@@ -3,6 +3,12 @@
 $lg-padding: 24px;
 
 .posts {
+  padding: 0;
+
+  @include break-sm {
+    padding-inline-start: revert;
+  }
+
   &__read_button {
     text-align: right;
     display: block;
@@ -13,6 +19,7 @@ $lg-padding: 24px;
     border-radius: 16px;
     padding: 16px;
     margin-bottom: 54px;
+    list-style-type: none;
 
     @include break-sm {
       padding: $lg-padding;
