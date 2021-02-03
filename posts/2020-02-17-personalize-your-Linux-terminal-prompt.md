@@ -10,7 +10,7 @@ intro: If you're just as much of a fan of personalizing your coding environment 
 
 In this blog, I'll explain how you can change the terminal's prompt to look just the way you want to.
 
-### What is the PS1 variable?
+## What is the PS1 variable?
 
 When looking at our terminal we can see the command prompt. Depending on your system it will have some information in there. In the case of a standard Raspberry Pi it might look something like this:
 
@@ -20,7 +20,7 @@ pi@raspberrypi:~ $
 
 The part `pi@raspberrypi:~ $ ` is actually a shell variable called `PS1`. There are actually five of these variables. `PS0`, `PS1`, `PS2`, `PS3`, `PS4`. Each of them is set up in a different way. To find out more about these variables you can look it up in _the manual_ 📖 (`$ man bash`) underneath `Shell Variables`.
 
-### How is PS1 set up?
+## How is PS1 set up?
 
 We can see how the variable is set up by typing
 
@@ -47,7 +47,7 @@ We can change this variable very easily. Let's set it up to only show the userna
 $ PS1=\"\\u [\\w]: \"
 ```
 
-### Using colors
+## Using colors
 
 We can also use different colors in our Prompt. To check out what options we have, we can find them using `man terminal colors`. You'll find a list of available colors there:
 
@@ -94,7 +94,7 @@ Knowing this, we can also see that the end part `\\e[0m ` resets everything back
 
 Now for the last personalization...
 
-### Using special characters
+## Using special characters
 
 Let's spice it up a bit more by adding a few more bits and bobs. (Get it? bits? No? Alrighty...).
 
@@ -115,7 +115,7 @@ This will set up us with something looking like this:
 
 Of course, there are other creative things you can do and other characters you can use.
 
-### Setting it in your bash files
+## Setting it in your bash files
 
 Now that we have something fun set up, let's make sure it is permanent. You can do this by setting this variable in your `~/.bashrc` or `~/.bash_profile`:
 

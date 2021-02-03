@@ -4,6 +4,7 @@ title: Beautify your Raspberry Pi with the Pimoroni Blinkt!
 published: true
 description: Make your Raspberry Pi shine in blue and purple colors.
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/jwk9ue7pvtuj151srtod.JPG
+cover_image_alt: a raspberry pi with shining LED lights
 tags: #raspberrypi #pimoroni #python #beginner
 intro: You know those gaming PC's with their awesome LEDs spinning around? Well, I don't have one of those. But I am learning Linux on my Raspberry Pi. And I learn quicker by working on fun small side projects. So I decided to spice my Raspberry Pi up using the Pimoroni Blinkt.
 ---
@@ -32,7 +33,7 @@ $ nano Pimoroni/blue_purple.py
 
 I did this using the `nano` editor. You can also create a file another way and open it in your preferred editor.
 
-### Import dependencies
+## Import dependencies
 
 First, we need to import the libraries we need. At the top of the file we import `blinkt` to control the LEDs, `time` to create time-outs and `numpy` to create a range of decimals later on.
 
@@ -45,7 +46,7 @@ import numpy
 
 ```
 
-### Variables
+## Variables
 
 Create a list of colors in RGB format. With this, I mean that we create a list of lists. Each small list contains a number for r, g, and b.
 
@@ -62,7 +63,7 @@ Add the following script to ensure that if the script stops, the LEDs clear.
 blinkt.set_clear_on_exit()
 ```
 
-### Setting the pixels
+## Setting the pixels
 
 We will create a function that takes a pixel, the RGB colors and a range of values that represent the different brightnesses as arguments. It will loop over the list of values for brightness and for every brightness value it will set a pixel with the correct color.
 
@@ -77,7 +78,7 @@ def set_brightness(pixel, r, g, b, brightRange):
         # give it a little time to add a slight effect.
 ```
 
-### While loop
+## While loop
 
 Now we're going to get to the actual loop that is going to make our Pimoroni Blinkt light up.
 
