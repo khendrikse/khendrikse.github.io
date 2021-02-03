@@ -16,14 +16,25 @@ export default function BlogPost({
   siteTitle,
   frontmatter,
   markdownBody,
-  date,
+  date
 }) {
   if (!frontmatter) return <></>;
 
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
       <article className={styles.post}>
-        {frontmatter.cover_image ? <ProgressiveImage className={styles.post__header__image} src={frontmatter.cover_image} /> : <div className={styles.post__header__image} style={{ backgroundColor: headerColor }}/>}
+        {frontmatter.cover_image ? (
+          <ProgressiveImage
+            className={styles.post__header__image}
+            src={frontmatter.cover_image}
+            alt={frontmatter.cover_image_alt}
+          />
+        ) : (
+          <div
+            className={styles.post__header__image}
+            style={{ backgroundColor: headerColor }}
+          />
+        )}
         <div className='container'>
           <div className={styles.post__header__title}>
             <h1>{frontmatter.title}</h1>
@@ -41,7 +52,7 @@ export default function BlogPost({
           </div>
         </div>
       </article>
-    </Layout >
+    </Layout>
   );
 }
 
@@ -57,13 +68,13 @@ export async function getStaticProps({ ...ctx }) {
       siteTitle: config.title,
       frontmatter: data.data,
       markdownBody: data.content,
-      date,
-    },
+      date
+    }
   };
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = ((context) => {
+  const blogSlugs = (context => {
     const keys = context.keys();
     const data = keys.map((key, index) => {
       const slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
@@ -74,10 +85,10 @@ export async function getStaticPaths() {
     return data;
   })(require.context('../../posts', true, /\.md$/));
 
-  const paths = blogSlugs.map((slug) => `/post/${slug}`);
+  const paths = blogSlugs.map(slug => `/post/${slug}`);
 
   return {
     paths,
-    fallback: false,
+    fallback: false
   };
 }

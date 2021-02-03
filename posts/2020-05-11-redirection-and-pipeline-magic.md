@@ -6,6 +6,7 @@ description: For when you don't feel like diving deep into bash but do want to k
 intro: Enough developers out there deliver great day-to-day work without having to touch bash whatsoever. Yet, every now and then we all encounter a piece of bash script, be it from a colleague or copied from a Stack Overflow post. Yeah, the script works, but do we understand what is happening? I wanted to know myself so I started small. Let's dive into redirection.
 tags: #bash #linux #beginner #til
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/sp68ef6310avveg2dxjp.png
+cover_image_alt: illustration of lines and arrows going in different directions
 ---
 
 ## Redirection
@@ -110,7 +111,7 @@ $ sort animals.txt | head -1 > first-animal.txt
 
 This will save the outcome to a file called `first-animal.txt`.
 
-### Redirection summary
+## Redirection summary
 
 So, a file can have input, output, and error output. We can explicitly say where these three need to point at. This is possible by using different signs or operators. Including `<`, `>`, `2>`, and the pipe operator `|`. If you want to read more about this try typing `man bash` in your terminal and search for `/REDIRECTION`. Other than that, try it out yourself by fiddling around in your terminal. Have fun!
 

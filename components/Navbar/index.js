@@ -15,17 +15,21 @@ export default function Header() {
               </Link>
             </h1>
             <ul className={styles.navbar__menu}>
-              <Link href='/'>
-                <a className={styles.navbar__menu__item}>Home</a>
-              </Link>
-
-              <Link href='/about'>
-                <a className={styles.navbar__menu__item}>About</a>
-              </Link>
-
-              <Link href='/blog'>
-                <a className={styles.navbar__menu__item}>Blog</a>
-              </Link>
+              <li>
+                <Link href='/'>
+                  <a className={styles.navbar__menu__item}>Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/about'>
+                  <a className={styles.navbar__menu__item}>About</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/blog'>
+                  <a className={styles.navbar__menu__item}>Blog</a>
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

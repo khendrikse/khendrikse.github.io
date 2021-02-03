@@ -7,7 +7,7 @@ tags: theme, vsc, pastel, productivity,
 intro: When coding I sometimes feel the need to change the aesthetics of my workspace. Why? I don't know. Maybe because it gives me a fresh look at my code. Maybe because with the seasons changing, I feel the need to lighten or darken my workspace colours. Either way, for those searching for something airy and new. Here is a list of wonderful Visual Studio Code themes that have a cozy, soft or fluffy aesthetic.
 ---
 
-### **1. [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)**
+## **1. [Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)**
 Noctis is a collection of light & dark themes that have soft blends of colours with enough choice of different contrasts.
 
 ![An image showing the Noctis Lilac theme](https://thepracticaldev.s3.amazonaws.com/i/q17vuc93wq2sdk64tal0.png)

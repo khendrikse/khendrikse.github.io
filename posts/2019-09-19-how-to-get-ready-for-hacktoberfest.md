@@ -6,6 +6,7 @@ description: 5 Tips to get you ready for coding
 intro: October is creeping closer... That means it's almost time for Hacktoberfest! Last year it was a great opportunity for me to get to know the open source community and to spend time coding something different for a change. As I enjoyed the event so much, I'd love to help others out getting a head start for this awesome month-long event!
 tags: beginner, hacktoberfest, open source
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/jq4249imytytcvw3ewpg.png
+cover_image_alt: the hacktoberfest logo
 ---
 
 _No idea what Hacktoberfest is? Check [the official website](https://hacktoberfest.digitalocean.com/) for information about the event and how to participate._

@@ -6,16 +6,17 @@ description: Staying connected in a work-from-home world
 intro: Let’s be honest, every post nowadays starts with how weird 2020 has been. So I am doing the same; it’s been weird. There. Having been working from home full-time since March, it has been both a productivity booster and an isolating experience. Especially in the beginning.
 tags: productivity, career, watercooler, remote
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/tezp8yhoehwjfk0ryhhg.jpg
+cover_image_alt: a neon light sign saying hey y'all
 ---
-<span>Cover image by <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DJ Johnson</a> on <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Cover image by [DJ Johnson](https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-### In the beginning...
+## In the beginning...
 
 The first Monday our department was working from home was new and interesting. People joined in a morning hangout to chat a bit and discuss what was happening in the world. I texted my friends: ‘*This is so much fun! I got to see a bunch of colleagues and their kids and pets in one screen!*’. I thought it was pretty cute to see the mayhem of cats trodding on keyboards and kids trying to get attention.
 
 Of course, trying to manage both work and kids at the same time soon became less cute and more work for most parents. For everyone reading this who dealt with that: you did a hell of a job. I look in awe at how you managed. Please try to be proud of yourself for going through this 👍.
 
-### Social initiatives
+## Social initiatives
 
 However, not everyone was surrounded by family or roommates. Some of us said goodbye to social moments that normally power us through the day. Thankfully it was amazing to see the initiatives people came up with. Every morning we had a 'kitchen hangout' just to pop in and chat with co-workers. But especially in those first few weeks the 'library hangout' provided some support to those who worked alone from home and felt additional stress from what was happening in the world.
 
@@ -23,7 +24,7 @@ You’d open up the library hangout, turn off your mic and just work on stuff. N
 
 All of this has subsided somewhat now. We are all a bit more used to this way of working, and we have been able to get a bit more socialising in during our free time. Still, how can we make sure we stay connected to our coworkers while working from home?
 
-### The 'why'
+## The 'why'
 
 Now, of course social interactions can also be energy draining for people. I am very much against pushing people into interactions that they do not feel comfortable with. Still, there is more to connecting with co-workers than the social aspect:
 
@@ -33,7 +34,7 @@ Now, of course social interactions can also be energy draining for people. I am 
 - It helps you find opportunities for your personal growth and the growth of others
 - The next time you are stuck on something, and you might need help that your teammates can not provide, you know who to turn to.
 
-### The 'how'
+## The 'how'
 
 Default social places that we have for those who need an extra social kick:
 

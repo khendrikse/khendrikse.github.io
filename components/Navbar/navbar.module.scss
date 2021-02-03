@@ -38,6 +38,7 @@
     width: 80vw;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 
     @include break-lg {
       margin: 0;
