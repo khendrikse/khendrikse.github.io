@@ -38,7 +38,7 @@ export default function BlogPost({
         <div className='container'>
           <div className={styles.post__header__title}>
             <h1>{frontmatter.title}</h1>
-            <div className={styles.post__date_label}>{date}</div>
+            <div className={styles.post__date_label}>{new Date(date).toDateString()}</div>
           </div>
         </div>
         <div className={styles.post__body}>
