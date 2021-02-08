@@ -1,8 +1,7 @@
 @import 'styles/mixins.scss';
 
 .navbar {
-  width: 100vw;
-  border-bottom: 2px solid $pastel-green;
+  margin-left: calc(100vw - 100%);
 
   &__inner {
     margin: auto;
