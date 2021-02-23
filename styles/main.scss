@@ -27,7 +27,9 @@ body {
     opacity: 1;
   }
 }
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
 }
 
@@ -39,7 +41,6 @@ html, body, #__next {
 
 a {
   color: black;
-  text-decoration: none;
 }
 
 hr {
@@ -101,5 +102,12 @@ h6 {
 }
 
 .content {
-  border-top: 2px solid #DAFBF8;
+  border-top: 2px solid #dafbf8;
+}
+
+blockquote {
+  margin: 50px auto;
+  padding: 8px 8px 8px 32px;
+  border-left: 8px solid $pastel-purple;
+  line-height: 1.6;
 }
