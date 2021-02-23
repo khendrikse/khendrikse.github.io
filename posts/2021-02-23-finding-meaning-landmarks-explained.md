@@ -3,7 +3,7 @@ layout: post
 title: 'Finding meaning: landmarks explained'
 published: true
 description: Learning more about HTML5 elements and their landmarks
-intro: Have you ever done a semantic html course? Or read about it? If you have, you might remember elements like `<main>`, `<section>` or maybe `<aside>`. But did you know that using these elements does not automatically provide the proper semantic meaning? Let's go on a journey of creating meaningful landmarks.
+intro: Have you ever done a semantic html course? Or read about it? If you have, you might remember elements like <main>, <section> or maybe <aside>. But did you know that using these elements does not automatically provide the proper semantic meaning? Let's go on a journey of creating meaningful landmarks.
 tags: accessibility, html, a11y
 cover_image: you-are-here.jpg
 cover_image_alt: Two feet in the middle of a circle on the street that says you are here.
@@ -73,4 +73,3 @@ In this case, adding a unique label to each of these sections can help them beco
 ## Tell me more!
 
 If you want to know more about the specifics of landmarks, one resource that I really love is [ARIA landmarks example](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html). It has great quick and easy examples on how the different elements and landmark roles can, and should be used.
-
