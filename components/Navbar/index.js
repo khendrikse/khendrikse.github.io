@@ -30,6 +30,11 @@ export default function Header() {
                   <a className={styles.navbar__menu__item}>Blog</a>
                 </Link>
               </li>
+              <li>
+                <Link href='/work'>
+                  <a className={styles.navbar__menu__item}>Work</a>
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

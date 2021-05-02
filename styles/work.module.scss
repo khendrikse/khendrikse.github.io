@@ -1,0 +1,17 @@
+@import './mixins.scss';
+$lg-padding: 24px;
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "highlight highlight . "
+    "highlight highlight . ";
+  gap: 24px;;
+
+  &__card {
+    background-color: #ffd2e1;
+    border: 2px solid purple;
+    list-style-type: none;
+  }
+}
