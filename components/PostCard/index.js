@@ -1,3 +1,4 @@
+import React, { useRef } from 'react';
 import Link from 'next/link';
 import styles from 'styles/posts.module.scss';
 
@@ -10,16 +11,14 @@ export default function PostCard({ post }) {
         </div>
         <h2 className={styles.posts__title}>
           <Link href={`/post/${post.slug}`}>
-            <a>{post.frontmatter.title}</a>
+            <a className={styles.posts__title__link}>
+              {post.frontmatter.title}
+            </a>
           </Link>
         </h2>
       </div>
       <div className={styles.posts__content}>{post.frontmatter.intro}</div>
-      <Link href={`/post/${post.slug}`}>
-        <a className={styles.posts__read_button}>
-          {'Read more >'}
-        </a>
-      </Link>
+      <p className={styles.posts__read_button}>{'Read post >'}</p>
     </li>
   );
 }

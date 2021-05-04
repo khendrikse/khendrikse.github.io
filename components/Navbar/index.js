@@ -10,9 +10,7 @@ export default function Header() {
         <nav className={styles.navbar}>
           <div className={styles.navbar__inner}>
             <h1 className={styles.navbar__title}>
-              <Link href='/'>
-                <a>Karin Hendrikse</a>
-              </Link>
+                Karin Hendrikse
             </h1>
             <ul className={styles.navbar__menu}>
               <li>
