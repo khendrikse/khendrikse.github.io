@@ -34,7 +34,7 @@
     "rules": {
       "react/jsx-props-no-spreading": [
         {
-          "html": "ignore"
+          "html": "ignore" 
         }
       ]
     }
