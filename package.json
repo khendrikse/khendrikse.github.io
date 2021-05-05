@@ -32,7 +32,7 @@
   "eslintConfig": {
     "extends": "@youngcapital/eslint-config-yc-react",
     "rules": {
-      "react/jsx-props-no-spreading": [
+      "react/jsx-props-no-spreading": [0,
         {
           "html": "ignore" 
         }
