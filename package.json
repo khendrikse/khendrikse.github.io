@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fontsource/karla": "^4.2.2",
+    "@fontsource/rubik": "^4.2.2",
     "eslint": "^7.11.0",
     "eslint-plugin-react": "^7.21.4",
     "gray-matter": "^4.0.2",
@@ -32,9 +34,10 @@
   "eslintConfig": {
     "extends": "@youngcapital/eslint-config-yc-react",
     "rules": {
-      "react/jsx-props-no-spreading": [0,
+      "react/jsx-props-no-spreading": [
+        0,
         {
-          "html": "ignore" 
+          "html": "ignore"
         }
       ]
     }

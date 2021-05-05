@@ -1,4 +1,6 @@
 @import './mixins.scss';
+@import "~@fontsource/karla/400.css";
+@import "~@fontsource/rubik/700.css";
 
 *,
 *:before,
@@ -58,7 +60,6 @@ h6 {
   letter-spacing: 2px;
   font-family: 'Rubik', sans-serif;
   line-height: normal;
-  font-weight: bold;
 }
 
 .container {
