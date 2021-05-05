@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './footer.module.scss';
 
 export default function Footer() {
@@ -5,11 +6,21 @@ export default function Footer() {
     <div className={styles.footer}>
       <div className={styles.footer__links}>
         <a className={styles.footer__link} href='https://dev.to/khenhey'>
-          <img src='/assets/images/devto.svg?' alt='DEV.to icon' />
+          <img
+            width='24px'
+            height='24px'
+            src='/assets/images/devto.svg?'
+            alt='DEV.to icon'
+          />
           dev.to
         </a>
         <a className={styles.footer__link} href='https://github.com/khendrikse'>
-          <img src='/assets/images/github.svg?' alt='GitHub icon' />
+          <img
+            width='24px'
+            height='24px'
+            src='/assets/images/github.svg?'
+            alt='GitHub icon'
+          />
           GitHub
         </a>
       </div>
