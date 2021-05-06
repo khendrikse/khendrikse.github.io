@@ -9,9 +9,7 @@ export default function Header() {
       <header>
         <nav className={styles.navbar}>
           <div className={styles.navbar__inner}>
-            <h1 className={styles.navbar__title}>
-                Karin Hendrikse
-            </h1>
+            <h1 className={styles.navbar__title}>Karin Hendrikse</h1>
             <ul className={styles.navbar__menu}>
               <li>
                 <Link href='/'>

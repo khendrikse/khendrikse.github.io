@@ -8,9 +8,9 @@ import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 
-const CodeBlock = ({ language, value }) => {
-  return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
-};
+const CodeBlock = ({ language, value }) => (
+  <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>
+);
 
 export default function BlogPost({
   siteTitle,
@@ -60,7 +60,7 @@ export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
 
   const content = await import(`../../posts/${postname}.md`);
-  const config = await import(`../../siteconfig.json`);
+  const config = await import('../../siteconfig.json');
   const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
   return {
