@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Layout from 'components/Layout';
 import ProgressiveImage from 'components/ProgressiveImage';
 import styles from 'styles/about.module.scss';
@@ -18,7 +19,7 @@ const About = ({ title }) => (
         </figure>
         <p>
           <strong>
-            I'm a front-end software engineer from The Netherlands 🇳🇱 with a
+            I am a front-end software engineer from The Netherlands 🇳🇱 with a
             background in communication, photography and design. I spend my
             workdays happily coding at
             <a href='http://www.youngcapital.nl'>YoungCapital</a>. During my
@@ -39,8 +40,8 @@ const About = ({ title }) => (
         <p>
           RailsGirls was the start of my journey to becoming a software
           engineer. Experiencing that group of open-minded people has really
-          motivated me to contribute to the developer community. It's why I try
-          to be involved in helping out with RailsGirls NL and why I am a
+          motivated me to contribute to the developer community. This is why I
+          try to be involved in helping out with RailsGirls NL and why I am a
           front-end guild leader at YoungCapital. It brings me great joy to help
           unite fellow developers.
         </p>
@@ -48,6 +49,8 @@ const About = ({ title }) => (
     </div>
   </Layout>
 );
+
+About.propTypes = { title: PropTypes.string };
 
 export default About;
 
