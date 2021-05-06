@@ -34,7 +34,17 @@
   },
   "eslintConfig": {
     "extends": "@youngcapital/eslint-config-yc-react",
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": [
+            "."
+          ]
+        }
+      }
+    },
     "rules": {
+      "react/react-in-jsx-scope": "off",
       "react/jsx-props-no-spreading": [
         0,
         {

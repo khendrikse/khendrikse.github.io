@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import PropTypes from 'prop-types';
 import PostCard from 'components/PostCard';
 import styles from 'styles/posts.module.scss';
 
@@ -11,10 +11,15 @@ export default function PostList({ posts, max }) {
       <ul className={styles.posts}>
         {posts &&
           posts.map((post, i) => {
-            if (i > max - 1) return;
+            if (i > max - 1) return null;
             return <PostCard key={post.slug} post={post} />;
           })}
       </ul>
     </div>
   );
 }
+
+PostList.propTypes = {
+  posts: PropTypes.array,
+  max: PropTypes.number
+};
