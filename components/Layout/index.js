@@ -1,9 +1,9 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-export default function Layout({ children, pageTitle, ...props }) {
+export default function Layout({ children, pageTitle }) {
   return (
     <>
       <Head>
@@ -21,3 +21,8 @@ export default function Layout({ children, pageTitle, ...props }) {
     </>
   );
 }
+
+Layout.propTypes = {
+  children: PropTypes.element,
+  pageTitle: PropTypes.string
+};

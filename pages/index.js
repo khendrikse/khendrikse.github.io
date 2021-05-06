@@ -1,9 +1,10 @@
+import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import Layout from 'components/Layout';
 import PostList from 'components/PostList';
 import styles from 'styles/home.module.scss';
 
-const Index = ({ posts, title, description, ...props }) => (
+const Index = ({ posts, title }) => (
   <Layout pageTitle={title}>
     <div className='container'>
       <div className={styles.home__intro}>
@@ -21,6 +22,11 @@ const Index = ({ posts, title, description, ...props }) => (
   </Layout>
 );
 
+Index.propTypes = {
+  posts: PropTypes.array,
+  title: PropTypes.string
+};
+
 export default Index;
 
 export async function getStaticProps() {
@@ -32,7 +38,7 @@ export async function getStaticProps() {
 
     const data = keys
       .map((key, index) => {
-        const slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+        const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
         const date = slug.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
         const value = values[index];
         const document = matter(value.default);
