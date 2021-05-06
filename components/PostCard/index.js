@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from 'styles/posts.module.scss';
 
@@ -22,3 +23,7 @@ export default function PostCard({ post }) {
     </li>
   );
 }
+
+PostCard.propTypes = {
+  post: PropTypes.object
+};

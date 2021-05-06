@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -8,10 +7,14 @@ import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 
-const CodeBlock = ({ language, value }) => {
-  return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
-};
+const CodeBlock = ({ language, value }) => (
+  <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>
+);
 
+CodeBlock.propTypes = {
+  language: PropTypes.string,
+  value: PropTypes.string
+};
 export default function BlogPost({
   siteTitle,
   frontmatter,
@@ -56,11 +59,18 @@ export default function BlogPost({
   );
 }
 
+BlogPost.propTypes = {
+  siteTitle: PropTypes.string,
+  frontmatter: PropTypes.object,
+  markdownBody: PropTypes.string,
+  date: PropTypes.array
+};
+
 export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
 
   const content = await import(`../../posts/${postname}.md`);
-  const config = await import(`../../siteconfig.json`);
+  const config = await import('../../siteconfig.json');
   const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
   return {
@@ -76,8 +86,8 @@ export async function getStaticProps({ ...ctx }) {
 export async function getStaticPaths() {
   const blogSlugs = (context => {
     const keys = context.keys();
-    const data = keys.map((key, index) => {
-      const slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+    const data = keys.map(key => {
+      const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
 
       return slug;
     });
