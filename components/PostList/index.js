@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import PostCard from 'components/PostCard';
-import styles from 'styles/posts.module.scss';
+import PostItem from 'components/PostItem';
+import styles from './post-list.module.scss';
 
 export default function PostList({ posts, max }) {
   if (posts === 'undefined') return null;
@@ -8,11 +8,11 @@ export default function PostList({ posts, max }) {
   return (
     <div>
       {!posts && <div>No posts!</div>}
-      <ul className={styles.posts}>
+      <ul className={styles.post_list}>
         {posts &&
           posts.map((post, i) => {
             if (i > max - 1) return null;
-            return <PostCard key={post.slug} post={post} />;
+            return <PostItem key={post.slug} item={post} />;
           })}
       </ul>
     </div>

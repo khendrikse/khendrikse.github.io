@@ -1,0 +1,9 @@
+@import 'styles/mixins.scss';
+
+.post_list {
+  padding: 0;
+
+  @include break-sm {
+    padding-inline-start: revert;
+  }
+}

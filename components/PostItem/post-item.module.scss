@@ -1,40 +1,27 @@
-@import './mixins.scss';
+@import 'styles/mixins.scss';
 
 $lg-padding: 24px;
 
-.posts {
-  padding: 0;
+.post_item {
+  background-color: $pastel-pink;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 54px;
+  list-style-type: none;
+  position: relative;
 
   @include break-sm {
-    padding-inline-start: revert;
+    padding: $lg-padding;
+    height: fit-content;
   }
 
-  &__read_button {
-    text-align: right;
-    display: block;
-  }
+  &:hover,
+  &:focus-within {
+    box-shadow: 5px 5px 0 0 black;
+    transition: box-shadow 0.3s;
 
-  &__card {
-    background-color: $pastel-pink;
-    border-radius: 16px;
-    padding: 16px;
-    margin-bottom: 54px;
-    list-style-type: none;
-    position: relative;
-
-    @include break-sm {
-      padding: $lg-padding;
-      height: fit-content;
-    }
-
-    &:hover,
-    &:focus-within {
-      box-shadow: 5px 5px 0 0 black;
-      transition: box-shadow 0.3s;
-
-      a:focus {
-        text-decoration: none;
-      }
+    a:focus {
+      text-decoration: none;
     }
   }
 
