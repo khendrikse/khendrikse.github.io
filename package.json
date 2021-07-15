@@ -8,10 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fontsource/karla": "^4.2.2",
-    "@fontsource/rubik": "^4.2.2",
-    "eslint": "^7.11.0",
-    "eslint-plugin-react": "^7.21.4",
+    "@fontsource/karla": "^4.5.0",
+    "@fontsource/rubik": "^4.5.0",
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
     "gray-matter": "^4.0.2",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
@@ -24,13 +24,13 @@
     "react-dom": "16.13.1",
     "react-markdown": "^4.3.1",
     "react-syntax-highlighter": "^15.4.3",
-    "sass": "^1.26.10"
+    "sass": "^1.35.2"
   },
   "devDependencies": {
     "@youngcapital/eslint-config-yc-react": "^2.0.0",
     "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2"
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
   },
   "eslintConfig": {
     "extends": "@youngcapital/eslint-config-yc-react",
