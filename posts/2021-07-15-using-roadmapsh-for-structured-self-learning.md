@@ -22,7 +22,7 @@ I started my journey through the RailsGirls community. So it felt right for me t
 
 ## You don’t know what you do not know
 
-One of the reasons it is so hard when you are a beginner in tech is because you probably don’t know the gaps in your knowledge. Having a mentor, or knowing people who have more experience to help point into the right direction can be of huge help here. Luckily I was surrounded by an amazing group of people to point me into the right direction. But still, I was craving some more structure to help me set priorities when it came to learning the essentials.
+One of the reasons it is so hard when you are a beginner in tech is because you probably don’t know the gaps in your knowledge. Having a mentor, or knowing people who have more experience to help point into the right direction can be of huge help here. Luckily I was surrounded by an amazing group of people to point me into the right direction. Still, I was craving some more structure to help me set priorities when it came to learning the essentials.
 
 ## Roadmap.sh
 Through some luck I found [Kamran Ahmed’s](https://twitter.com/kamranahmedse) roadmap.sh. I checked out the frontend roadmap and was amazed at the way it helped me gain insight into things I did not know I could dive into. This is how I implemented it into my own learning:
