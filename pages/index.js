@@ -10,10 +10,9 @@ const Index = ({ posts, title }) => (
       <div className={styles.home__intro}>
         I am a Front-End Developer from The Netherlands with a background in
         communication, photography and design. I spend my workdays happily
-        coding at
-        <a href='http://www.youngcapital.nl'>YoungCapital</a>. During my free
-        time I like to learn more, tinker on projects and enjoy myself with
-        friends, games and plants.
+        coding at <a href='http://www.youngcapital.nl'>YoungCapital</a>. During
+        my free time I like to learn more, tinker on projects and enjoy myself
+        with friends, games and plants.
       </div>
       <hr />
       <h2 className='section__title'>Latest posts</h2>
