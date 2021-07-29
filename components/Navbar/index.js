@@ -27,6 +27,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
+                <Link href='/work'>
+                  <a className={styles.navbar__menu__item}>Work</a>
+                </Link>
+              </li>
+              <li>
                 <Link href='/'>
                   <a className={styles.navbar__menu__item}>Home</a>
                 </Link>
