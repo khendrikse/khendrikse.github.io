@@ -12,17 +12,32 @@ const About = ({ title }) => (
       />
       <div className='container'>
         <div className={styles.work__header__title}>
-          <h1>Title</h1>
+          <h1>Oob this</h1>
           <p>
-            Sugar plum tart gummies pudding toffee pudding caramels. Wafer donut
-            sugar plum chocolate bar lemon drops danish cheesecake. Chocolate
-            cake donut marzipan pudding biscuit. Brownie cookie gummi bears
-            muffin lollipop cotton candy cookie chupa chups jelly-o. Candy
-            halvah lemon drops. Bear claw gingerbread oat cake wafer powder
-            croissant muffin danish bonbon. Sweet caramels tart cake marzipan
-            donut lemon drops. Donut croissant sugar plum icing danish fruitcake
-            danish.{' '}
+            One of my favorite podcasts 'delete this' inspired me to create a
+            small website that replaces each vowel in a work with 'oob'. It was
+            loads of fun to make and I totally geeked out when they mentioned it
+            in their podcast.
           </p>
+          <a href='https://oob-this.netlify.com/'>Visit oob-this -></a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ProgressiveImage
+        className={styles.work__header__image}
+        src='whatgenre.png'
+      />
+      <div className='container'>
+        <div className={styles.work__header__title}>
+          <h1>Oob this</h1>
+          <p>
+            One of my favorite podcasts 'delete this' inspired me to create a
+            small website that replaces each vowel in a work with 'oob'. It was
+            loads of fun to make and I totally geeked out when they mentioned it
+            in their podcast.
+          </p>
+          <a href='https://oob-this.netlify.com/'>Visit oob-this -></a>
         </div>
       </div>
     </div>
