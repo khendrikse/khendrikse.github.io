@@ -4,7 +4,6 @@ $lg-padding: 24px;
 
 .post_item {
   background-color: $pastel-pink;
-  border-radius: 16px;
   padding: 16px;
   margin-bottom: 54px;
   list-style-type: none;
@@ -18,7 +17,7 @@ $lg-padding: 24px;
   &:hover,
   &:focus-within {
     box-shadow: 5px 5px 0 0 black;
-    transition: box-shadow 0.3s;
+    transition: box-shadow 0.2s;
 
     a:focus {
       text-decoration: none;
