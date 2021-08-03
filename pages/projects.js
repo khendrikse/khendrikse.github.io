@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
 import Layout from 'components/Layout';
 import matter from 'gray-matter';
-import ReactMarkdown from 'react-markdown';
-import ProgressiveImage from 'components/ProgressiveImage';
 import styles from 'styles/projects.module.scss';
+import Project from 'components/Project';
 
 const Projects = ({ title, projects = [] }) => (
   <Layout pageTitle={title}>
@@ -11,19 +10,7 @@ const Projects = ({ title, projects = [] }) => (
       <h2 className='section__title'>Projects</h2>
       <div className={styles.projects__card__grid}>
         {projects.map(({ project }) => (
-          <div key={title} className={styles.projects__card}>
-            <ProgressiveImage
-              className={styles.projects__card__image}
-              src={project.image}
-            />
-            <div className={styles.projects__card__body}>
-              <h1>{project.title}</h1>
-              <ReactMarkdown source={project.content} escapeHtml={false} />
-              <div className={styles.projects__card__link}>
-                <a href={project.link}>Check it out</a>
-              </div>
-            </div>
-          </div>
+          <Project key={project.title} {...project} />
         ))}
       </div>
     </div>
