@@ -21,7 +21,7 @@ const About = ({ title }) => (
           <strong>
             I am a front-end software engineer from The Netherlands 🇳🇱 with a
             background in communication, photography and design. I spend my
-            workdays happily coding at
+            workdays happily coding at{' '}
             <a href='http://www.youngcapital.nl'>YoungCapital</a>. During my
             free time I expand my knowledge, tinker on projects in software and
             sometimes hardware and enjoy myself with friends, games and plants
