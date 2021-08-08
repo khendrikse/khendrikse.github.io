@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@youngcapital/eslint-config-yc-react": "^2.0.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.2"
