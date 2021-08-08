@@ -6,7 +6,11 @@ import ProgressiveImage from '../ProgressiveImage';
 export default function Project({ title, image, content, link }) {
   return (
     <div className={styles.projects__card}>
-      <ProgressiveImage className={styles.projects__card__image} src={image} />
+      <ProgressiveImage
+        className={styles.projects__card__image}
+        alt=''
+        src={image}
+      />
       <div className={styles.projects__card__body}>
         <h1>{title}</h1>
         <ReactMarkdown source={content} escapeHtml={false} />
@@ -21,6 +25,6 @@ export default function Project({ title, image, content, link }) {
 Project.propTypes = {
   title: PropTypes.string,
   image: PropTypes.string,
-  content: PropTypes.array,
+  content: PropTypes.string,
   link: PropTypes.string
 };
