@@ -37,7 +37,7 @@ export async function getStaticProps() {
       })
       .sort((a, b) => a.project.order - b.project.order);
     return data;
-  })(require.context('../projects', true, /\.md$/));
+  })(require.context('../projects', true, /\.\/.*\.md$/));
 
   return {
     props: {
