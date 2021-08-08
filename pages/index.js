@@ -50,7 +50,7 @@ export async function getStaticProps() {
       })
       .sort((a, b) => new Date(b.date) - new Date(a.date));
     return data;
-  })(require.context('../posts', true, /\.md$/));
+  })(require.context('../posts', true, /\.\/.*\.md$/));
 
   return {
     props: {
