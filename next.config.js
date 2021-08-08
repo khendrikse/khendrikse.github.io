@@ -15,4 +15,8 @@ const nextConfig = {
   })
 };
 
-module.exports = withPlugins([optimizedImages], nextConfig);
+const images = {
+  disableStaticImages: true
+};
+
+module.exports = withPlugins([optimizedImages], nextConfig, images);
