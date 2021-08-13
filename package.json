@@ -15,7 +15,7 @@
     "gray-matter": "^4.0.2",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
-    "next": "^11.0.1",
+    "next": "^11.1.0",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^3.0.0-canary.10",
     "normalize.css": "^8.0.1",
