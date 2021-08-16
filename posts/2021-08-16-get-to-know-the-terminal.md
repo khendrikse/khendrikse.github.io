@@ -41,15 +41,15 @@ The terminal is an environment that runs (or executes, or in other words: uses) 
 
 ## Different terminal emulators and shells
 
-There are a bunch of different terminal emulators. It depends on the operating system, and your personal preference which one you use. Operating systems come with a default terminal emulator. If you want to use another you have to install it yourself. For example: macOs has the Terminal app installed by default. For Ubuntu and Fedora it's gnome-terminal and Microsoft Windows has Windows Command Prompt.
+There are a bunch of different terminal emulators. It depends on the operating system, and your personal preference which one you use. Operating systems come with a default terminal emulator. If you want to use another you have to install it yourself. For example: macOS has the Terminal app installed by default. For Ubuntu and Fedora it's gnome-terminal and Microsoft Windows has Windows Command Prompt.
 
-Terminals can use different shells to interpret commands that are entered through the CLI of the terminal. Usually a terminal uses the shell that is default for the operating system. Nowadays macOs uses zsh, Ubuntu and Fedora use Bash and Microsoft Windows uses cmd.exe by default.
+Terminals can use different shells to interpret commands that are entered through the CLI of the terminal. Usually a terminal uses the shell that is default for the operating system. Nowadays macOS uses zsh, Ubuntu and Fedora use Bash and Microsoft Windows uses cmd.exe by default.
 
 | Terminal Emulator      | Operating System                         | Default shell                         |
 | ---------------------- | ---------------------------------------- | ------------------------------------- |
-| Terminal               | macOs (default)                          | zsh                                   |
-| iTerm                  | macOs                                    | the default of your OS (usually zsh)  |
-| Hyper                  | maxOs, Microsoft Windows, Debian, Fedora | the default of your OS                |
+| Terminal               | macOS (default)                          | zsh                                   |
+| iTerm                  | macOS                                    | the default of your OS (usually zsh)  |
+| Hyper                  | macOS, Microsoft Windows, Debian, Fedora | the default of your OS                |
 | gnome-terminal         | Ubuntu (default), Fedora (default)       | the default of your OS (usually Bash) |
 | Windows Command Prompt | Microsoft Windows (default)              | cmd.exe                               |
 | Windows Terminal       | Microsoft Windows                        | Powershell                            |
