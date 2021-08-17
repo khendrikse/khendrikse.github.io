@@ -10,7 +10,7 @@ const About = ({ title }) => (
       <div className={styles.about}>
         <figure className={styles.about__avatar}>
           <ProgressiveImage
-            src='portait-linoosk.webp'
+            src='portait-linoosk.png'
             alt='a portrait of the author of the website'
           />
           <figcaption>

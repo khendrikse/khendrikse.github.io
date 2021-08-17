@@ -1,6 +1,6 @@
 ---
 title: Spotify to slack
-image: spotify-to-slack.webp
+image: spotify-to-slack.png
 link: https://github.com/khendrikse/spotify-to-slack
 order: 3
 ---

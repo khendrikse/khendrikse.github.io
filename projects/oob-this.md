@@ -1,6 +1,6 @@
 ---
 title: Oob this
-image: oob-this.webp
+image: oob-this.png
 link: https://oob-this.netlify.com/
 order: 4
 ---

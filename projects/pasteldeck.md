@@ -1,6 +1,6 @@
 ---
 title: Pasteldeck
-image: pasteldeck.webp
+image: pasteldeck.png
 link: https://khendrikse.github.io/pasteldeck/
 order: 2
 ---
