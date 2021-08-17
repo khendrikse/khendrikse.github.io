@@ -1,6 +1,6 @@
 ---
 title: What genre
-image: whatgenre.webp
+image: whatgenre.png
 link: https://whatgenre.herokuapp.com/
 order: 1
 ---
