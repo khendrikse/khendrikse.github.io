@@ -47,7 +47,7 @@ Now... Having the intense urge of sprucing up your coding experience with pastel
 
 ![example of the Soft Era vim colorscheme](vim-color-schemes/t-soft-era.png)
 
-### Fairyfloss
+### [FairyFloss](http://sailorhg.github.io/fairyfloss/)
 
 Those who love the pastel vibes in coding are probably already familiar with Amy Wibowo and her dreamy [FairyFloss](http://sailorhg.github.io/fairyfloss/) theme. Thankfully [FairyFloss](https://github.com/tssm/fairyfloss.vim) has been made available for Vim lovers too. The colors are mystical and dreamy with an actual okay amount of contrast. A classic that cannot be left out.
 
