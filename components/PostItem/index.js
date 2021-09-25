@@ -18,7 +18,9 @@ export default function PostItem({ item }) {
           </Link>
         </h2>
       </div>
-      <div className={styles.post_item__content}>{item.frontmatter.intro}</div>
+      <div className={styles.post_item__content}>
+        {item.frontmatter.intro || item.frontmatter.description}
+      </div>
     </li>
   );
 }
