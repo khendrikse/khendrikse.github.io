@@ -2,7 +2,7 @@
 title: Streamkiwi
 image: streamkiwi.png
 link: https://streamkiwi.app/
-order: 1
+order: 2
 ---
 
 I like watching the dev community on Twitch. But while using the platform I wished there was a way to get an overview of all the people you were following, and when they were going to stream next.
