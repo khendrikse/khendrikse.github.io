@@ -22,6 +22,10 @@ export default function Footer() {
           />
           GitHub
         </a>
+        <a className={styles.footer__link} href='https://www.linkedin.com/in/karinhendrikse/'>
+          <img width='24px' height='24px' src='/assets/images/linkedin.svg' alt='LinkedIn icon' />
+          LinkedIn
+        </a>
       </div>
       © 2021 Karin Hendrikse
     </div>
