@@ -2,7 +2,14 @@ module.exports = {
   env: {
     browser: true,
   },
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    ecmaVersion: '8',
+    requireConfigFile: false,
+    babelOptions: {
+      presets: ['@babel/preset-react'],
+    },
+  },
   settings: {
     'import/resolver': {
       alias: {
