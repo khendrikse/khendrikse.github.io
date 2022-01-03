@@ -2,10 +2,10 @@ const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 
 const nextConfig = {
+  swcMinify: true,
   images: {
     disableStaticImages: true
   },
-  target: 'serverless',
   webpack(config) {
     config.module.rules.push({
       test: /\.md$/,
