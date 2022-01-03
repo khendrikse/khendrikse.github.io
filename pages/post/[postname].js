@@ -13,14 +13,15 @@ const CodeBlock = ({ language, value }) => (
 
 CodeBlock.propTypes = {
   language: PropTypes.string,
-  value: PropTypes.string
+  value: PropTypes.string,
 };
 export default function BlogPost({
   siteTitle,
   frontmatter,
   markdownBody,
-  date
+  date,
 }) {
+  // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
 
   return (
@@ -63,7 +64,7 @@ BlogPost.propTypes = {
   siteTitle: PropTypes.string,
   frontmatter: PropTypes.object,
   markdownBody: PropTypes.string,
-  date: PropTypes.array
+  date: PropTypes.array,
 };
 
 export async function getStaticProps({ ...ctx }) {
@@ -78,8 +79,8 @@ export async function getStaticProps({ ...ctx }) {
       siteTitle: config.title,
       frontmatter: data.data,
       markdownBody: data.content,
-      date
-    }
+      date,
+    },
   };
 }
 
@@ -99,6 +100,6 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false
+    fallback: false,
   };
 }
