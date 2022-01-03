@@ -10,8 +10,6 @@
   "dependencies": {
     "@fontsource/karla": "^4.5.0",
     "@fontsource/rubik": "^4.5.0",
-    "eslint": "^7.30.0",
-    "eslint-plugin-react": "^7.24.0",
     "gray-matter": "^4.0.2",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
@@ -27,31 +25,19 @@
     "sass": "^1.35.2"
   },
   "devDependencies": {
-    "@youngcapital/eslint-config-yc-react": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-next": "^11.0.1",
-    "eslint-config-prettier": "^6.13.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "prettier": "^2.3.2"
-  },
-  "eslintConfig": {
-    "extends": "@youngcapital/eslint-config-yc-react",
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "paths": [
-            "."
-          ]
-        }
-      }
-    },
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "react/jsx-props-no-spreading": [
-        0,
-        {
-          "html": "ignore"
-        }
-      ]
-    }
   }
 }
