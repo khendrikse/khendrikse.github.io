@@ -41,6 +41,7 @@ module.exports = {
     'comma-dangle': 'off',
     'consistent-return': 'error',
     'function-paren-newline': 'off',
+    'react/function-component-definition': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'error',
     'implicit-arrow-linebreak': 'off',
