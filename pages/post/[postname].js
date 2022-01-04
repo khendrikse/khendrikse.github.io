@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import Layout from 'components/Layout';
 import headerColor from 'helpers/post-header';
@@ -12,7 +12,7 @@ export default function BlogPost({
   siteTitle,
   frontmatter,
   markdownBody,
-  date,
+  date
 }) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
@@ -42,23 +42,21 @@ export default function BlogPost({
           <div className='container'>
             <div className={styles.post__intro}>{frontmatter.intro}</div>
             <ReactMarkdown
-              includeElementIndex={true}
               remarkPlugins={[remarkGfm]}
               components={{
-                code({ node, inline, className, children, ref }) {
+                // eslint-disable-next-line react/no-unstable-nested-components
+                code({ inline, className, children }) {
                   const match = /language-(\w+)/.exec(className || '');
 
                   return !inline && match ? (
-                    <SyntaxHighlighter
-                      language={match[1]}
-                    >
+                    <SyntaxHighlighter language={match[1]}>
                       {String(children).replace(/\n$/, '')}
                     </SyntaxHighlighter>
                   ) : (
                     <code className={className}>{children}</code>
                   );
                 },
-                img: ProgressiveImage,
+                img: ProgressiveImage
               }}
             >
               {markdownBody}
@@ -74,7 +72,7 @@ BlogPost.propTypes = {
   siteTitle: PropTypes.string,
   frontmatter: PropTypes.object,
   markdownBody: PropTypes.string,
-  date: PropTypes.array,
+  date: PropTypes.array
 };
 
 export async function getStaticProps({ ...ctx }) {
@@ -89,15 +87,15 @@ export async function getStaticProps({ ...ctx }) {
       siteTitle: config.title,
       frontmatter: data.data,
       markdownBody: data.content,
-      date,
-    },
+      date
+    }
   };
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = ((context) => {
+  const blogSlugs = (context => {
     const keys = context.keys();
-    const data = keys.map((key) => {
+    const data = keys.map(key => {
       const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
 
       return slug;
@@ -106,10 +104,10 @@ export async function getStaticPaths() {
     return data;
   })(require.context('../../posts', true, /\.\/.*\.md$/));
 
-  const paths = blogSlugs.map((slug) => `/post/${slug}`);
+  const paths = blogSlugs.map(slug => `/post/${slug}`);
 
   return {
     paths,
-    fallback: false,
+    fallback: false
   };
 }
