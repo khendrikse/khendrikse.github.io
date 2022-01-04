@@ -13,7 +13,7 @@ export default function Project({ title, image, content, link }) {
       />
       <div className={styles.projects__card__body}>
         <h1>{title}</h1>
-        <ReactMarkdown source={content} escapeHtml={false} />
+        <ReactMarkdown>{content}</ReactMarkdown>
         <div className={styles.projects__card__link}>
           <a href={link}>Check it out</a>
         </div>
@@ -26,5 +26,5 @@ Project.propTypes = {
   title: PropTypes.string,
   image: PropTypes.string,
   content: PropTypes.string,
-  link: PropTypes.string
+  link: PropTypes.string,
 };

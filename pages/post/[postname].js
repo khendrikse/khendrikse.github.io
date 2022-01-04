@@ -1,20 +1,13 @@
 import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import Layout from 'components/Layout';
 import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 
-const CodeBlock = ({ language, value }) => (
-  <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>
-);
-
-CodeBlock.propTypes = {
-  language: PropTypes.string,
-  value: PropTypes.string,
-};
 export default function BlogPost({
   siteTitle,
   frontmatter,
@@ -49,10 +42,27 @@ export default function BlogPost({
           <div className='container'>
             <div className={styles.post__intro}>{frontmatter.intro}</div>
             <ReactMarkdown
-              renderers={{ code: CodeBlock, image: ProgressiveImage }}
-              source={markdownBody}
-              escapeHtml={false}
-            />
+              includeElementIndex={true}
+              remarkPlugins={[remarkGfm]}
+              components={{
+                code({ node, inline, className, children, ref }) {
+                  const match = /language-(\w+)/.exec(className || '');
+
+                  return !inline && match ? (
+                    <SyntaxHighlighter
+                      language={match[1]}
+                    >
+                      {String(children).replace(/\n$/, '')}
+                    </SyntaxHighlighter>
+                  ) : (
+                    <code className={className}>{children}</code>
+                  );
+                },
+                img: ProgressiveImage,
+              }}
+            >
+              {markdownBody}
+            </ReactMarkdown>
           </div>
         </div>
       </article>
@@ -85,9 +95,9 @@ export async function getStaticProps({ ...ctx }) {
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = (context => {
+  const blogSlugs = ((context) => {
     const keys = context.keys();
-    const data = keys.map(key => {
+    const data = keys.map((key) => {
       const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
 
       return slug;
@@ -96,7 +106,7 @@ export async function getStaticPaths() {
     return data;
   })(require.context('../../posts', true, /\.\/.*\.md$/));
 
-  const paths = blogSlugs.map(slug => `/post/${slug}`);
+  const paths = blogSlugs.map((slug) => `/post/${slug}`);
 
   return {
     paths,
