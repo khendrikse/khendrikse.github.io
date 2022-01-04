@@ -10,11 +10,6 @@ export default function Layout({ children, pageTitle }) {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='description' content='Online space, blog and portfolio' />
         <title>{pageTitle}</title>
-        <script
-          defer
-          data-domain='khendrikse.github.io'
-          src='https://plausible.io/js/plausible.js'
-        />
       </Head>
       <div className='wrapper'>
         <section className='layout'>
