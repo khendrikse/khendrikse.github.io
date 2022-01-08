@@ -35,7 +35,7 @@ export default function Footer() {
           LinkedIn
         </a>
       </div>
-      © 2021 Karin Hendrikse
+      © {new Date().getFullYear()} Karin Hendrikse
     </div>
   );
 }
