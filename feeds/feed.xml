@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Sat, 08 Jan 2022 14:06:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Jan 2022 14:15:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -860,6 +860,15 @@ module.exports = {
 }
 </code></pre>
 <p>Done! You should now be able to run <code>gatsby develop</code> and see the proper security headers on the documents that it serves you. Make sure to restart your server if you already had it running though, otherwise the changes won't come through.</p>]]></content:encoded>
+            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[A test post]]></title>
+            <link>https://khendrikse.github.io/post/2022-01-08-a-test-post</link>
+            <guid>https://khendrikse.github.io/post/2022-01-08-a-test-post</guid>
+            <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[We are testing!]]></description>
+            <content:encoded><![CDATA[<p>This is a test post people :)</p>]]></content:encoded>
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
         </item>
     </channel>
