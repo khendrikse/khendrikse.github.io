@@ -35,6 +35,16 @@ export default function Header() {
                 <a className={styles.navbar__menu__item}>Home</a>
               </Link>
             </li>
+            <li>
+              <a href='https://khendrikse.github.io/feeds/feed.xml'>
+                <img
+                  width='14px'
+                  height='14px'
+                  src='/assets/images/rss.svg'
+                  alt='RSS'
+                />
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

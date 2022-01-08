@@ -16,18 +16,7 @@ const Index = ({ posts, title }) => (
         with friends, games and plants.
       </div>
       <hr />
-      <h2 className='section__title'>
-        Latest posts
-        <a href='https://khendrikse.github.io/feeds/feed.xml'>
-          <img
-            width='18px'
-            height='18px'
-            style={{ marginLeft: '8px' }}
-            src='/assets/images/rss.svg'
-            alt='RSS'
-          />
-        </a>
-      </h2>
+      <h2 className='section__title'>Latest posts</h2>
       <PostList posts={posts} max={3} />
     </div>
   </Layout>
