@@ -6,7 +6,18 @@ import PostList from 'components/PostList';
 const Index = ({ posts, title }) => (
   <Layout pageTitle={title}>
     <div className='container'>
-      <h2 className='section__title'>Blog</h2>
+      <h2 className='section__title'>
+        Blog
+        <a href='https://khendrikse.github.io/feeds/feed.xml'>
+          <img
+            width='18px'
+            height='18px'
+            style={{ marginLeft: '8px' }}
+            src='/assets/images/rss.svg'
+            alt='RSS'
+          />
+        </a>
+      </h2>
       <PostList posts={posts} />
     </div>
   </Layout>
