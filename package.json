@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev -p 8080",
     "build": "next build",
-    "start": "next start",
-    "postbuild": "node scripts/feed.js"
+    "start": "next start"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.16.5",

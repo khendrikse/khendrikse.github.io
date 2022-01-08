@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import Layout from 'components/Layout';
 import PostList from 'components/PostList';
 import styles from 'styles/home.module.scss';
+import createFeeds from '../scripts/feed';
 
 const Index = ({ posts, title }) => (
   <Layout pageTitle={title}>
@@ -29,6 +30,7 @@ Index.propTypes = {
 export default Index;
 
 export async function getStaticProps() {
+  createFeeds();
   const configData = await import('../siteconfig.json');
 
   const posts = (context => {
