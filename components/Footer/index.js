@@ -9,18 +9,16 @@ export default function Footer() {
             width='24px'
             height='24px'
             src='/assets/images/devto.svg?'
-            alt='DEV.to icon'
+            alt='DEV.to'
           />
-          dev.to
         </a>
         <a className={styles.footer__link} href='https://github.com/khendrikse'>
           <img
             width='24px'
             height='24px'
             src='/assets/images/github.svg?'
-            alt='GitHub icon'
+            alt='GitHub'
           />
-          GitHub
         </a>
         <a
           className={styles.footer__link}
@@ -30,12 +28,22 @@ export default function Footer() {
             width='24px'
             height='24px'
             src='/assets/images/linkedin.svg'
-            alt='LinkedIn icon'
+            alt='LinkedIn'
           />
-          LinkedIn
         </a>
+        <a
+          className={styles.footer__link}
+          href='https://khendrikse.github.io/feeds/feed.xml'
+        >
+          <img
+            width='24px'
+            height='24px'
+            src='/assets/images/rss.svg'
+            alt='RSS'
+          />
+        </a>
+        © {new Date().getFullYear()} Karin Hendrikse
       </div>
-      © {new Date().getFullYear()} Karin Hendrikse
     </div>
   );
 }
