@@ -13,6 +13,7 @@
     "@fontsource/karla": "^4.5.0",
     "@fontsource/rubik": "^4.5.0",
     "@mapbox/rehype-prism": "^0.8.0",
+    "feed": "^4.2.2",
     "gray-matter": "^4.0.2",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
@@ -27,7 +28,8 @@
     "react-markdown": "^7.1.1",
     "react-syntax-highlighter": "^15.4.5",
     "remark-gfm": "^3.0.1",
-    "sass": "^1.35.2"
+    "sass": "^1.35.2",
+    "showdown": "^1.9.1"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
