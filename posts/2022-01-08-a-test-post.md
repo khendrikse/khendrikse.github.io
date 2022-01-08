@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'A test post'
+published: false
+description: We are testing!
+intro: testing like crazy!
+cover_image: 2021-09-25.jpg
+cover_image_alt: a white cat napping
+---
+This is a test post people :)
