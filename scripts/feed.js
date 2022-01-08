@@ -5,6 +5,8 @@ const showdown = require('showdown');
 const { Feed } = require('feed');
 const getDateFromString = require('../helpers/get-date-from-string');
 
+const root = process.cwd();
+
 const markDownConverter = new showdown.Converter();
 
 const createHtmlFromContent = content => markDownConverter.makeHtml(content);
@@ -27,7 +29,7 @@ const getImageFileName = filename => {
 
   const fileWithoutExtension = filename.split('.')[0];
   const filePath = fs
-    .readdirSync(path.resolve(__dirname, '../.next/static/chunks/images'))
+    .readdirSync(path.resolve(root, '.next/static/chunks/images'))
     .find(name => name.includes(fileWithoutExtension));
 
   const url = `https://khendrikse.github.io/_next/static/chunks/images/${filePath}`;
@@ -54,10 +56,10 @@ const parsePostData = (data, filename) => {
 
 const getPosts = () => {
   const posts = fs
-    .readdirSync(path.resolve(__dirname, '../posts'))
+    .readdirSync(path.resolve(root, 'posts'))
     .map(post => {
       const postSource = fs.readFileSync(
-        path.resolve(__dirname, '../posts/', post),
+        path.resolve(root, 'posts', post),
         'utf8'
       );
 
@@ -71,27 +73,34 @@ const getPosts = () => {
   }));
 };
 
-const posts = getPosts();
+const createFeeds = () => {
+  const posts = getPosts();
 
-const feed = new Feed({
-  title: 'Karin Hendrikse blog feed',
-  description: 'This is a feed of all blogs on the website of Karin Hendrikse',
-  link: 'https://khendrikse.github.io/',
-  language: 'en',
-  copyright: `All rights reserved ${new Date().getFullYear()}, Karin Hendrikse`
-});
-
-posts.forEach(post => {
-  feed.addItem({
-    title: post.title,
-    id: post.id,
-    link: post.link,
-    description: post.description,
-    content: post.content,
-    date: post.date,
-    image: post.image
+  const feed = new Feed({
+    title: 'Karin Hendrikse blog feed',
+    description:
+      'This is a feed of all blogs on the website of Karin Hendrikse',
+    link: 'https://khendrikse.github.io/',
+    language: 'en',
+    copyright: `All rights reserved ${new Date().getFullYear()}, Karin Hendrikse`
   });
-});
 
-fs.mkdirSync('public/feeds/', { recursive: true });
-fs.writeFileSync('public/feeds/feed.xml', feed.rss2());
+  posts.forEach(post => {
+    feed.addItem({
+      title: post.title,
+      id: post.id,
+      link: post.link,
+      description: post.description,
+      content: post.content,
+      date: post.date,
+      image: post.image
+    });
+  });
+
+  fs.mkdirSync('public/feeds/', { recursive: true });
+  fs.writeFileSync('public/feeds/feed.xml', feed.rss2());
+};
+
+module.exports = createFeeds;
+
+createFeeds();
