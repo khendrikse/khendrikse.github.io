@@ -102,5 +102,3 @@ const createFeeds = () => {
 };
 
 module.exports = createFeeds;
-
-createFeeds();

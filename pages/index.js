@@ -30,8 +30,10 @@ Index.propTypes = {
 export default Index;
 
 export async function getStaticProps() {
-  createFeeds();
   const configData = await import('../siteconfig.json');
+  if (process.env.NODE_ENV !== 'development') {
+    createFeeds();
+  }
 
   const posts = (context => {
     const keys = context.keys();
