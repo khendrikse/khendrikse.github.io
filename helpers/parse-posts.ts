@@ -12,7 +12,7 @@ const parsePosts = (context: __WebpackModuleApi.RequireContext) => {
 
       return {
         ...document.data,
-        oldBlog: document.data.oldBlog,
+        oldBlog: document.data.oldBlog || false,
         tags: document.data.tags || '',
         date: document.data.date,
         published: document.data.published,
