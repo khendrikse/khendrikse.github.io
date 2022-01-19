@@ -7,6 +7,7 @@ import Layout from 'components/Layout';
 import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
+import Breadcrumbs from 'components/Breadcrumbs';
 
 export default function BlogPost({
   siteTitle,
@@ -34,7 +35,13 @@ export default function BlogPost({
         )}
         <div className='container'>
           <div className={styles.post__header__title}>
-            <h1>{frontmatter.title}</h1>
+            <Breadcrumbs
+              crumbs={[
+                { name: 'blog', href: '/blog' },
+                { name: frontmatter.title }
+              ]}
+            />
+            <h2>{frontmatter.title}</h2>
             <div className={styles.post__date_label}>{date}</div>
           </div>
         </div>
