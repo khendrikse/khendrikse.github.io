@@ -5,7 +5,7 @@ import styles from 'styles/projects.module.scss';
 import Project from 'components/Project';
 
 const Projects = ({ title, projects = [] }) => (
-  <Layout pageTitle={title}>
+  <Layout pageTitle={title} breadcrumbs={[{ name: 'projects', item: 'projects/' }]}>
     <div className='container'>
       <h2 className='section__title'>Projects</h2>
       <div className={styles.projects__card__grid}>

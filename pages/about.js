@@ -4,7 +4,7 @@ import ProgressiveImage from 'components/ProgressiveImage';
 import styles from 'styles/about.module.scss';
 
 const About = ({ title }) => (
-  <Layout pageTitle={title}>
+  <Layout pageTitle={title} breadcrumbs={[{ name: 'about', item: 'about/' }]}>
     <div className='container'>
       <h2 className='page__title'>About</h2>
       <div className={styles.about}>

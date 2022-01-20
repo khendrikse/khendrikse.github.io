@@ -4,7 +4,7 @@ import Layout from 'components/Layout';
 import PostList from 'components/PostList';
 
 const Index = ({ posts, title }) => (
-  <Layout pageTitle={title}>
+  <Layout pageTitle={title} breadcrumbs={[{ name: 'blog', item: 'blog/' }]}>
     <div className='container'>
       <h2 className='section__title'>Blog</h2>
       <PostList posts={posts} />
