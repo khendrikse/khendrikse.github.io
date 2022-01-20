@@ -13,13 +13,20 @@ export default function BlogPost({
   siteTitle,
   frontmatter,
   markdownBody,
-  date
+  date,
+  slug
 }) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
 
   return (
-    <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+    <Layout
+      pageTitle={`${siteTitle} | ${frontmatter.title}`}
+      breadcrumbs={[
+        { name: 'blog', item: 'blog/' },
+        { name: frontmatter.title, item: `post/${slug}` }
+      ]}
+    >
       <article className={styles.post}>
         {frontmatter.cover_image ? (
           <ProgressiveImage
@@ -79,7 +86,8 @@ BlogPost.propTypes = {
   siteTitle: PropTypes.string,
   frontmatter: PropTypes.object,
   markdownBody: PropTypes.string,
-  date: PropTypes.array
+  date: PropTypes.array,
+  slug: PropTypes.string
 };
 
 export async function getStaticProps({ ...ctx }) {
@@ -94,7 +102,8 @@ export async function getStaticProps({ ...ctx }) {
       siteTitle: config.title,
       frontmatter: data.data,
       markdownBody: data.content,
-      date
+      date,
+      slug: postname
     }
   };
 }
