@@ -1,9 +1,20 @@
-$pastel-pink: #FFd2E1;
-$pastel-green: #DAFBF8;
-$pastel-purple: #DADDFB;
-$pastel-yellow: #FFFCDD;
-$pastel-blue: #DAEDFB;
-$pastel-dark-pink: #C49CA9;
+$pastel-pink: #ffd2e1;
+$pastel-green: #dafbf8;
+$pastel-purple: #daddfb;
+$pastel-yellow: #fffcdd;
+$pastel-blue: #daedfb;
+
+$purple-grey: linear-gradient(
+  164deg,
+  rgba(122, 65, 255, 1) 24%,
+  rgba(4, 0, 255, 1) 100%
+);
+$dark-grey: #323232;
+$pastel-dark-pink: #f86dff;
+$pastel-dark-green: #00d27b;
+$pastel-dark-purple: #7a41ff;
+$pastel-dark-yellow: #fffcdd;
+$pastel-dark-blue: #4f76ff;
 
 $sm-screen: 576px;
 $md-screen: 768px;

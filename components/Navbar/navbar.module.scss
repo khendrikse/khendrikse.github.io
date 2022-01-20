@@ -48,8 +48,16 @@
       border-bottom: 2px solid $pastel-purple;
       text-decoration: none;
 
+      @media (prefers-color-scheme: dark) {
+        border-color: $pastel-dark-purple;
+      }
+
       &:hover {
         color: $pastel-purple;
+
+        @media (prefers-color-scheme: dark) {
+          color: $pastel-dark-purple;
+        }
       }
 
       &--current {

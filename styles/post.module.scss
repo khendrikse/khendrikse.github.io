@@ -60,12 +60,20 @@
 
     thead {
       background-color: $pastel-blue;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: $pastel-dark-blue;
+      }
     }
 
     table,
     tr,
     td + td {
       border: 1px solid $pastel-blue;
+
+      @media (prefers-color-scheme: dark) {
+        border-color: $pastel-dark-blue;
+      }
     }
 
     td {

@@ -9,6 +9,10 @@ $lg-padding: 24px;
   list-style-type: none;
   position: relative;
 
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-grey;
+  }
+
   @include break-sm {
     padding: $lg-padding;
     height: fit-content;
@@ -31,10 +35,14 @@ $lg-padding: 24px;
     padding: 8px;
     position: relative;
     z-index: 1;
-    background-color: #daddfb;
+    background-color: $pastel-purple;
     box-shadow: 5px 5px 0 0 black;
     flex-shrink: 0;
     margin-bottom: 16px;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: $pastel-dark-purple;
+    }
 
     @include break-sm {
       left: -56px;
