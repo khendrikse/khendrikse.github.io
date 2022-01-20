@@ -11,8 +11,8 @@ const Breadcrumbs = ({ crumbs }) => {
       <span>
         <Link href='/'>Home</Link>
       </span>
-      {crumbs.map(crumb => (
-        <span>
+      {crumbs.map((crumb, i) => (
+        <span key={`${crumb.name}-${i}`}>
           <Link href={crumb.href}>{crumb.name}</Link>
         </span>
       ))}

@@ -6,7 +6,7 @@ import styles from 'styles/home.module.scss';
 import createFeeds from '../scripts/feed';
 
 const Index = ({ posts, title }) => (
-  <Layout pageTitle={title}>
+  <Layout pageTitle={title} breadcrumbs={[{ name: 'home', item: '' }]}>
     <div className='container'>
       <div className={styles.home__intro}>
         I am a Front-End Developer from The Netherlands with a background in
