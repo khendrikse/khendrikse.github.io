@@ -13,6 +13,11 @@ body {
   background-color: white;
   font-family: 'Karla', sans-serif;
   font-size: 18px;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #141414;
+    color: white;
+  }
 }
 
 html,
@@ -29,11 +34,19 @@ body,
 
 a {
   color: black;
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
 }
 
 hr {
   border: 0.5px solid $pastel-blue;
   margin-bottom: 48px;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $pastel-dark-blue;
+  }
 }
 
 h1,
@@ -89,13 +102,22 @@ h6 {
 }
 
 .content {
-  border-top: 2px solid #dafbf8;
+  border-top: 2px solid $pastel-green;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $pastel-dark-purple;
+  }
 }
 
 blockquote {
   margin: 50px auto;
   padding: 8px 8px 8px 32px;
   border-left: 8px solid $pastel-purple;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $pastel-dark-purple;
+  }
+
   line-height: 1.6;
 }
 
