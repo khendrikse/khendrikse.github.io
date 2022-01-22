@@ -8,20 +8,30 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.footer__links}>
-        <a className={styles.footer__link} href='https://dev.to/khenhey'>
+        <a
+          className={styles.footer__link}
+          aria-label='DEV.to'
+          href='https://dev.to/khenhey'
+        >
           <DevTo width='24px' height='24px' alt='DEV.to' />
         </a>
-        <a className={styles.footer__link} href='https://github.com/khendrikse'>
+        <a
+          className={styles.footer__link}
+          aria-label='GitHub'
+          href='https://github.com/khendrikse'
+        >
           <GitHub width='24px' height='24px' alt='GitHub' />
         </a>
         <a
           className={styles.footer__link}
+          aria-label='linkedin'
           href='https://www.linkedin.com/in/karinhendrikse/'
         >
           <LinkedIn width='24px' height='24px' alt='LinkedIn' />
         </a>
         <a
           className={styles.footer__link}
+          aria-label='RSS feed'
           href='https://khendrikse.github.io/feeds/feed.xml'
         >
           <Rss width='24px' height='24px' alt='RSS' />

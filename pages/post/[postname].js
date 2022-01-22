@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { materialOceanic } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import Layout from 'components/Layout';
 import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
@@ -63,7 +64,10 @@ export default function BlogPost({
                   const match = /language-(\w+)/.exec(className || '');
 
                   return !inline && match ? (
-                    <SyntaxHighlighter language={match[1]}>
+                    <SyntaxHighlighter
+                      style={materialOceanic}
+                      language={match[1]}
+                    >
                       {String(children).replace(/\n$/, '')}
                     </SyntaxHighlighter>
                   ) : (

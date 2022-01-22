@@ -1,6 +1,6 @@
 @import './mixins.scss';
-@import "~@fontsource/karla/400.css";
-@import "~@fontsource/rubik/700.css";
+@import '~@fontsource/karla/400.css';
+@import '~@fontsource/rubik/700.css';
 
 *,
 *:before,
@@ -45,7 +45,7 @@ hr {
   margin-bottom: 48px;
 
   @media (prefers-color-scheme: dark) {
-    border-color: $pastel-dark-blue;
+    border-color: white;
   }
 }
 
@@ -123,4 +123,14 @@ blockquote {
 
 code {
   background-color: $pastel-yellow;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $pastel-dark-purple;
+  }
+}
+
+pre {
+  code {
+    background-color: transparent;
+  }
 }
