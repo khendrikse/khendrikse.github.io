@@ -28,6 +28,10 @@
       position: relative;
       top: -34px;
 
+      @media (prefers-color-scheme: dark) {
+        background-color: $dark-grey;
+      }
+
       h2 {
         margin-top: 0;
         font-size: 2em;

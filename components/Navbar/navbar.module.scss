@@ -42,6 +42,14 @@
       width: fit-content;
     }
 
+    &__icon {
+      width: 14px;
+
+      @media (prefers-color-scheme: dark) {
+        fill: white;
+      }
+    }
+
     &__item {
       margin: 0 16px;
       letter-spacing: 1px;

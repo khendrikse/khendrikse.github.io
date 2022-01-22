@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import styles from './navbar.module.scss';
+import Rss from '../../public/assets/images/rss.svg';
 
 // TODO: current page styling for links
 
@@ -36,13 +37,12 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <a href='https://khendrikse.github.io/feeds/feed.xml'>
-                <img
-                  width='14px'
-                  height='14px'
-                  src='/assets/images/rss.svg'
-                  alt='RSS'
-                />
+              <a
+                className={styles.navbar__menu__icon}
+                aria-label='RSS feed'
+                href='https://khendrikse.github.io/feeds/feed.xml'
+              >
+                <Rss width='14px' height='14px' alt='RSS' />
               </a>
             </li>
           </ul>
