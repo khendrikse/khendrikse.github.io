@@ -1,3 +1,4 @@
+/* eslint-disable import/no-dynamic-require */
 import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
@@ -9,6 +10,7 @@ import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 import Breadcrumbs from 'components/Breadcrumbs';
+import { useEffect } from 'react';
 
 export default function BlogPost({
   siteTitle,
@@ -19,6 +21,14 @@ export default function BlogPost({
 }) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
+
+  useEffect(() => {
+    // eslint-disable-next-line import/no-dynamic-require
+    // eslint-disable-next-line global-require
+    const image = require(`../../images/${frontmatter.cover_image}`);
+    // eslint-disable-next-line no-console
+    console.log({ image });
+  }, []);
 
   return (
     <Layout
