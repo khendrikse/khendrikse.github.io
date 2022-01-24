@@ -1,4 +1,4 @@
-const generateBreadcrumbs = crumbs => {
+const generateBreadcrumbs = (crumbs = []) => {
   const BASE_URL = 'https://khendrikse.github.io/';
   const crumbsList = [{ name: 'home', item: '' }, ...crumbs];
 
