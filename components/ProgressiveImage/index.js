@@ -2,12 +2,13 @@
 /* eslint-disable global-require */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import isExternalImage from 'helpers/is-external-image';
 
 const ProgressiveImage = props => {
-  const isExternalImage = props.src.includes('http' || 'https');
+  const isExternal = isExternalImage(props.src);
 
   const [currentImage, setCurrentImage] = useState(
-    isExternalImage ? `${props.src}?lqip` : require(`images/${props.src}?lqip`)
+    isExternal ? `${props.src}?lqip` : require(`images/${props.src}?lqip`)
   );
 
   const [loading, setLoading] = useState(props.src);
@@ -22,7 +23,7 @@ const ProgressiveImage = props => {
   };
 
   useEffect(() => {
-    fetchImage(isExternalImage ? props.src : require(`images/${props.src}`));
+    fetchImage(isExternal ? props.src : require(`images/${props.src}`));
   }, []);
 
   const style = () => ({
