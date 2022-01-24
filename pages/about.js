@@ -3,8 +3,18 @@ import Layout from 'components/Layout';
 import ProgressiveImage from 'components/ProgressiveImage';
 import styles from 'styles/about.module.scss';
 
+const socialMeta = {
+  image:
+    'https://khendrikse.github.io/_next/static/chunks/images/portait-linoosk-db0fc2adaa55eb6080c20ff88376c1ba.png',
+  imageAlt: 'Drawn avatar of khendrikse',
+  url: 'about'
+};
+
 const About = ({ title }) => (
-  <Layout pageTitle={title} breadcrumbs={[{ name: 'about', item: 'about/' }]}>
+  <Layout
+    socialMeta={{ ...socialMeta, title }}
+    breadcrumbs={[{ name: 'about', item: 'about/' }]}
+  >
     <div className='container'>
       <h2 className='page__title'>About</h2>
       <div className={styles.about}>

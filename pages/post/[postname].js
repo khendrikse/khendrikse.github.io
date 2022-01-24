@@ -1,3 +1,5 @@
+/* eslint-disable global-require */
+/* eslint-disable import/no-dynamic-require */
 import PropTypes from 'prop-types';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
@@ -9,6 +11,7 @@ import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 import Breadcrumbs from 'components/Breadcrumbs';
+import { useEffect, useState } from 'react';
 
 export default function BlogPost({
   siteTitle,
@@ -19,10 +22,26 @@ export default function BlogPost({
 }) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
+  const [image, setImage] = useState(null);
+
+  useEffect(() => {
+    const src = require(`images/${frontmatter.cover_image}`);
+    const newImage = new Image();
+    newImage.src = src;
+    newImage.onload = () => {
+      setImage(newImage.src);
+    };
+  }, []);
 
   return (
     <Layout
-      pageTitle={`${siteTitle} | ${frontmatter.title}`}
+      socialMeta={{
+        url: `post/${slug}`,
+        image,
+        imageAlt: frontmatter.cover_image_alt,
+        type: 'article',
+        title: `${frontmatter.title} | ${siteTitle}`
+      }}
       breadcrumbs={[
         { name: 'blog', item: 'blog/' },
         { name: frontmatter.title, item: `post/${slug}` }
