@@ -11,27 +11,18 @@ import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 import Breadcrumbs from 'components/Breadcrumbs';
-import { useEffect, useState } from 'react';
+import isExternalImage from 'helpers/is-external-image';
 
 export default function BlogPost({
   siteTitle,
   frontmatter,
   markdownBody,
   date,
-  slug
+  slug,
+  image
 }) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
-  const [image, setImage] = useState(null);
-
-  useEffect(() => {
-    const src = require(`images/${frontmatter.cover_image}`);
-    const newImage = new Image();
-    newImage.src = src;
-    newImage.onload = () => {
-      setImage(newImage.src);
-    };
-  }, []);
 
   return (
     <Layout
@@ -110,23 +101,32 @@ BlogPost.propTypes = {
   frontmatter: PropTypes.object,
   markdownBody: PropTypes.string,
   date: PropTypes.array,
-  slug: PropTypes.string
+  slug: PropTypes.string,
+  image: PropTypes.string
 };
 
 export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
-
   const content = await import(`../../posts/${postname}.md`);
   const config = await import('../../siteconfig.json');
   const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
+  let image = data.data.cover_image || null;
+
+  if (image && !isExternalImage(image)) {
+    const src = require(`images/${data.data.cover_image}`);
+
+    image = 'https://khendrikse.github.io'.concat(src.src);
+  }
+
   return {
     props: {
       siteTitle: config.title,
       frontmatter: data.data,
       markdownBody: data.content,
       date,
-      slug: postname
+      slug: postname,
+      image
     }
   };
 }
