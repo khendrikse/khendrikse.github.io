@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Mon, 24 Jan 2022 20:28:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Jan 2022 16:18:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -826,16 +826,14 @@ With npm it it the same as before, but we just go to the folder of our package a
 <p>If you just want to get your solution, feel free to use this setup inside your <code>gatsby-config.js</code> to set any security header you want. This example shows how you could set the <code>X-Frame-Options</code> HTTP response header to DENY.</p>
 <pre><code class="js language-js">// gatsby-config.js
 
-const { createProxyMiddleware } = require("http-proxy-middleware")
-
 module.exports = {
   developMiddleware: app =&gt; {
-     app.use((req, res, next) =&gt; {
+    app.use((req, res, next) =&gt; {
       res.set('X-Frame-Options', 'DENY');
       next();
     });
-  },
-}
+  }
+};
 </code></pre>
 <h2 id="letsbreakitdown">Let's break it down</h2>
 <p>First we make sure we actually have a <code>gatsby-config.js</code> file. This file should be in the root of your Gatsby project and it can contain a bunch of different information. If you want to know more about this file, check out <a href="https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/">Gatsby's own docs</a>.</p>
@@ -843,7 +841,7 @@ module.exports = {
 
 module.exports = {
   // an empty config file!
-}
+};
 </code></pre>
 <h3 id="usingdevelopmiddleware">Using developMiddleware</h3>
 <p>To expose Express.js we use the configuration key called <code>developMiddleware</code>. We pass it a function that takes a parameter called <code>app</code>. We can use that to <a href="https://expressjs.com/en/guide/using-middleware.html">add middleware</a> to Express.js.</p>
@@ -852,12 +850,12 @@ module.exports = {
 
 module.exports = {
   developMiddleware: app =&gt; {
-     app.use((req, res, next) =&gt; {
+    app.use((req, res, next) =&gt; {
       res.set('X-Frame-Options', 'DENY');
       next();
     });
-  },
-}
+  }
+};
 </code></pre>
 <p>Done! You should now be able to run <code>gatsby develop</code> and see the proper security headers on the documents that it serves you. Make sure to restart your server if you already had it running though, otherwise the changes won't come through.</p>]]></content:encoded>
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
