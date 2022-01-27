@@ -10,7 +10,6 @@ import Layout from 'components/Layout';
 import headerColor from 'helpers/post-header';
 import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
-import Breadcrumbs from 'components/Breadcrumbs';
 import isExternalImage from 'helpers/is-external-image';
 import generateArticleStructuredData from 'helpers/generate-article-structured-data';
 import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
@@ -66,12 +65,6 @@ export default function BlogPost({
         )}
         <div className='container'>
           <div className={styles.post__header__title}>
-            <Breadcrumbs
-              crumbs={[
-                { name: 'blog', href: '/blog' },
-                { name: frontmatter.title }
-              ]}
-            />
             <h2>{frontmatter.title}</h2>
             <div className={styles.post__date_label}>{date}</div>
           </div>
