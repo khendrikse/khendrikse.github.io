@@ -6,6 +6,13 @@ description: If, for any reason, you need to run gatsby develop and set security
 intro:
 cover_image: 2021-09-25.jpg
 cover_image_alt: a white cat napping
+faq:
+  [
+    {
+      question: 'How can I set security headers for the Gatsby Develop script?',
+      answer: "You can use Gatsby's developMiddleware in gatsby-config.js to set different headers on the response object"
+    }
+  ]
 ---
 
 Photo by [Henry & Co](https://unsplash.com/@hngstrm) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -19,16 +26,14 @@ If you just want to get your solution, feel free to use this setup inside your `
 ```js
 // gatsby-config.js
 
-const { createProxyMiddleware } = require("http-proxy-middleware")
-
 module.exports = {
   developMiddleware: app => {
-     app.use((req, res, next) => {
+    app.use((req, res, next) => {
       res.set('X-Frame-Options', 'DENY');
       next();
     });
-  },
-}
+  }
+};
 ```
 
 ## Let's break it down
@@ -40,7 +45,7 @@ First we make sure we actually have a `gatsby-config.js` file. This file should 
 
 module.exports = {
   // an empty config file!
-}
+};
 ```
 
 ### Using developMiddleware
@@ -54,12 +59,12 @@ We use `app.use()` and pass it a function that takes `req, res, next` parameters
 
 module.exports = {
   developMiddleware: app => {
-     app.use((req, res, next) => {
+    app.use((req, res, next) => {
       res.set('X-Frame-Options', 'DENY');
       next();
     });
-  },
-}
+  }
+};
 ```
 
 Done! You should now be able to run `gatsby develop` and see the proper security headers on the documents that it serves you. Make sure to restart your server if you already had it running though, otherwise the changes won't come through.

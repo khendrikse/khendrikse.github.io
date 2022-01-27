@@ -5,15 +5,27 @@ import generateSocialMeta from 'helpers/generate-social-meta';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-export default function Layout({ children, breadcrumbs, socialMeta }) {
+export default function Layout({
+  children,
+  breadcrumbs,
+  socialMeta,
+  structured
+}) {
   return (
     <>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
+        {structured &&
+          structured.filter(Boolean).map((content, i) => (
+            <script key={`ldjson-${i}`} type='application/ld+json'>
+              {content}
+            </script>
+          ))}
         <script type='application/ld+json'>
           {generateBreadcrumbs(breadcrumbs)}
         </script>
-        {generateSocialMeta(socialMeta)}i
+
+        {generateSocialMeta(socialMeta)}
       </Head>
       <div className='wrapper'>
         <section className='layout'>
@@ -39,5 +51,6 @@ Layout.propTypes = {
     imageAlt: PropTypes.string,
     type: PropTypes.string,
     url: PropTypes.string
-  })
+  }),
+  structured: PropTypes.array
 };
