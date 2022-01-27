@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Thu, 27 Jan 2022 16:18:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Jan 2022 17:33:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -776,6 +776,7 @@ With npm it it the same as before, but we just go to the folder of our package a
             <link>https://khendrikse.github.io/post/2021-08-17-9-cozy-vim-color-schemes</link>
             <guid>https://khendrikse.github.io/post/2021-08-17-9-cozy-vim-color-schemes</guid>
             <pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A list of very cozy vim color schemes.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@joyfulcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyful</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <h3 id="1989httpsgithubcomsonjapeterson1989vim"><a href="https://github.com/sonjapeterson/1989.vim">1989</a></h3>
 <p>If you are a big Taylor Swift fan… Well then don't look any longer! Here she is! This Taylor Swift themed color scheme <a href="https://github.com/sonjapeterson/1989.vim">1989</a> is cute… it's pastel… there are gorgeous pinks, purples and yellows on a soft grey background. I'd say: It takes this way too far, and it'll leave you breathless.</p>
