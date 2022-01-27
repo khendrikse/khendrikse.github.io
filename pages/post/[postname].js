@@ -12,6 +12,8 @@ import styles from 'styles/post.module.scss';
 import ProgressiveImage from 'components/ProgressiveImage';
 import Breadcrumbs from 'components/Breadcrumbs';
 import isExternalImage from 'helpers/is-external-image';
+import generateArticleStructuredData from 'helpers/generate-article-structured-data';
+import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
 
 export default function BlogPost({
   siteTitle,
@@ -31,11 +33,22 @@ export default function BlogPost({
         image,
         imageAlt: frontmatter.cover_image_alt,
         type: 'article',
-        title: `${frontmatter.title} | ${siteTitle}`
+        title: `${frontmatter.title} | ${siteTitle}`,
+        description: frontmatter.description
       }}
       breadcrumbs={[
         { name: 'blog', item: 'blog/' },
         { name: frontmatter.title, item: `post/${slug}` }
+      ]}
+      structured={[
+        generateFaqStructuredData(frontmatter.faq),
+        generateArticleStructuredData({
+          title: frontmatter.title,
+          slug,
+          description: frontmatter.description,
+          image,
+          date
+        })
       ]}
     >
       <article className={styles.post}>
