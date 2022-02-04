@@ -3,7 +3,7 @@ layout: post
 title: Personalize your Linux terminal prompt ✨
 published: true
 description: Add your own personal touch to your Linux terminal when you're not using a GUI.
-tags: #linux #beginners
+tags: #linux #beginner
 intro: If you're just as much of a fan of personalizing your coding environment as I am, you must have been just as bummed out when you ran your Linux environment without a GUI and found out there was no real 'theming' going on in your terminal. No worries, there is hope!
 
 ---

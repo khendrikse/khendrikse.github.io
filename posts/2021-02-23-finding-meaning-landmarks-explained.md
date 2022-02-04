@@ -4,7 +4,7 @@ title: 'Finding meaning: landmarks explained'
 published: true
 description: Learning more about HTML5 elements and their landmarks
 intro: Have you ever done a semantic html course? Or read about it? If you have, you might remember elements like <main>, <section> or maybe <aside>. But did you know that using these elements does not automatically provide the proper semantic meaning? Let's go on a journey of creating meaningful landmarks.
-tags: accessibility, html, a11y
+tags: accessibility, html
 cover_image: 2021-02-23.jpg
 cover_image_alt: Two feet in the middle of a circle on the street that says you are here.
 ---
