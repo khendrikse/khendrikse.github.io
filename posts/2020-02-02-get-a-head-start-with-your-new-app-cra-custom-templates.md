@@ -3,7 +3,7 @@ layout: post
 title: Get a head start with your new app - CRA custom templates
 published: true
 description: Let's take a look at Create React App's custom templates
-tags: #react #javascript #npm #beginners
+tags: #react #javascript #npm #beginner
 intro: Create React App (CRA) already increases the speed of getting a new React app up and running. You run one script and it creates a functioning React app that you can start working on. With Custom Templates things have become even easier. In this post, we're going to discover what goes into creating a custom template.
 
 ---

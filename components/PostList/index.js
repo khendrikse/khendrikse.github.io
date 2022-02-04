@@ -2,15 +2,17 @@ import PropTypes from 'prop-types';
 import PostItem from 'components/PostItem';
 import styles from './post-list.module.scss';
 
-export default function PostList({ posts, max }) {
+export default function PostList({ posts, max, filter }) {
   if (posts === 'undefined') return null;
-
+  const filteredPosts = filter
+    ? posts.filter(post => post.frontmatter?.tags?.includes(filter))
+    : posts;
   return (
     <div>
-      {!posts && <div>No posts!</div>}
+      {!filteredPosts && <div>No posts!</div>}
       <ul className={styles.post_list}>
-        {posts &&
-          posts.map((post, i) => {
+        {filteredPosts &&
+          filteredPosts.map((post, i) => {
             if (i > max - 1) return null;
             return <PostItem key={post.slug} item={post} />;
           })}

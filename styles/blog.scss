@@ -3,3 +3,29 @@
 .blog {
   margin-bottom: 48px;
 }
+
+.tags {
+  a {
+    font-size: 14px;
+    display: inline;
+    background-color: $pastel-yellow;
+    padding: 8px;
+    margin: 2px;
+    color: black;
+    font-weight: bold;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .active {
+    background-color: palegoldenrod;
+
+    @media (prefers-color-scheme: dark) {
+      background-color: $pastel-dark-purple;
+      color: white;
+    }
+  }
+}
