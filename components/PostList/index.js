@@ -23,5 +23,6 @@ export default function PostList({ posts, max, filter }) {
 
 PostList.propTypes = {
   posts: PropTypes.array,
-  max: PropTypes.number
+  max: PropTypes.number,
+  filter: PropTypes.string
 };
