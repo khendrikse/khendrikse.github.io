@@ -12,14 +12,12 @@ export default function PostItem({ item }) {
         </div>
         <h2 className={styles.post_item__title}>
           <Link href={`/post/${item.slug}`}>
-            <a className={styles.post_item__title__link}>
-              {item.frontmatter.title}
-            </a>
+            <a className={styles.post_item__title__link}>{item.title}</a>
           </Link>
         </h2>
       </div>
       <div className={styles.post_item__content}>
-        {item.frontmatter.intro || item.frontmatter.description}
+        {item.intro || item.description}
       </div>
     </li>
   );

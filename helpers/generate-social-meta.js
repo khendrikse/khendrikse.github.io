@@ -74,7 +74,7 @@ const generateSocialMeta = data => {
   };
   return Object.entries(withDefault)
     .filter(([key]) => META_TAG_TYPES[key])
-    .filter(([key, value]) => Boolean(value))
+    .filter(([, value]) => Boolean(value))
     .map(([key, value]) => META_TAG_TYPES[key](value));
 };
 
