@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const showdown = require('showdown');
 const { Feed } = require('feed');
-const getDateFromString = require('../helpers/get-date-from-string');
 
 const root = process.cwd();
 
@@ -45,7 +44,7 @@ const parsePostData = (data, filename) => {
     ...data.data,
     content: data.content,
     filename,
-    date: new Date(getDateFromString(filename)[0]),
+    date: new Date(data.date),
     image: getImageFileName(data.data.cover_image),
     link,
     id: link

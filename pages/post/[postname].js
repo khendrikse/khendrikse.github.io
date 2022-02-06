@@ -116,7 +116,10 @@ BlogPost.propTypes = {
 
 export async function getStaticProps({ ...ctx }) {
   const { postname } = ctx.params;
-  const content = await import(`../../posts/${postname}.md`);
+  const slug = postname
+    .replace(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g, '')
+    .substring(1);
+  const content = await import(`../../posts/${slug}.md`);
   const config = await import('../../siteconfig.json');
   const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
@@ -134,7 +137,7 @@ export async function getStaticProps({ ...ctx }) {
       frontmatter: data.data,
       markdownBody: data.content,
       date,
-      slug: postname,
+      slug,
       image
     }
   };
@@ -145,7 +148,7 @@ export async function getStaticPaths() {
     require.context('../../posts', true, /\.\/.*\.md$/)
   )
     .filter(post => post.oldBlog)
-    .map(post => post.slug);
+    .map(post => post.date.concat('-', post.slug));
 
   const paths = allPosts.map(slug => `/post/${slug}`);
 

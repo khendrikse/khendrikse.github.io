@@ -7,14 +7,13 @@ const parsePosts = context => {
   const data = keys
     .map((key, index) => {
       const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
-      const date = slug.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
       const value = values[index];
       const document = matter(value.default);
+
       return {
         ...document.data,
         markdownBody: document.content,
-        slug,
-        date
+        slug
       };
     })
     .sort((a, b) => new Date(b.date) - new Date(a.date))
