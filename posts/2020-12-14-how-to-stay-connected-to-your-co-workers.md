@@ -2,6 +2,7 @@
 layout: post
 title: How to stay connected to your co-workers
 published: true
+oldBlog: true
 description: Staying connected in a work-from-home world
 intro: Let’s be honest, every post nowadays starts with how weird 2020 has been. So I am doing the same; it’s been weird. There. Having been working from home full-time since March, it has been both a productivity booster and an isolating experience. Especially in the beginning.
 tags: productivity, career, watercooler, remote

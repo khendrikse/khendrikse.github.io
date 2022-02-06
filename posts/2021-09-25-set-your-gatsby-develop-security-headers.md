@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'TIL: How to set security headers for Gatsby Develop'
-published: false
+published: true
+oldBlog: true
 description: If, for any reason, you need to run gatsby develop and set security headers. Using advanced proxying is the way to go.
 intro:
 cover_image: 2021-09-25.jpg

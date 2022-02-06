@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 'Get to know the terminal'
-published: false
+published: true
+oldBlog: true
 description: Learn to understand the difference between the terminal, command line and shell. And become more comfortable using them.
 intro: Once you start coding there will come a time you are introduced to the terminal. Opening this hacker looking window on your computer can be daunting at first. But things become less scary once we get to know the terminal better.
 cover_image: 2021-08-16.jpg

@@ -9,7 +9,9 @@ export default function Layout({
   children,
   breadcrumbs,
   socialMeta,
-  structured
+  structured,
+  canonical,
+  refreshUrl
 }) {
   return (
     <>
@@ -21,6 +23,18 @@ export default function Layout({
               {content}
             </script>
           ))}
+        {refreshUrl && (
+          <meta
+            httpEquiv='refresh'
+            content={`2;url=https://khendrikse.github.io/${refreshUrl}`}
+          />
+        )}
+        {canonical && (
+          <link
+            rel='canonical'
+            href={`https://khendrikse.github.io/${canonical}`}
+          />
+        )}
         <script type='application/ld+json'>
           {generateBreadcrumbs(breadcrumbs)}
         </script>
@@ -52,5 +66,6 @@ Layout.propTypes = {
     type: PropTypes.string,
     url: PropTypes.string
   }),
-  structured: PropTypes.array
+  structured: PropTypes.array,
+  canonical: PropTypes.string
 };

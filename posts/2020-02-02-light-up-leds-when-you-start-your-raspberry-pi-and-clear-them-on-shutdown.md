@@ -2,6 +2,7 @@
 layout: post
 title: Light up LEDs when you start your Raspberry Pi and clear them on shutdown
 published: true
+oldBlog: true
 description: Set up your Pimoroni Blinkt so it automatically turns on and off when you start-up or shut down your Raspberry Pi.
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/5o1drx3yby1z853rjm8d.JPG
 cover_image_alt: a raspberry pi with blue and purple LEDs lighting up

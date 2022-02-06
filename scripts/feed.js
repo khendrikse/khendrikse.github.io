@@ -37,7 +37,7 @@ const getImageFileName = filename => {
 };
 
 const parsePostData = (data, filename) => {
-  const link = `https://khendrikse.github.io/post/${filename.replace(
+  const link = `https://khendrikse.github.io/blog/${filename.replace(
     '.md',
     ''
   )}`;

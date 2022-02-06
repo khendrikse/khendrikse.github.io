@@ -2,6 +2,7 @@
 layout: post
 title: Test global npm packages in a quick and easy way
 published: true
+oldBlog: true
 description: A quick guide on testing out local global npm packages line using npm or yarn.
 intro: You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are  working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.
 tags: beginner, javascript, npm, yarn

@@ -2,6 +2,7 @@
 layout: post
 title: Beautify your Raspberry Pi with the Pimoroni Blinkt!
 published: true
+oldBlog: true
 description: Make your Raspberry Pi shine in blue and purple colors.
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/jwk9ue7pvtuj151srtod.JPG
 cover_image_alt: a raspberry pi with shining LED lights
