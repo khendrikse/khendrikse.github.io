@@ -4,15 +4,15 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Sun, 06 Feb 2022 10:07:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Feb 2022 14:27:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>All rights reserved 2022, Karin Hendrikse</copyright>
         <item>
             <title><![CDATA[Awesome soft, airy and fluffy VSC themes]]></title>
-            <link>https://khendrikse.github.io/post/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</link>
-            <guid>https://khendrikse.github.io/post/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</guid>
+            <link>https://khendrikse.github.io/blog/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</link>
+            <guid>https://khendrikse.github.io/blog/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</guid>
             <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[These themes will lift you off for cozy coding.]]></description>
             <content:encoded><![CDATA[<h2 id="1noctishttpsmarketplacevisualstudiocomitemsitemnameliviuscheranoctis"><strong>1. <a href="https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis">Noctis</a></strong></h2>
@@ -44,8 +44,8 @@
         </item>
         <item>
             <title><![CDATA[How to get ready for Hacktoberfest ✨]]></title>
-            <link>https://khendrikse.github.io/post/2019-09-19-how-to-get-ready-for-hacktoberfest</link>
-            <guid>https://khendrikse.github.io/post/2019-09-19-how-to-get-ready-for-hacktoberfest</guid>
+            <link>https://khendrikse.github.io/blog/2019-09-19-how-to-get-ready-for-hacktoberfest</link>
+            <guid>https://khendrikse.github.io/blog/2019-09-19-how-to-get-ready-for-hacktoberfest</guid>
             <pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[5 Tips to get you ready for coding]]></description>
             <content:encoded><![CDATA[<p><em>No idea what Hacktoberfest is? Check <a href="https://hacktoberfest.digitalocean.com/">the official website</a> for information about the event and how to participate.</em></p>
@@ -70,8 +70,8 @@ Hacktoberfest is an awesome event for any beginner to start looking into open so
         </item>
         <item>
             <title><![CDATA[Coding with a group of 11 year olds]]></title>
-            <link>https://khendrikse.github.io/post/2019-10-07-coding-with-a-group-of-11-year-olds</link>
-            <guid>https://khendrikse.github.io/post/2019-10-07-coding-with-a-group-of-11-year-olds</guid>
+            <link>https://khendrikse.github.io/blog/2019-10-07-coding-with-a-group-of-11-year-olds</link>
+            <guid>https://khendrikse.github.io/blog/2019-10-07-coding-with-a-group-of-11-year-olds</guid>
             <pubDate>Mon, 07 Oct 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Get them 'hacking' their favourite websites]]></description>
             <content:encoded><![CDATA[<h2 id="gettoknowwhattheylove">Get to know what they love</h2>
@@ -106,8 +106,8 @@ Hacktoberfest is an awesome event for any beginner to start looking into open so
         </item>
         <item>
             <title><![CDATA[Beautify your Raspberry Pi with the Pimoroni Blinkt!]]></title>
-            <link>https://khendrikse.github.io/post/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
-            <guid>https://khendrikse.github.io/post/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
+            <link>https://khendrikse.github.io/blog/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
+            <guid>https://khendrikse.github.io/blog/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
             <pubDate>Sun, 26 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Make your Raspberry Pi shine in blue and purple colors.]]></description>
             <content:encoded><![CDATA[<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q06jxjljnvamg81gclj0.gif" alt="LEDs light up inside a Raspberry Pi" /></p>
@@ -180,8 +180,8 @@ except KeyboardInterrupt:
         </item>
         <item>
             <title><![CDATA[Get a head start with your new app - CRA custom templates]]></title>
-            <link>https://khendrikse.github.io/post/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</link>
-            <guid>https://khendrikse.github.io/post/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</guid>
+            <link>https://khendrikse.github.io/blog/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</link>
+            <guid>https://khendrikse.github.io/blog/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</guid>
             <pubDate>Sun, 02 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Let's take a look at Create React App's custom templates]]></description>
             <content:encoded><![CDATA[<p>Custom templates became available with <code>react-scripts@3.3.0</code>. They make it possible to predefine exactly what you want CRA's output to be. For example, maybe you want a few basic components ready, have some dependencies or scripts pre-installed in your <code>package.json</code> or add some config files for ESlint or Prettier.</p>
@@ -226,8 +226,8 @@ except KeyboardInterrupt:
         </item>
         <item>
             <title><![CDATA[Light up LEDs when you start your Raspberry Pi and clear them on shutdown]]></title>
-            <link>https://khendrikse.github.io/post/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
-            <guid>https://khendrikse.github.io/post/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
+            <link>https://khendrikse.github.io/blog/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
+            <guid>https://khendrikse.github.io/blog/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
             <pubDate>Sun, 02 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Set up your Pimoroni Blinkt so it automatically turns on and off when you start-up or shut down your Raspberry Pi.]]></description>
             <content:encoded><![CDATA[<p><em>You can actually use the techniques in this tutorial for any other script or board.</em></p>
@@ -287,8 +287,8 @@ signal.signal(signal.SIGTERM, clear_leds)
         </item>
         <item>
             <title><![CDATA[Personalize your Linux terminal prompt ✨]]></title>
-            <link>https://khendrikse.github.io/post/2020-02-17-personalize-your-Linux-terminal-prompt</link>
-            <guid>https://khendrikse.github.io/post/2020-02-17-personalize-your-Linux-terminal-prompt</guid>
+            <link>https://khendrikse.github.io/blog/2020-02-17-personalize-your-Linux-terminal-prompt</link>
+            <guid>https://khendrikse.github.io/blog/2020-02-17-personalize-your-Linux-terminal-prompt</guid>
             <pubDate>Mon, 17 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Add your own personal touch to your Linux terminal when you're not using a GUI.]]></description>
             <content:encoded><![CDATA[<p>In this blog, I'll explain how you can change the terminal's prompt to look just the way you want to.</p>
@@ -377,8 +377,8 @@ signal.signal(signal.SIGTERM, clear_leds)
         </item>
         <item>
             <title><![CDATA[Redirection and pipeline magic]]></title>
-            <link>https://khendrikse.github.io/post/2020-05-11-redirection-and-pipeline-magic</link>
-            <guid>https://khendrikse.github.io/post/2020-05-11-redirection-and-pipeline-magic</guid>
+            <link>https://khendrikse.github.io/blog/2020-05-11-redirection-and-pipeline-magic</link>
+            <guid>https://khendrikse.github.io/blog/2020-05-11-redirection-and-pipeline-magic</guid>
             <pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[For when you don't feel like diving deep into bash but do want to know what redirection is when you see it.]]></description>
             <content:encoded><![CDATA[<h2 id="redirection">Redirection</h2>
@@ -450,8 +450,8 @@ wombat
         </item>
         <item>
             <title><![CDATA[The basics of a function, illustrated! ✨]]></title>
-            <link>https://khendrikse.github.io/post/2020-05-21-The-basics-of-a-function-illustrated</link>
-            <guid>https://khendrikse.github.io/post/2020-05-21-The-basics-of-a-function-illustrated</guid>
+            <link>https://khendrikse.github.io/blog/2020-05-21-The-basics-of-a-function-illustrated</link>
+            <guid>https://khendrikse.github.io/blog/2020-05-21-The-basics-of-a-function-illustrated</guid>
             <pubDate>Thu, 21 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Learn about JavaScript functions with a simple metaphor.]]></description>
             <content:encoded><![CDATA[<h2 id="whatisafunction">What is a function</h2>
@@ -517,8 +517,8 @@ function plusTwoApples(numberOfApples) {
         </item>
         <item>
             <title><![CDATA[Test global npm packages in a quick and easy way]]></title>
-            <link>https://khendrikse.github.io/post/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</link>
-            <guid>https://khendrikse.github.io/post/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</guid>
+            <link>https://khendrikse.github.io/blog/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</link>
+            <guid>https://khendrikse.github.io/blog/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</guid>
             <pubDate>Tue, 16 Jun 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[A quick guide on testing out local global npm packages line using npm or yarn.]]></description>
             <content:encoded><![CDATA[<h2 id="howdoyoulinkprojects">How do you link projects?</h2>
@@ -608,8 +608,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[How to stay connected to your co-workers]]></title>
-            <link>https://khendrikse.github.io/post/2020-12-14-how-to-stay-connected-to-your-co-workers</link>
-            <guid>https://khendrikse.github.io/post/2020-12-14-how-to-stay-connected-to-your-co-workers</guid>
+            <link>https://khendrikse.github.io/blog/2020-12-14-how-to-stay-connected-to-your-co-workers</link>
+            <guid>https://khendrikse.github.io/blog/2020-12-14-how-to-stay-connected-to-your-co-workers</guid>
             <pubDate>Mon, 14 Dec 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[Staying connected in a work-from-home world]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DJ Johnson</a> on <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
@@ -650,8 +650,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[Finding meaning: landmarks explained]]></title>
-            <link>https://khendrikse.github.io/post/2021-02-23-finding-meaning-landmarks-explained</link>
-            <guid>https://khendrikse.github.io/post/2021-02-23-finding-meaning-landmarks-explained</guid>
+            <link>https://khendrikse.github.io/blog/2021-02-23-finding-meaning-landmarks-explained</link>
+            <guid>https://khendrikse.github.io/blog/2021-02-23-finding-meaning-landmarks-explained</guid>
             <pubDate>Tue, 23 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Learning more about HTML5 elements and their landmarks]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@fallonmichaeltx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fallon Michael</a> on <a href="https://unsplash.com/s/photos/you-are-here?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -706,8 +706,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[Using roadmap.sh for structured self-learning]]></title>
-            <link>https://khendrikse.github.io/post/2021-07-15-using-roadmapsh-for-structured-self-learning</link>
-            <guid>https://khendrikse.github.io/post/2021-07-15-using-roadmapsh-for-structured-self-learning</guid>
+            <link>https://khendrikse.github.io/blog/2021-07-15-using-roadmapsh-for-structured-self-learning</link>
+            <guid>https://khendrikse.github.io/blog/2021-07-15-using-roadmapsh-for-structured-self-learning</guid>
             <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.]]></description>
             <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -733,8 +733,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[Get to know the terminal]]></title>
-            <link>https://khendrikse.github.io/post/2021-08-16-get-to-know-the-terminal</link>
-            <guid>https://khendrikse.github.io/post/2021-08-16-get-to-know-the-terminal</guid>
+            <link>https://khendrikse.github.io/blog/2021-08-16-get-to-know-the-terminal</link>
+            <guid>https://khendrikse.github.io/blog/2021-08-16-get-to-know-the-terminal</guid>
             <pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Learn to understand the difference between the terminal, command line and shell. And become more comfortable using them.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -773,8 +773,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[9 Cozy Vim color schemes]]></title>
-            <link>https://khendrikse.github.io/post/2021-08-17-9-cozy-vim-color-schemes</link>
-            <guid>https://khendrikse.github.io/post/2021-08-17-9-cozy-vim-color-schemes</guid>
+            <link>https://khendrikse.github.io/blog/2021-08-17-9-cozy-vim-color-schemes</link>
+            <guid>https://khendrikse.github.io/blog/2021-08-17-9-cozy-vim-color-schemes</guid>
             <pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[A list of very cozy vim color schemes.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@joyfulcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyful</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -817,8 +817,8 @@ With npm it it the same as before, but we just go to the folder of our package a
         </item>
         <item>
             <title><![CDATA[TIL: How to set security headers for Gatsby Develop]]></title>
-            <link>https://khendrikse.github.io/post/2021-09-25-set-your-gatsby-develop-security-headers</link>
-            <guid>https://khendrikse.github.io/post/2021-09-25-set-your-gatsby-develop-security-headers</guid>
+            <link>https://khendrikse.github.io/blog/2021-09-25-set-your-gatsby-develop-security-headers</link>
+            <guid>https://khendrikse.github.io/blog/2021-09-25-set-your-gatsby-develop-security-headers</guid>
             <pubDate>Sat, 25 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[If, for any reason, you need to run gatsby develop and set security headers. Using advanced proxying is the way to go.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@hngstrm">Henry & Co</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
