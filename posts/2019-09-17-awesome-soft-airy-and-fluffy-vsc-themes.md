@@ -2,6 +2,7 @@
 layout: post
 title: Awesome soft, airy and fluffy VSC themes
 published: true
+oldBlog: true
 description: These themes will lift you off for cozy coding.
 tags: theme, vsc, pastel, productivity
 intro: When coding I sometimes feel the need to change the aesthetics of my workspace. Why? I don't know. Maybe because it gives me a fresh look at my code. Maybe because with the seasons changing, I feel the need to lighten or darken my workspace colours. Either way, for those searching for something airy and new. Here is a list of wonderful Visual Studio Code themes that have a cozy, soft or fluffy aesthetic.

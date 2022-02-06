@@ -2,6 +2,7 @@
 layout: post
 title: 'Finding meaning: landmarks explained'
 published: true
+oldBlog: true
 description: Learning more about HTML5 elements and their landmarks
 intro: Have you ever done a semantic html course? Or read about it? If you have, you might remember elements like <main>, <section> or maybe <aside>. But did you know that using these elements does not automatically provide the proper semantic meaning? Let's go on a journey of creating meaningful landmarks.
 tags: accessibility, html

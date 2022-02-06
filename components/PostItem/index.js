@@ -11,7 +11,7 @@ export default function PostItem({ item }) {
           {new Date(item.date).toDateString()}
         </div>
         <h2 className={styles.post_item__title}>
-          <Link href={`/post/${item.slug}`}>
+          <Link href={`/blog/${item.slug}`}>
             <a className={styles.post_item__title__link}>{item.title}</a>
           </Link>
         </h2>

@@ -13,6 +13,7 @@ import ProgressiveImage from 'components/ProgressiveImage';
 import isExternalImage from 'helpers/is-external-image';
 import generateArticleStructuredData from 'helpers/generate-article-structured-data';
 import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
+import parsePosts from '../../helpers/parse-posts';
 
 export default function BlogPost({
   siteTitle,
@@ -35,10 +36,12 @@ export default function BlogPost({
         title: `${frontmatter.title} | ${siteTitle}`,
         description: frontmatter.description
       }}
+      canonical={`blog/${slug}`}
       breadcrumbs={[
         { name: 'blog', item: 'blog/' },
         { name: frontmatter.title, item: `post/${slug}` }
       ]}
+      refreshUrl={`blog/${slug}`}
       structured={[
         generateFaqStructuredData(frontmatter.faq),
         generateArticleStructuredData({
@@ -138,18 +141,13 @@ export async function getStaticProps({ ...ctx }) {
 }
 
 export async function getStaticPaths() {
-  const blogSlugs = (context => {
-    const keys = context.keys();
-    const data = keys.map(key => {
-      const slug = key.replace(/^.*[\\/]/, '').slice(0, -3);
+  const allPosts = parsePosts(
+    require.context('../../posts', true, /\.\/.*\.md$/)
+  )
+    .filter(post => post.oldBlog)
+    .map(post => post.slug);
 
-      return slug;
-    });
-
-    return data;
-  })(require.context('../../posts', true, /\.\/.*\.md$/));
-
-  const paths = blogSlugs.map(slug => `/post/${slug}`);
+  const paths = allPosts.map(slug => `/post/${slug}`);
 
   return {
     paths,
