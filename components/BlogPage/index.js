@@ -18,7 +18,7 @@ const BlogPage = ({
         {categories.map(category => (
           <Link
             key={category}
-            href={category === currentCategory ? '/blog' : `/blog/${category}`}
+            href={category === currentCategory ? '/blog' : `/blog/category/${category}`}
           >
             <a className={category === currentCategory ? 'active' : ''}>
               {category}

@@ -15,11 +15,11 @@ const Index = props => (
     {...props}
     socialMeta={{
       ...socialMeta,
-      url: `blog/${props.currentCategory}`,
+      url: `blog/category/${props.currentCategory}`,
       description: `Blog about ${props.currentCategory}`,
       title: props.title
     }}
-    breadcrumbs={[{ name: 'blog', item: `blog/${props.currentCategory}` }]}
+    breadcrumbs={[{ name: 'blog', item: `blog/category/${props.currentCategory}` }]}
   />
 );
 
@@ -33,13 +33,13 @@ export default Index;
 export async function getStaticProps({ ...ctx }) {
   const { categoryname } = ctx.params;
   const allPosts = parsePosts(
-    require.context('../../posts', true, /\.\/.*\.md$/)
+    require.context('../../../posts', true, /\.\/.*\.md$/)
   );
 
   const categories = getCategories(allPosts);
   const posts = allPosts.filter(post => post?.tags?.includes(categoryname));
 
-  const config = await import('../../siteconfig.json');
+  const config = await import('../../../siteconfig.json');
 
   return {
     props: {
@@ -56,14 +56,14 @@ export async function getStaticPaths() {
     const keys = context.keys();
     const data = keys
       .map(key => key.replace(/^.*[\\/]/, '').slice(0, -3))
-      .map(key => import(`../../posts/${key}.md`));
+      .map(key => import(`../../../posts/${key}.md`));
 
     const allPosts = await Promise.all(data);
     return allPosts.map(post => matter(post.default).data);
-  })(require.context('../../posts', true, /\.\/.*\.md$/));
+  })(require.context('../../../posts', true, /\.\/.*\.md$/));
   const categorySlugs = getCategories(posts);
 
-  const paths = categorySlugs.map(slug => `/blog/${slug}`);
+  const paths = categorySlugs.map(slug => `/blog/category/${slug}`);
 
   return {
     paths,
