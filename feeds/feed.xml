@@ -4,522 +4,60 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Sun, 06 Feb 2022 14:27:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Feb 2022 15:00:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>All rights reserved 2022, Karin Hendrikse</copyright>
         <item>
-            <title><![CDATA[Awesome soft, airy and fluffy VSC themes]]></title>
-            <link>https://khendrikse.github.io/blog/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</link>
-            <guid>https://khendrikse.github.io/blog/2019-09-17-awesome-soft-airy-and-fluffy-vsc-themes</guid>
-            <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[These themes will lift you off for cozy coding.]]></description>
-            <content:encoded><![CDATA[<h2 id="1noctishttpsmarketplacevisualstudiocomitemsitemnameliviuscheranoctis"><strong>1. <a href="https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis">Noctis</a></strong></h2>
-<p>Noctis is a collection of light &amp; dark themes that have soft blends of colours with enough choice of different contrasts.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q17vuc93wq2sdk64tal0.png" alt="An image showing the Noctis Lilac theme" /></p>
-<p>I really like the different colour schemes of this theme. Enough choice between light and dark blends, but all of them have a very forgiving look that don't strain the eyes too much.</p>
-<h2 id="2horizonhttpsmarketplacevisualstudiocomitemsitemnamejolaleyehorizonthemevscode"><strong>2. <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">Horizon</a></strong></h2>
-<p>Horizon has six options to choose from, three light options and three dark options. My favourite is the Bright Bold one, because I like that contrast the best of all the light ones.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/buw9oo7000h4gfax47g4.png" alt="An image showing the Horizon Bright Bold theme" /></p>
-<h2 id="3fairyflosshttpsmarketplacevisualstudiocomitemsitemnamenopjmpfairyfloss"><strong>3. <a href="https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss">FairyFloss</a></strong></h2>
-<p>The FairyFloss theme truly is one of my favourites of the bunch. Wonderful for those purple fans who like the highly saturated <a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple">Shades of Purple</a> theme but want something a little more mellow.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/nytxwopueddx6y9vmfrn.png" alt="An image showing the FairyFloss theme" /></p>
-<h2 id="4softerahttpsmarketplacevisualstudiocomitemsitemnamesoftaestheticsofteratheme"><strong>4. <a href="https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme">Soft Era</a></strong></h2>
-<p>Are you willing to look at an almost white screen? Is that your thing? Then Soft Era must be the perfect theme for you. I have been using this theme mostly on days where I truly needed some more brightness in my life. But it has extremely low contrast so it is not highly productive for me.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/2iqv8bb69roaf3fza0t6.png" alt="An image showing the Soft Era theme" /></p>
-<h2 id="5pinkcatboohttpsmarketplacevisualstudiocomitemsitemnameftsamoyedthemepinkcatboo"><strong>5. <a href="https://marketplace.visualstudio.com/items?itemName=ftsamoyed.theme-pink-cat-boo">Pink Cat Boo</a></strong></h2>
-<p>Pink Cat Boo is a very soft pink/maroon dark theme for those who are searching for more rose like colours in their coding life. The theme description describes it as being perfect for 'coder girls' but let's be honest, anyone can rock this theme if they feel like it ❤️.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/4idq8mlyvrer3bl7vku4.png" alt="An image showing the Pink Cat Boo theme" /></p>
-<h2 id="6pastelpixelshttpsmarketplacevisualstudiocomitemsitemnamequangogagepastelpixels"><strong>6. <a href="https://marketplace.visualstudio.com/items?itemName=quangogage.pastel-pixels">Pastel-Pixels</a></strong></h2>
-<p>I mostly like the editor colours of this theme, but the sidebar and tab colours are a bit much for me for everyday use. But for those who don't care, maybe an awesome look for your editor!</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/zsntl0cqajthh44tl2wm.png" alt="An image showing the Pastel-Pixels theme" /></p>
-<h2 id="7pandasyntaxhttpsmarketplacevisualstudiocomitemsitemnametinkertrainthemepanda"><strong>7. <a href="https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda">Panda Syntax</a></strong></h2>
-<p>This has been my go-to dark theme for a year now. It has soft yet good-contrast colours and I have had many colleagues ask me which one it is.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/zpyb8cgvy5jfbi7326k2.png" alt="An image showing the Panda Syntax theme" /></p>
-<h2 id="8bearhttpsmarketplacevisualstudiocomitemsitemnamedahongthemebear"><strong>8. <a href="https://marketplace.visualstudio.com/items?itemName=dahong.theme-bear">Bear</a></strong></h2>
-<p>Bear is a single option dark theme with fall colours that are easy on the eyes.</p>
-<p><img src="https://thepracticaldev.s3.amazonaws.com/i/r8rx5fslqksnheveo8tz.png" alt="An image showing the Bear theme" /></p>
-<p>Hopefully this list might help you through the seasonal changes a bit more. What are your favourite themes? And why? Share them in the comments down below!</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to get ready for Hacktoberfest ✨]]></title>
-            <link>https://khendrikse.github.io/blog/2019-09-19-how-to-get-ready-for-hacktoberfest</link>
-            <guid>https://khendrikse.github.io/blog/2019-09-19-how-to-get-ready-for-hacktoberfest</guid>
-            <pubDate>Thu, 19 Sep 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[5 Tips to get you ready for coding]]></description>
-            <content:encoded><![CDATA[<p><em>No idea what Hacktoberfest is? Check <a href="https://hacktoberfest.digitalocean.com/">the official website</a> for information about the event and how to participate.</em></p>
-<h2 id="1readthefaq"><strong>1. 📚 Read the FAQ</strong></h2>
-<p>To understand how you can participate. Definitely read up on the  <a href="https://hacktoberfest.digitalocean.com/">official website</a> for information about the event and participation. They also have a great FAQ with tips and tricks that might help you out getting started in October.</p>
-<h2 id="2suppressthatimpostersyndrome"><strong>2. 💪 Suppress that imposter syndrome</strong></h2>
-<p>Contributing to projects you are not familiar with can be quite daunting. But: Hacktoberfest is a stage for anyone that wants to try out contributing to open source. Your contribution doesn't have to be perfect and it doesn't have to be big.</p>
-<p>This month is all about getting to know the open source community and becoming familiar with the process. Any valuable contribution counts. Improving documentation, picking up big or small issues, fixing bugs or adding new features are all an option. Even if you feel like you might not be able to do it, you are probably more than able. Still feeling insecure? Then maybe…</p>
-<h2 id="3getagroupofenthusiaststogether"><strong>3. 🍕 Get a group of enthusiasts together</strong></h2>
-<p>Why start join the event alone if you can get together for fun code evenings with friends or colleagues?</p>
-<p>Check if people around you might be interested to participate in the event and organise evenings or weekends where you chill out together and try your best at working on some PR's. It helps keep you motivated and provides a great excuse for pizza's and drinks!</p>
-<h2 id="4findprojectsyoulike"><strong>4. 🔍 Find projects you like</strong></h2>
-<p>Finding issues to work on can be tough during Hacktoberfest because loads of people jump on the chance to pick up an issue. That is why I recommend planning ahead a little bit. Maybe there is a project you use regularly in your daily job that you think could use some help? Documentation that can be improved for readability or a bug that needs fixing. Maybe you know someone who has a small open source project that they want more contributors for.</p>
-<p>Ask around with friends and check if there is anything that makes you motivated. Write down a list for yourself so you know where to start looking once the event starts.</p>
-<p>There is even <a href="https://github.com/search?utf8=%E2%9C%93&q=label%3Ahacktoberfest&type=Issues&ref=advsearch&l=&l=">a special Hacktoberfest label</a> people can add to their project's issues to let others know they are open to new contributors. This can help you find something to work on.</p>
-<h2 id="5blocktimeinyourcalendar"><strong>5. 📅 Block time in your calendar</strong></h2>
-<p>If you really want to contribute something valuable or fun, create time in your busy schedule to start coding. This will make it easier to find the time to work on something fun.</p>
-<p><em>These are my tips to get ready for Hacktoberfest! Got tips or tricks? Share them in the comments!</em></p>
-<p><strong>🍴 Extra beginner tip: learn how to fork a project</strong>
-Hacktoberfest is an awesome event for any beginner to start looking into open source contribution. Something I really needed to look into myself when I first started out is forking a project, and seeing how to keep your fork updated with the original one. So if you have no experience with that yet, maybe read <a href="https://help.github.com/en/articles/fork-a-repo">this awesome guide</a>.</p>]]></content:encoded>
-            <enclosure url="https://thepracticaldev.s3.amazonaws.com/i/jq4249imytytcvw3ewpg.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Coding with a group of 11 year olds]]></title>
-            <link>https://khendrikse.github.io/blog/2019-10-07-coding-with-a-group-of-11-year-olds</link>
-            <guid>https://khendrikse.github.io/blog/2019-10-07-coding-with-a-group-of-11-year-olds</guid>
-            <pubDate>Mon, 07 Oct 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Get them 'hacking' their favourite websites]]></description>
-            <content:encoded><![CDATA[<h2 id="gettoknowwhattheylove">Get to know what they love</h2>
-<p>Our goal was to stay as close to their own interests as possible. So with a little bit of research we discovered that these kids really loved to use mobile phones and consoles outside of school. Generally most of them knew and used apps like TikTok, SnapChat and WhatsApp, they regularly visited YouTube for watching videos and some of the kids played Minecraft or Fortnite at home.</p>
-<h2 id="makeitinteractive">Make it interactive</h2>
-<p>To keep them engaged we used <a href="https://kahoot.com/">Kahoot</a>. We wanted to switch between our (giphy-filled) slides and the Kahoot to ask them a few questions now and then about what we were talking about. When we actually had the lesson we decided to first just do all of the questions with Kahoot, talk a little about the answers and then dive deeper into them after the quiz. The kids really liked the quiz and already knew how it worked.</p>
-<p><em>Tip:</em> make them understand that it is okay if they didn't get the answer. We also need to google most of what we do when we code.</p>
-<h2 id="explainprogramming">Explain programming</h2>
-<p>As we only had 1,5 hours, we talked about a few basic things:</p>
+            <title><![CDATA[9 Cozy Vim color schemes]]></title>
+            <link>https://khendrikse.github.io/blog/9-cozy-vim-color-schemes</link>
+            <guid>https://khendrikse.github.io/blog/9-cozy-vim-color-schemes</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[A list of very cozy vim color schemes.]]></description>
+            <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@joyfulcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyful</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<h3 id="1989httpsgithubcomsonjapeterson1989vim"><a href="https://github.com/sonjapeterson/1989.vim">1989</a></h3>
+<p>If you are a big Taylor Swift fan… Well then don't look any longer! Here she is! This Taylor Swift themed color scheme <a href="https://github.com/sonjapeterson/1989.vim">1989</a> is cute… it's pastel… there are gorgeous pinks, purples and yellows on a soft grey background. I'd say: It takes this way too far, and it'll leave you breathless.</p>
+<p><img src="vim-color-schemes/t-1989.png" alt="example of the 1989 vim colorscheme" /></p>
+<h3 id="cosmehttpsgithubcombeikomecosmevim"><a href="https://github.com/beikome/cosme.vim">Cosme</a></h3>
+<p>I know. You must think "isn't this the same as 1989?". No, it's called <a href="https://github.com/beikome/cosme.vim">Cosme</a>! It is SO MUCH like the 1989 theme (a little less cute tbh) but wait… There is more. Because have you seen that gorgeous vim-airline theme it has going on at the bottom? Yes! Hear me out: like 1989 better than Cosme? Why not combine that beauty with the cosme airline theme. Yes. You're welcome.</p>
+<p><img src="vim-color-schemes/t-cosme.png" alt="example of the Cosme vim colorscheme" /></p>
+<h3 id="alabasterhttpsgithubcomagudulinvimcolorsalabaster"><a href="https://github.com/agudulin/vim-colors-alabaster">Alabaster</a></h3>
+<p>If you are going for minimalism and the only reason you are not working full black and white is because that is too boring for you and is simply one bridge too far. This is perfect for you! <a href="https://github.com/agudulin/vim-colors-alabaster">Alabaster</a> is a super minimalistic scheme. Black text on a white background, with some sprinkles of pastel greens, purply pinks, yellows and blues. It especially thrives on a split terminal screen as seen with this example of NERDtree.</p>
+<p><img src="vim-color-schemes/t-alabaster.png" alt="example of the Alabaster vim colorscheme" /></p>
+<h3 id="dogrunhttpsgithubcomwadackelvimdogrun"><a href="https://github.com/wadackel/vim-dogrun">Dogrun</a></h3>
+<p><a href="https://github.com/wadackel/vim-dogrun">Dogrun</a> is as if a pastel puppy was (safely) put in the washer and dryer a bunch of times* and its cute coat just became fluffier and fluffier but also kind of toned down a bit. You get what I'm saying? I'm talking toned down red, light purple and some greens. It's darker for those that like it but I think it still has that cozy vibe to it.</p>
+<p>*Don't ever do this. This would not be okay. I'm scared writing this.
+<img src="vim-color-schemes/t-dogrun.png" alt="example of the Dogrun vim colorscheme" /></p>
+<h3 id="espressohttpsgithubcomgmoevimespresso"><a href="https://github.com/gmoe/vim-espresso">Espresso</a></h3>
+<p>Can you already smell <a href="https://github.com/gmoe/vim-espresso">Espresso</a>? It has a dark grey background for some bitterness. The green and blue add some fresh acidity and last but not least some popping pink that brings just the right sweetness to it. Bitter, acidic and sweet. Need I say more?</p>
+<p><img src="vim-color-schemes/t-espresso.png" alt="example of the Espresso vim colorscheme" /></p>
+<h3 id="softerahttpsgithubcomsoftaestheticsofteravim"><a href="https://github.com/soft-aesthetic/soft-era-vim">Soft Era</a></h3>
+<p>Now… Having the intense urge of sprucing up your coding experience with pastel colors that make you feel homely, cozy, relaxed and vibing does not mean that it's going to make for the most readable code. <a href="https://github.com/soft-aesthetic/soft-era-vim">Soft Era</a> is a classic when it comes to smooth color vibes. It's just not that readable. Still cute though!</p>
+<p><img src="vim-color-schemes/t-soft-era.png" alt="example of the Soft Era vim colorscheme" /></p>
+<h3 id="fairyflosshttpsailorhggithubiofairyfloss"><a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a></h3>
+<p>Those who love the pastel vibes in coding are probably already familiar with Amy Wibowo and her dreamy <a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a> theme. Thankfully <a href="https://github.com/tssm/fairyfloss.vim">FairyFloss</a> has been made available for Vim lovers too. The colors are mystical and dreamy with an actual okay amount of contrast. A classic that cannot be left out.</p>
+<p><img src="vim-color-schemes/t-fairy-floss.png" alt="example of the fairy-floss vim colorscheme" /></p>
+<h3 id="pandasyntaxhttpsgithubcommarkvinczepandavim"><a href="https://github.com/markvincze/panda-vim">Panda Syntax</a></h3>
+<p>Like mentioned before, pastel colors are not always the best when it comes to readability. This is why I've stuck with <a href="https://github.com/markvincze/panda-vim">Panda Syntax</a> for such a long time. Even though it's not very pastel, I still think it's very cute. As a little extra, I would recommend having this tasty scheme together with the <a href="https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/fruit_punch.vim">Fruit Punch Airline Theme</a>.</p>
+<p><img src="vim-color-schemes/t-panda.png" alt="example of the Panda Syntax vim colorscheme" /></p>
+<h3 id="tsenmagentayellowhttpsgithubcommarremantsenmagentayellow"><a href="https://github.com/marreman/tsen-magenta-yellow">Tsen Magenta Yellow</a></h3>
+<p>Something about the purple inspired <a href="https://github.com/marreman/tsen-magenta-yellow">Tsen Magenta Yellow</a> calms me so much. Even though it is simple, I love the yellow notes that it brings. I could say more but I'll just let you rest and have a moment of calmth to process these blissful colors.</p>
+<p><img src="vim-color-schemes/t-tsen-magenta-yellow.png" alt="example of the Tsen Magenta Yellow vim colorscheme" /></p>
+<p>Most pastel/purple/pink themes or color schemes are really low contrast. They are therefore <a href="https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/">not very accessible</a> to everyone. Of course it still depends on the individual, but I did do a quick check. And the following should be somewhat compliant to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">WCAG 2.0 guidelines for contrast accessibility</a>:</p>
 <ul>
-<li>We dived into how a lot of things in our daily lives have a 'computer' inside of them. Washing machines, phones, laptops, tablets, consoles, even cars and satellites. And how cool it is that this means you can also program stuff for those devices.</li>
-<li>We discussed how a computer knows what to do. For this we used the <a href="#the-person-is-a-computer-exercise">'tell this person what to do'</a> exercise.</li>
-<li>We explained how developers write computer programs, and that there are <a href="#different-types-of-developers">different types of developers</a>. We also talked about diversity in tech when it comes to people and their backgrounds, but also about the different types of developers.</li>
-</ul>
-<h2 id="thepersonisacomputerexercise">The person is a computer exercise</h2>
-<p>Inspired by <a href="https://twitter.com/FloorDrees">@FloorDrees</a> who did this exercise during a <a href="http://www.railsgirls.com">RailsGirls</a> event. We let the kids steer me into writing a word on a whiteboard. The kids were pretty good at understanding that they had to be pretty specific in telling me what to do. 'Step forward', 'put your right hand forward' 'clench your hand around the object that is now referred to as a marker' etc. Some were even quick enough to understand that I had to remove the cap before writing.</p>
-<h2 id="differenttypesofdevelopers">Different types of developers</h2>
-<p>This is where our deep dive of their hobbies and interaction with the internet came in handy. We got to show them that there are different types of developers.</p>
-<ul>
-<li>Some like to write software that helps get a rocket from the earth to mars.</li>
-<li>Some want to make apps for phones and tablets, like TikTok, WhatsApp and SnapChat.</li>
-<li>Some want to build websites, like the website of their favourite hiphop artists or YouTube.</li>
-<li>Some want to make games, like Minecraft and Fortnite.</li>
-</ul>
-<h2 id="weletthemhackawebsite">We let them 'hack' a website</h2>
-<p>After the quiz and our explaining of what you can do with programming. We let them do a short 'hacking' exercise. On their laptops they got to go to their favourite website. Which, for most was YouTube or a popular news website as that is where we showed an example. Then by using <code>inspect</code> in the browser, we let them change the text of a video title or news article. This mostly resulted in videos of famous soccer players having titles with the kids names in them. They got to take screenshots which they got to share with their families later.</p>
-<h2 id="wrappingitup">Wrapping it up</h2>
-<p>For the last few minutes one of us sat in front of the class to change colours and fonts on websites. After this we talked about how their changes will be lost once they refresh the page. And that it is a good thing that not anyone can just change news titles because then people could change other peoples work, or change the news however they would want. I think we were both very impressed on how aware the kids were of the danger of spreading lies and 'fake news'.</p>
-<p>The kids also got to ask us a few more questions about what it is like to be a developer and how you can become one. Before we knew it, the lesson was over and the kids continued with their normal school day.</p>
-<p>We had a huge amount of fun, but were exhausted 😂🥳. It was an amazing experience and if you ever get asked to do something similar, I would really consider going for it. It was very rewarding and simply loads of fun. Have you ever done something similar? Please let me know in the comments!</p>]]></content:encoded>
-            <enclosure url="https://media.giphy.com/media/l41lZlI5EjpMCaVdC/giphy.gif" length="0" type="image/gif"/>
-        </item>
-        <item>
-            <title><![CDATA[Beautify your Raspberry Pi with the Pimoroni Blinkt!]]></title>
-            <link>https://khendrikse.github.io/blog/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
-            <guid>https://khendrikse.github.io/blog/2020-01-26-beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
-            <pubDate>Sun, 26 Jan 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Make your Raspberry Pi shine in blue and purple colors.]]></description>
-            <content:encoded><![CDATA[<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q06jxjljnvamg81gclj0.gif" alt="LEDs light up inside a Raspberry Pi" /></p>
-<p><strong>In this post we're going to write a little Python script, and in <a href="https://dev.to/khenhey/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown-542">the next post</a> we'll turn the LEDs on as a background process at startup and switch them off again during shutdown.</strong></p>
-<h2 id="settingupthepimoroniblinkthttpsshoppimoronicomproductsblinkt">Setting up the <a href="https://shop.pimoroni.com/products/blinkt">Pimoroni Blinkt</a></h2>
-<p>Setting up the Blinkt is quite straight-forward. First, make sure to place the Blinkt on the Raspberry Pi's 40-pin header. The rounded corners of the Blinkt should align with the Pi's rounded corner.</p>
-<p>Make sure you are logged into your Pi and in the terminal run</p>
-<pre><code class="bash language-bash">$ curl https://get.pimoroni.com/blinkt | bash
-</code></pre>
-<p>This will install the software you'll need to run the Blinkt. We're using the <a href="http://docs.pimoroni.com/blinkt/">documentation</a> to learn how to set up a linear blue/purple pattern.</p>
-<p>Create and open a new Python file in your terminal. In my case I created one in the Pimoroni folder:</p>
-<pre><code class="bash language-bash">$ nano Pimoroni/blue_purple.py
-</code></pre>
-<p>I did this using the <code>nano</code> editor. You can also create a file another way and open it in your preferred editor.</p>
-<h2 id="importdependencies">Import dependencies</h2>
-<p>First, we need to import the libraries we need. At the top of the file we import <code>blinkt</code> to control the LEDs, <code>time</code> to create time-outs and <code>numpy</code> to create a range of decimals later on.</p>
-<pre><code class="py language-py">#!/usr/bin/env python
-
-import blinkt
-import time
-import numpy
-</code></pre>
-<h2 id="variables">Variables</h2>
-<p>Create a list of colors in RGB format. With this, I mean that we create a list of lists. Each small list contains a number for r, g, and b.</p>
-<p>Then we use <code>numpy</code> to create a range of floats between <code>0</code> and <code>0.5</code>. The range is made with steps of <code>0.03</code>. This range will help us gradually light up each pixel.</p>
-<pre><code class="py language-py">COLOR_LIST = [[0, 127, 255], [0, 0, 255], [127, 0, 255], [255, 0, 255], [255, 0, 127]]
-BRIGHTNESS_RANGE = numpy.arange(0, 0.5, 0.03)
-</code></pre>
-<p>Add the following script to ensure that if the script stops, the LEDs clear.</p>
-<pre><code class="py language-py">blinkt.set_clear_on_exit()
-</code></pre>
-<h2 id="settingthepixels">Setting the pixels</h2>
-<p>We will create a function that takes a pixel, the RGB colors and a range of values that represent the different brightnesses as arguments. It will loop over the list of values for brightness and for every brightness value it will set a pixel with the correct color.</p>
-<pre><code class="py language-py">def set_brightness(pixel, r, g, b, brightRange):
-    for brightness in brightRange:
-        blinkt.set_pixel(pixel, r, g, b, brightness)
-    blinkt.show()
-        # we need to run show after setting the pixel
-        # otherwise we won't see anything change.
-    time.sleep(0.01)
-        # give it a little time to add a slight effect.
-</code></pre>
-<h2 id="whileloop">While loop</h2>
-<p>Now we're going to get to the actual loop that is going to make our Pimoroni Blinkt light up.</p>
-<p>We are going to start a while loop and inside loop over every color array in <code>COLOR_LIST</code>.</p>
-<p>When we run the script inside the terminal and press <code>CTRL-C</code> it will throw a KeyboardInterrupt exception. Because we want to make sure we can stop our <code>While True</code> loop, we use <code>try</code> and listen for the exception to stop the loop.</p>
-<p>The blinkt library has its own constant called <code>blinkt.NUM_PIXELS</code> that spits out the amount of pixels that are available on the device. For every pixel, we call the <code>set_brightness</code> function. We pass the pixel and RGB colors, together with the <code>BRIGHTNESS_RANGE</code>.</p>
-<pre><code class="py language-py">try:
-    while True:
-        for color in COLOR_LIST:
-            for pixel in range(blinkt.NUM_PIXELS):
-                set_brightness(pixel, color[0], color[1], color[2], BRIGHTNESS_RANGE)
-            for pixel in reversed(range(blinkt.NUM_PIXELS)):
-                set_brightness(pixel, color[0], color[1], color[2], reversed(BRIGHTNESS_RANGE))
-except KeyboardInterrupt:
-    pass
-</code></pre>
-<p>Because we want the pixels to light up, and then gradually turn off again, we do a reversed for loop. See the difference between the two? We use <code>reversed(range(blinkt.NUM_PIXELS))</code> and we also send a reversed <code>BRIGHTNESS_RANGE</code>.</p>
-<p>This is it for now! Try it out by saving the file and running it:</p>
-<pre><code class="bash language-bash">$ python blue_purple.py
-</code></pre>
-<p>To stop the script, use <code>CTRL-C</code>.</p>
-<p>This is only the first part. In <a href="https://dev.to/khenhey/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown-542">the next post</a>, we will set up our Raspberry Pi so it starts running this script as a background process on startup, and close it when we shut the Pi down.</p>
-<p><strong>Check the <a href="https://github.com/khendrikse/blinkt-purple-blue/blob/master/blue_purple.py">finished script</a></strong></p>
-<p><em>Sources:</em>
-<a href="https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt">Get started with Blinkt</a>
-<a href="http://docs.pimoroni.com/blinkt/#enable-disable-clear-on-exit">Pimoroni Blinkt Documentation</a>
-<a href="http://effbot.org/zone/stupid-exceptions-keyboardinterrupt.htm">KeyboardInterrupt</a></p>]]></content:encoded>
-            <enclosure url="https://thepracticaldev.s3.amazonaws.com/i/jwk9ue7pvtuj151srtod.JPG" length="0" type="image/JPG"/>
-        </item>
-        <item>
-            <title><![CDATA[Get a head start with your new app - CRA custom templates]]></title>
-            <link>https://khendrikse.github.io/blog/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</link>
-            <guid>https://khendrikse.github.io/blog/2020-02-02-get-a-head-start-with-your-new-app-cra-custom-templates</guid>
-            <pubDate>Sun, 02 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Let's take a look at Create React App's custom templates]]></description>
-            <content:encoded><![CDATA[<p>Custom templates became available with <code>react-scripts@3.3.0</code>. They make it possible to predefine exactly what you want CRA's output to be. For example, maybe you want a few basic components ready, have some dependencies or scripts pre-installed in your <code>package.json</code> or add some config files for ESlint or Prettier.</p>
-<h2 id="cratemplatesdissected">CRA Templates dissected</h2>
-<p>Templates are nothing more than npm packages exporting specific configuration options for CRA + an example of what the generated app should look like.</p>
-<p>I'm going to dive a little deeper into <a href="https://create-react-app.dev/docs/custom-templates/">the example</a> from CRA's documentation.</p>
-<p>When we look at the folder structure of a custom template, it looks something like this:</p>
-<pre><code>my-cra-template
-├── README.md // the readme of the custom template package itself
-├── template.json // more on this file later
-├── package.json // the package.json for the custom template package itself
-└── template //more on this folder later
-    ├── README.md
-    ├── gitignore
-    └── public
-       └── index.html
-    └── src
-       └── index.js (or index.tsx)
-</code></pre>
-<p>The <code>my-cra-template</code> folder contains a <code>README.md</code>, <code>template.json</code> and <code>package.json</code>. These all belong specifically to the CRA template package that you are trying to make. The <code>README.md</code> contains info about the package and the <code>package.json</code> has package info for npm. You can put whatever you want in your <code>package.json</code>, just make sure your package's name starts with <code>cra-template-...</code>.</p>
-<h2 id="whatcreatesthetemplate">What creates the template</h2>
-<p>The <code>template.json</code> file and the <code>template</code> folder are the pieces that actually tell CRA what to generate:</p>
-<p>The <code>template.json</code> file is the place where we define the following:</p>
-<ul>
-<li><strong>Dependencies</strong> - the dependencies you want CRA to install in any new app.</li>
-<li><strong>Scripts</strong> - any scripts that you want CRA to put in the <code>package.json</code> file of any new app it creates with this template.</li>
-</ul>
-<p>For now, it is not yet possible to add any <code>devDependencies</code> to the template. To make it easy for the user to add those, you can always specify them inside your package's readme so they can copy and paste it quickly.</p>
-<p>The <code>template</code> folder essentially holds an example of how you want the generated app to look like. An easy way to create it is by creating a new app with CRA, modify it exactly the way you like. You could add some configuration files (like .eslintrc for example) or specify a folder structure with files. Then copy it into the <code>templates</code> and inside that folder:</p>
-<ul>
-<li>turn <code>.gitignore</code> into <code>gitignore</code></li>
-<li>remove the <code>package.json</code> and lockfile</li>
-<li>customize how you would like the generated app's <code>README.md</code> to look like.</li>
-</ul>
-<p>Make sure you at least have the minimum files inside your <code>templates</code> folder that the <a href="https://create-react-app.dev/docs/custom-templates/">CRA documentation</a> specifies.</p>
-<p>Like mentioned above; CRA has two default templates that you can look into to understand how it works:</p>
-<ul>
-<li><a href="https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript">cra-template-typescript</a></li>
-<li><a href="https://github.com/facebook/create-react-app/tree/master/packages/cra-template">cra-template</a></li>
-</ul>
-<p>And that's it! If you want to see how other people did this, check out all the <a href="https://www.npmjs.com/search?q=cra-template-*">available packages</a> on npm.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Light up LEDs when you start your Raspberry Pi and clear them on shutdown]]></title>
-            <link>https://khendrikse.github.io/blog/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
-            <guid>https://khendrikse.github.io/blog/2020-02-02-light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
-            <pubDate>Sun, 02 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Set up your Pimoroni Blinkt so it automatically turns on and off when you start-up or shut down your Raspberry Pi.]]></description>
-            <content:encoded><![CDATA[<p><em>You can actually use the techniques in this tutorial for any other script or board.</em></p>
-<h2 id="startthescriptwhenthepiturnson">Start the script when the Pi turns on</h2>
-<p>There are many different ways to start running a script when the Pi is booting up. We are going to use <code>crontab</code>.</p>
-<p>With <code>crontab</code> we can automate running a script at a certain moment. There are different options, such as running a script <code>yearly</code>, <code>daily</code> or on <code>reboot</code>. We will be using that last option 😉.</p>
-<p>Make sure to be logged into your Pi and in the terminal run:</p>
-<pre><code class="bash language-bash">$ crontab -e
-</code></pre>
-<p>This will open <code>crontab</code> in your editor. At the bottom of the file add:</p>
-<pre><code class="bash language-bash">@reboot python /home/pi/Pimoroni/blue_purple.py &amp;
-</code></pre>
-<p>We use <code>@reboot</code> to tell the <code>crontab</code> that we want to run the script whenever the device reboots. <code>python</code> is used to run the Python script and <code>&amp;</code> makes the script run as a background script so you can use your terminal while the script is running. Make sure to add the absolute path to the script you want to run when starting up.</p>
-<p>Save and close the file, that's it for the first part. You can now restart your Pi with <code>sudo reboot</code> and it should automatically start running your script in the background once it starts up again.</p>
-<h3 id="howtokillyourbackgroundprocess">How to kill your background process</h3>
-<p>If for any reason you want to stop the script, all you have to do is find its Process Identifier (PID) by running <code>ps aux | grep python</code> and finding the script in the list of processes. The output would look something like this:</p>
-<pre><code class="bash language-bash">pi         394 35.3  1.7  32420 16352 ?        S    12:09  34:34 python /home/pi/Pimoroni/blue_purple.py
-pi         771  0.0  0.0   7348   492 pts/0    S+   13:46   0:00 grep --color=auto python
-</code></pre>
-<p>The PID is the number right next to the <code>pi</code>. In the example, it is <code>394</code> Once you have the PID run <code>kill 349</code> replacing <code>349</code> with the number of your PID.</p>
-<h3 id="turningofftheledsandclearingthem">Turning off the LEDs and clearing them</h3>
-<p>Let's run a little test. Try shutting down your Pi while the LEDs are running. We can do that by typing:</p>
-<pre><code class="bash language-bash">$ sudo shutdown now
-</code></pre>
-<p>The Pi will shut itself down and the background script will also stop running. But you might notice that the LEDs did not clear. The Blinkt library has a function for clearing the LEDs when the script stops: <code>blinkt.set_clear_on_exit()</code>. But that only works when the script is explicitly stopped by us. On shutdown, this will have no effect. And as the Blinkt pixels seem to have memory, they will not clear unless we tell them to, or turn off the power.</p>
-<p>So, let's fix this.</p>
-<p>Inside our Python script we are going to add a new library called <code>signal</code> underneath our other libraries:</p>
-<pre><code class="py language-py">#!/usr/bin/env python
-
-import blinkt
-import time
-import numpy
-import signal # new one!
-</code></pre>
-<p>This will import the <code>signal</code> library. This library listens for signals from the system and makes it possible to run a function when we receive a specific signal.</p>
-<p>When our Pi shuts down, it will send a signal called <code>SIGTERM</code>. This signal is sent whenever the system is doing a soft shutdown.</p>
-<p>If our script receives this signal, we want to clear the LEDs and exit from the Python script. So in our Python file, add:</p>
-<pre><code class="py language-py">def clear_leds(signum, frame):
-        blinkt.clear()
-        blinkt.show()
-        exit(0)
-
-signal.signal(signal.SIGTERM, clear_leds)
-</code></pre>
-<p>The <code>clear_led</code> function has two arguments it automatically receives from the <code>signal.signal()</code> function. We don't really need to use that so we just keep them there. The <code>blinkt.clear()</code> clears the LEDs and the <code>blinkt.show()</code> sets the new changes to the Blinkt so they can be seen. We then exit the Python script with <code>exit(0)</code>.</p>
-<p>By writing <code>signal.signal(signal.SIGTERM, clear_leds)</code> the script will listen for the <code>SIGTERM</code> signal. Once it receives it, it will run the <code>clear_leds</code> function.</p>
-<p>And that's it! Reboot your system and once your LEDs are running again, try shutting the Pi off by using <code>sudo shutdown now</code>. After a second or so the LEDs should clear.</p>
-<p>I had to find different sources to create this flow, so hopefully, this helps out anyone who wants to set it up the same way. Have fun and if you have it running, please share pictures of your awesome Pi!</p>
-<p><strong>Check the <a href="https://github.com/khendrikse/blinkt-purple-blue/blob/master/blue_purple_with_cleanup.py">finished script</a></strong></p>
-<p><em>Sources:</em>
-<a href="https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/">Five ways to run a program on your Raspberry Pi at startup</a>
-<a href="http://man7.org/linux/man-pages/man5/crontab.5.html">crontab</a>
-<a href="https://docs.python.org/3/library/signal.html">Signal</a>
-<a href="https://stackabuse.com/handling-unix-signals-in-python/">Handling Unix Signals in Python</a>
-<a href="https://docs.python.org/2/library/sys.html">Sys exit</a></p>]]></content:encoded>
-            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/5o1drx3yby1z853rjm8d.JPG" length="0" type="image/JPG"/>
-        </item>
-        <item>
-            <title><![CDATA[Personalize your Linux terminal prompt ✨]]></title>
-            <link>https://khendrikse.github.io/blog/2020-02-17-personalize-your-Linux-terminal-prompt</link>
-            <guid>https://khendrikse.github.io/blog/2020-02-17-personalize-your-Linux-terminal-prompt</guid>
-            <pubDate>Mon, 17 Feb 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Add your own personal touch to your Linux terminal when you're not using a GUI.]]></description>
-            <content:encoded><![CDATA[<p>In this blog, I'll explain how you can change the terminal's prompt to look just the way you want to.</p>
-<h2 id="whatistheps1variable">What is the PS1 variable?</h2>
-<p>When looking at our terminal we can see the command prompt. Depending on your system it will have some information in there. In the case of a standard Raspberry Pi it might look something like this:</p>
-<pre><code class="bash language-bash">pi@raspberrypi:~ $
-</code></pre>
-<p>The part <code>pi@raspberrypi:~ $</code> is actually a shell variable called <code>PS1</code>. There are actually five of these variables. <code>PS0</code>, <code>PS1</code>, <code>PS2</code>, <code>PS3</code>, <code>PS4</code>. Each of them is set up in a different way. To find out more about these variables you can look it up in <em>the manual</em> 📖 (<code>$ man bash</code>) underneath <code>Shell Variables</code>.</p>
-<h2 id="howisps1setup">How is PS1 set up?</h2>
-<p>We can see how the variable is set up by typing</p>
-<pre><code class="bash language-bash">$ echo $PS1
-</code></pre>
-<p>This will return <code>\\u@\\h:\\W\\a\\] $</code> in our example. The characters here actually represent a few things.</p>
-<p>The <code>PS1</code> variable in our example consists of:</p>
-<ul>
-<li><strong>\u = pi</strong> - the username</li>
-<li><strong>@</strong> - the character <code>@</code></li>
-<li><strong>\h = raspberrypi</strong> - the hostname</li>
-<li><strong>:</strong> - the character <code>:</code></li>
-<li><strong>\W = ~~</strong> - the current working directory</li>
-<li><strong>\a]</strong> - an ASCII bell character</li>
-<li>** $** - a space and the <code>$</code> character</li>
-</ul>
-<p>There are many of these characters that you can use. It's easy to find them by opening the bash manual (<code>man bash</code>) and searching for <code>PROMPTING</code>. It will give you a list of available backslash-escaped special characters.</p>
-<p>We can change this variable very easily. Let's set it up to only show the username and current working directory:</p>
-<pre><code>$ PS1=\"\\u [\\w]: \"
-</code></pre>
-<h2 id="usingcolors">Using colors</h2>
-<p>We can also use different colors in our Prompt. To check out what options we have, we can find them using <code>man terminal colors</code>. You'll find a list of available colors there:</p>
-<pre><code>0 to restore default color
-
-1 for brighter colors
-4 for underlined text
-5 for flashing text
-30 for black foreground
-31 for red foreground
-32 for green foreground
-33 for yellow (or brown) foreground
-34 for blue foreground
-35 for purple foreground
-36 for cyan foreground
-37 for white (or gray) foreground
-40 for black background
-41 for red background
-42 for green background
-43 for yellow (or brown) background
-44 for blue background
-45 for purple background
-46 for cyan background
-47 for white (or gray) background
-</code></pre>
-<p>We can set a foreground and background color for our prompt. For example, let's turn the background purple and the foreground a white color.</p>
-<p>Inside your terminal type:</p>
-<pre><code>$ PS1=\"\\e[45;37m\\ \\u [\\w]:\\e[0m \"
-</code></pre>
-<p>Let's look at the first part <code>\\e[45;37m</code>.</p>
-<ul>
-<li><code>\\e[</code> tells bash that we are giving new color information</li>
-<li><code>45</code> the background color purple</li>
-<li><code>;</code> just a separation between the colors</li>
-<li><code>37</code> the foreground color white</li>
-<li><code>m</code> indicates the end of the color definitions</li>
-</ul>
-<p>Knowing this, we can also see that the end part <code>\\e[0m</code> resets everything back to default. To see what happens if we keep this out, try setting it without the end part.</p>
-<p>Now for the last personalization…</p>
-<h2 id="usingspecialcharacters">Using special characters</h2>
-<p>Let's spice it up a bit more by adding a few more bits and bobs. (Get it? bits? No? Alrighty…).</p>
-<p>I want to use a few special characters to give a fading look, <code>▓</code>, <code>▒</code> and <code>░</code>. In order to include these in the <code>PS1</code> variable, we're going to need their octal numbers. I used <a href="http://graphemica.com/unicode/characters">Graphemica.com</a> to find the octal numbers.</p>
-<ul>
-<li>▓ = <code>\\342\\226\\223</code></li>
-<li>▒ = <code>\\342\\226\\222</code></li>
-<li>░ = <code>\\342\\226\\221</code></li>
-</ul>
-<p>When we want to put them together we just chain the numbers: <code>\\342\\226\\223\\342\\226\\222\\342\\226\\221</code>. We also want to set the right colors. So we'll turn the foreground color purple and the background color back to default by adding <code>\\e[0;35m</code>. We add this right after the working directory character as such:</p>
-<pre><code>$ PS1=\"\\e[45;37m \\u [\\w]\\e[0;35m\\342\\226\\223\\342\\226\\222\\342\\226\\221:\\e[0m \"
-</code></pre>
-<p>This will set up us with something looking like this:</p>
-<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/1ihzx5aquvinnreuo2xa.png" alt="The end result" /></p>
-<p>Of course, there are other creative things you can do and other characters you can use.</p>
-<h2 id="settingitinyourbashfiles">Setting it in your bash files</h2>
-<p>Now that we have something fun set up, let's make sure it is permanent. You can do this by setting this variable in your <code>~/.bashrc</code> or <code>~/.bash_profile</code>:</p>
-<pre><code>PS1="\e[45;37m \u [\w]\e[0;35m\342\226\223\342\226\222\342\226\221:\e[0m"
-</code></pre>
-<p>And that's it! This way, your prompt will look this way, even if you restart your computer.</p>
-<p>I'm really curious about other awesome ways there are to personalize the terminal. And also to see what types of combinations people can come up with to personalize their prompt, so please share your creations!</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Redirection and pipeline magic]]></title>
-            <link>https://khendrikse.github.io/blog/2020-05-11-redirection-and-pipeline-magic</link>
-            <guid>https://khendrikse.github.io/blog/2020-05-11-redirection-and-pipeline-magic</guid>
-            <pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[For when you don't feel like diving deep into bash but do want to know what redirection is when you see it.]]></description>
-            <content:encoded><![CDATA[<h2 id="redirection">Redirection</h2>
-<p>A program that runs in the command line always has three important ways to connect with it; the input, output, and possible error output of the program. We call these types of connections data- or file streams.</p>
-<p>Examples:</p>
-<ul>
-<li>The <em>input</em> of a program can be a keyboard or the output of another command, file, or program.</li>
-<li>Examples of the <em>output</em> or <em>error output</em> could be another file or the terminal.</li>
-</ul>
-<p>These three file streams have specific names and even values. These values are called 'file descriptors'. File descriptors are nothing more than numbers that are given to specific files. These three, have the numbers 0 to 2:</p>
-<p>| Name            | Symbolic name | File descriptor | Sign | Default  |
-| --------------- | ------------- | :-------------: | :--: | -------- |
-| Standard input  | stdin         |        0        |  <   | Keyboard |
-| Standard output | stdout        |        1        |  >   | Terminal |
-| Standard error  | stderr        |        2        |  2&gt;  | Terminal |</p>
-<p>We can change the sources of these streams. This is what we call redirection.</p>
-<p><em>Example</em></p>
-<p>Let's say we have a list of animals in a file called <code>animals.txt</code>.</p>
-<pre><code class="text language-text">puppy
-kangaroo
-kitten
-snake
-wombat
-tiger
-bird
-</code></pre>
-<p>What if we want to sort this list and save the outcome to a new file?</p>
-<pre><code>$ sort &lt; animals.txt &gt; sortedAnimals.txt
-</code></pre>
-<p>We call the <code>sort</code> command and give it <code>animals.txt</code> as input by using the <code>&lt;</code> symbol. Then we set the <code>sortedAnimals.txt</code> file as the output by using the <code>&gt;</code> symbol.</p>
-<p>When we open the <code>sortedAnimals.txt</code> file we will find:</p>
-<pre><code class="text language-text">bird
-kangaroo
-kitten
-puppy
-snake
-tiger
-wombat
-</code></pre>
-<p>Now, what if we wanted to sort a file that does not exist? For example:</p>
-<pre><code class="shell language-shell">$ sort &lt; ghostFile.txt &gt; sortedGhostFile.txt
--bash: ghostFile.txt: No such file or directory
-</code></pre>
-<p>We get an error thrown into the terminal. Of course, this is good because we want to get feedback on why something is not working. But what if we didn’t want the error to be thrown into the terminal, but written to a file? We could redirect the standard error (<code>stderr</code>) to a file as well:</p>
-<pre><code class="shell language-shell">$ sort 2&gt; sortedGhostFileError.txt &lt; ghostFile.txt
-</code></pre>
-<p>We first say where the <code>stderr</code> of <code>sort</code> needs to direct to with the 2&gt; sign. Then we say that <code>ghostFile.txt</code> needs to be input for the sort command by using the <code>&lt;</code> sign. If you were to check, you would see that the file <code>sortedGhostFileError.txt</code> has been created and it contains the same error we saw printed into the terminal before.</p>
-<p>You can also write the standard output and standard error to the same file. There are two ways to do this.</p>
-<pre><code class="shell language-shell">$ sort &gt; ghostFileOutput.txt 2&gt;&amp;1 &lt; ghostFile.txt
-</code></pre>
-<p>We first define that <code>ghostFileOutput.txt</code> is the output, and then use the <code>2&gt;&amp;1</code> sign to redirect the standard error (2) to standard output (1).</p>
-<p>You can also use the shorthand:</p>
-<pre><code class="shell language-shell">$ sort &amp;&gt; ghostFileOutput.txt &lt; ghostFile.txt
-</code></pre>
-<h2 id="pipelines">Pipelines</h2>
-<p>Our next step in understanding redirection is by understanding ‘Pipelines’. The pipe operator <code>|</code> lets us chain different commands together. This can be very useful. It lets us write small programs or commands, and chain them to let them perform more complex tasks. With the pipe symbol, you can use the output of one command as the input of the next.</p>
-<p>Let's say that we want to use the same <code>list.txt</code> we had before. We want to sort the list and grab the animal that is first in the list after sorting. We could do:</p>
-<pre><code class="shell language-shell">$ sort animals.txt | head -1
-</code></pre>
-<p>This will first sort the <code>list.txt</code> file, use the outcome of that as the input of the <code>head -1</code> command, which will grab only the first line of the input it gets. As we have not specified what output the last command should have, it just prints <code>bird</code> to the terminal. As it is the first animal in the sorted list.</p>
-<p>We could also save that animal as a separate file by combining our pipe symbol with one of the redirection symbols:</p>
-<pre><code class="shell language-shell">$ sort animals.txt | head -1 &gt; first-animal.txt
-</code></pre>
-<p>This will save the outcome to a file called <code>first-animal.txt</code>.</p>
-<h2 id="redirectionsummary">Redirection summary</h2>
-<p>So, a file can have input, output, and error output. We can explicitly say where these three need to point at. This is possible by using different signs or operators. Including <code>&lt;</code>, <code>&gt;</code>, <code>2&gt;</code>, and the pipe operator <code>|</code>. If you want to read more about this try typing <code>man bash</code> in your terminal and search for <code>/REDIRECTION</code>. Other than that, try it out yourself by fiddling around in your terminal. Have fun!</p>
-<p>Do you know an interesting fact about redirection? Make sure to share it in the comments below!</p>]]></content:encoded>
-            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/sp68ef6310avveg2dxjp.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[The basics of a function, illustrated! ✨]]></title>
-            <link>https://khendrikse.github.io/blog/2020-05-21-The-basics-of-a-function-illustrated</link>
-            <guid>https://khendrikse.github.io/blog/2020-05-21-The-basics-of-a-function-illustrated</guid>
-            <pubDate>Thu, 21 May 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn about JavaScript functions with a simple metaphor.]]></description>
-            <content:encoded><![CDATA[<h2 id="whatisafunction">What is a function</h2>
-<p><em>Functions are like small programs that are built to do a specific task.</em> We first create (or 'declare') this program (which we will from now on call a function). Once we are done writing it, we can start using (or 'execute') it.</p>
-<p>It’s kind of like building a small factory. While setting up the factory we create a building. Inside this building, we set everything in place so the factory can receive whatever raw materials it needs and return whatever product we want as output.</p>
-<p>Let’s say we want to build a factory that takes any number and adds two. From the inside the factory would look something like this:</p>
-<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/9onjc8zt7vpuommno32w.png" alt="a factory that takes in a number and returns that number plus two" /></p>
-<p>We can see that the factory is expecting to get any type of number as input. Because we don’t know yet which number it might receive, we’ll just call whatever input we get <code>num</code> for ‘number’. Inside the factory, we add 2 to whatever we got as input. It then returns the output which is the combination of <code>num + 2</code>.</p>
-<blockquote>
-  <h3 id="aboutnum">About <code>num</code></h3>
-  <p><code>num</code> is just a representation, or container, for what we get as input. We can even rename it into whatever we want. If we were making a factory that added two apples to a number of bananas, we could rename <code>num</code> to <code>bananas</code>. The input would be a number of bananas, the output would be a number of bananas plus two apples.</p>
-</blockquote>
-<p>Do you see that we also gave the factory a name? <code>plusTwo</code>. This makes it a bit easier for when we want to refer to the factory. This way we can tell our workers: ‘I want you to use the factory <code>plusTwo</code> to process a specific number and add 2’.</p>
-<p>Our factory is ready to be used now. To use it we need to provide a number as input. Let’s say we want to give it a <code>3</code> as input. We can’t see what is happening inside the factory but we can see what is returned from the factory: it’s a 5 (3 + 2 = 5):</p>
-<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/o65pxtvzpgwjbkccobaa.png" alt="The outside of a factory that takes in 3 and returns 5" /></p>
-<h2 id="letsgetcoding">Let’s get coding</h2>
-<p>Functions essentially work the same way. Instead of building an imaginary factory, let’s actually start creating a function in JavaScript.</p>
-<p>We first set up the function, these are like the walls of the factory. For convenience, we will also give the function a name, just like we did with the factory. We’ll call it <code>plusTwo</code>.</p>
-<pre><code class="js language-js">function plusTwo( ) {
-
-}
-</code></pre>
-<p>We are then going to define what we are expecting the program to get as input. We call these <code>arguments</code> or <code>parameters</code>. In this case, we are expecting to get one number. And because it can be any type of number, we’re going to give it a more generic name like <code>num</code>. We will define this argument within the two parentheses <code>()</code>. Look at it as the door that allows our input arguments to enter the function.</p>
-<pre><code class="js language-js">function plusTwo(num) {
-
-}
-</code></pre>
-<p>We’ll now finish the function by saying exactly what it needs to do and return. It needs to return the sum of <code>num</code> and 2. This will become the output of the function.</p>
-<pre><code class="js language-js">function plusTwo(num) {
-    return num + 2;
-}
-</code></pre>
-<p>Now the function is ready to be used. It knows what it is going to get as input, and what it needs to return as output. The part where we use the word <code>return</code> is actually really important. This tells the function to <code>return</code> our output.</p>
-<p>Otherwise, it is kind of like closing the output door to our factory: the produced results cannot leave the factory:</p>
-<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/b77bysgp94758d7vx8ul.png" alt="The factory output door is closed and none of the product can get out" /></p>
-<blockquote>
-  <h3 id="againwhatisnum">Again, what is <code>num</code>?</h3>
-  <p>We can rename <code>num</code> into whatever we like. It is just a name that we make up to define whatever enters our function. For example, the following two functions would have the exact same result:</p>
-</blockquote>
-<pre><code class="js language-js">function plusTwo(x) {
-    return x + 2;
-}
-
-function plusTwoApples(numberOfApples) {
-    return numberOfApples + 2;
-}
-</code></pre>
-<blockquote>
-  <p><code>x</code> and <code>numberOfApples</code> are simply names we give whatever arguments we are going to get. While we could use <code>x</code> as a name for our arguments, it does not tell us a lot about what we are getting. This is why we try to give it a more descriptive name.</p>
-</blockquote>
-<p>From now on, if you want to code along, you can actually <a href="https://developers.google.com/web/tools/chrome-devtools/open">open developer tools</a> on this page and first type the function that we made just now, press return on your keyboard, and follow along for the next part.</p>
-<h2 id="startusingthefunction">Start using the function</h2>
-<p>We can now actually start using the function. Remember that we gave both the factory and the function a name? Just like with the factory, we can now tell our workers (in this case, our program) to use the function <code>plusTwo</code> to process a number and add 2’.</p>
-<pre><code class="js language-js">plusTwo(3) // returns 5
-</code></pre>
-<p>We pass the number 3 into the doors that are our parentheses. In the function, this means that <code>num</code> now is a representation of 3. In our factory drawings you imagine <code>num</code> to be 3.</p>
-<p>If we pass 5, it will return 7:</p>
-<pre><code class="js language-js">plusTwo(5) // returns 7
-</code></pre>
-<p>Again, in our function <code>num</code> now is a representation of 5. In our factory drawings you imagine <code>num</code> to be 5.</p>
-<p>And that’s it! There is a lot more to learn about functions, but these are the basics that should help you get on your way! I hope it helps anyone learning this for the first time to understand the concepts a bit more.</p>]]></content:encoded>
-            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/tri97q55qgtexhhakgxe.png" length="0" type="image/png"/>
+<li>1989</li>
+<li>Cosme</li>
+<li>Alabaster</li>
+<li>Tsen Magento Yellow (almost)</li>
+</ul>]]></content:encoded>
+            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-17-12671b847d94152f1d5595aea5b5a734.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Test global npm packages in a quick and easy way]]></title>
-            <link>https://khendrikse.github.io/blog/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</link>
-            <guid>https://khendrikse.github.io/blog/2020-06-16-Test-global-npm-packages-in-a-quick-and-easy-way</guid>
-            <pubDate>Tue, 16 Jun 2020 00:00:00 GMT</pubDate>
+            <link>https://khendrikse.github.io/blog/Test-global-npm-packages-in-a-quick-and-easy-way</link>
+            <guid>https://khendrikse.github.io/blog/Test-global-npm-packages-in-a-quick-and-easy-way</guid>
+            <pubDate>Invalid Date</pubDate>
             <description><![CDATA[A quick guide on testing out local global npm packages line using npm or yarn.]]></description>
             <content:encoded><![CDATA[<h2 id="howdoyoulinkprojects">How do you link projects?</h2>
 <p>Let’s say you are working on a React app and you have another project, like a component library, that you are also working on at the same time. You want to make changes in your component library and test them out in your React app without first having to deploy the entire package right? Let’s talk about how you can actually do this. Please don’t forget: the React app and component library are examples. You can do this with any project.</p>
@@ -607,52 +145,220 @@ With npm it it the same as before, but we just go to the folder of our package a
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2020-06-16-7b76f14b67656058487186e5a204b7e3.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[How to stay connected to your co-workers]]></title>
-            <link>https://khendrikse.github.io/blog/2020-12-14-how-to-stay-connected-to-your-co-workers</link>
-            <guid>https://khendrikse.github.io/blog/2020-12-14-how-to-stay-connected-to-your-co-workers</guid>
-            <pubDate>Mon, 14 Dec 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[Staying connected in a work-from-home world]]></description>
-            <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DJ Johnson</a> on <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-<h2 id="inthebeginning">In the beginning…</h2>
-<p>The first Monday our department was working from home was new and interesting. People joined in a morning hangout to chat a bit and discuss what was happening in the world. I texted my friends: ‘<em>This is so much fun! I got to see a bunch of colleagues and their kids and pets in one screen!</em>’. I thought it was pretty cute to see the mayhem of cats trodding on keyboards and kids trying to get attention.</p>
-<p>Of course, trying to manage both work and kids at the same time soon became less cute and more work for most parents. For everyone reading this who dealt with that: you did a hell of a job. I look in awe at how you managed. Please try to be proud of yourself for going through this 👍.</p>
-<h2 id="socialinitiatives">Social initiatives</h2>
-<p>However, not everyone was surrounded by family or roommates. Some of us said goodbye to social moments that normally power us through the day. Thankfully it was amazing to see the initiatives people came up with. Every morning we had a 'kitchen hangout' just to pop in and chat with co-workers. But especially in those first few weeks the 'library hangout' provided some support to those who worked alone from home and felt additional stress from what was happening in the world.</p>
-<p>You’d open up the library hangout, turn off your mic and just work on stuff. No talking, just companionship. It was pretty cool. Thursday evenings became game night, and Fridays were set to have a remote afternoon of drinks and chill out.</p>
-<p>All of this has subsided somewhat now. We are all a bit more used to this way of working, and we have been able to get a bit more socialising in during our free time. Still, how can we make sure we stay connected to our coworkers while working from home?</p>
-<h2 id="thewhy">The 'why'</h2>
-<p>Now, of course social interactions can also be energy draining for people. I am very much against pushing people into interactions that they do not feel comfortable with. Still, there is more to connecting with co-workers than the social aspect:</p>
+            <title><![CDATA[The basics of a function, illustrated! ✨]]></title>
+            <link>https://khendrikse.github.io/blog/The-basics-of-a-function-illustrated</link>
+            <guid>https://khendrikse.github.io/blog/The-basics-of-a-function-illustrated</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Learn about JavaScript functions with a simple metaphor.]]></description>
+            <content:encoded><![CDATA[<h2 id="whatisafunction">What is a function</h2>
+<p><em>Functions are like small programs that are built to do a specific task.</em> We first create (or 'declare') this program (which we will from now on call a function). Once we are done writing it, we can start using (or 'execute') it.</p>
+<p>It’s kind of like building a small factory. While setting up the factory we create a building. Inside this building, we set everything in place so the factory can receive whatever raw materials it needs and return whatever product we want as output.</p>
+<p>Let’s say we want to build a factory that takes any number and adds two. From the inside the factory would look something like this:</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/9onjc8zt7vpuommno32w.png" alt="a factory that takes in a number and returns that number plus two" /></p>
+<p>We can see that the factory is expecting to get any type of number as input. Because we don’t know yet which number it might receive, we’ll just call whatever input we get <code>num</code> for ‘number’. Inside the factory, we add 2 to whatever we got as input. It then returns the output which is the combination of <code>num + 2</code>.</p>
+<blockquote>
+  <h3 id="aboutnum">About <code>num</code></h3>
+  <p><code>num</code> is just a representation, or container, for what we get as input. We can even rename it into whatever we want. If we were making a factory that added two apples to a number of bananas, we could rename <code>num</code> to <code>bananas</code>. The input would be a number of bananas, the output would be a number of bananas plus two apples.</p>
+</blockquote>
+<p>Do you see that we also gave the factory a name? <code>plusTwo</code>. This makes it a bit easier for when we want to refer to the factory. This way we can tell our workers: ‘I want you to use the factory <code>plusTwo</code> to process a specific number and add 2’.</p>
+<p>Our factory is ready to be used now. To use it we need to provide a number as input. Let’s say we want to give it a <code>3</code> as input. We can’t see what is happening inside the factory but we can see what is returned from the factory: it’s a 5 (3 + 2 = 5):</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/o65pxtvzpgwjbkccobaa.png" alt="The outside of a factory that takes in 3 and returns 5" /></p>
+<h2 id="letsgetcoding">Let’s get coding</h2>
+<p>Functions essentially work the same way. Instead of building an imaginary factory, let’s actually start creating a function in JavaScript.</p>
+<p>We first set up the function, these are like the walls of the factory. For convenience, we will also give the function a name, just like we did with the factory. We’ll call it <code>plusTwo</code>.</p>
+<pre><code class="js language-js">function plusTwo( ) {
+
+}
+</code></pre>
+<p>We are then going to define what we are expecting the program to get as input. We call these <code>arguments</code> or <code>parameters</code>. In this case, we are expecting to get one number. And because it can be any type of number, we’re going to give it a more generic name like <code>num</code>. We will define this argument within the two parentheses <code>()</code>. Look at it as the door that allows our input arguments to enter the function.</p>
+<pre><code class="js language-js">function plusTwo(num) {
+
+}
+</code></pre>
+<p>We’ll now finish the function by saying exactly what it needs to do and return. It needs to return the sum of <code>num</code> and 2. This will become the output of the function.</p>
+<pre><code class="js language-js">function plusTwo(num) {
+    return num + 2;
+}
+</code></pre>
+<p>Now the function is ready to be used. It knows what it is going to get as input, and what it needs to return as output. The part where we use the word <code>return</code> is actually really important. This tells the function to <code>return</code> our output.</p>
+<p>Otherwise, it is kind of like closing the output door to our factory: the produced results cannot leave the factory:</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/b77bysgp94758d7vx8ul.png" alt="The factory output door is closed and none of the product can get out" /></p>
+<blockquote>
+  <h3 id="againwhatisnum">Again, what is <code>num</code>?</h3>
+  <p>We can rename <code>num</code> into whatever we like. It is just a name that we make up to define whatever enters our function. For example, the following two functions would have the exact same result:</p>
+</blockquote>
+<pre><code class="js language-js">function plusTwo(x) {
+    return x + 2;
+}
+
+function plusTwoApples(numberOfApples) {
+    return numberOfApples + 2;
+}
+</code></pre>
+<blockquote>
+  <p><code>x</code> and <code>numberOfApples</code> are simply names we give whatever arguments we are going to get. While we could use <code>x</code> as a name for our arguments, it does not tell us a lot about what we are getting. This is why we try to give it a more descriptive name.</p>
+</blockquote>
+<p>From now on, if you want to code along, you can actually <a href="https://developers.google.com/web/tools/chrome-devtools/open">open developer tools</a> on this page and first type the function that we made just now, press return on your keyboard, and follow along for the next part.</p>
+<h2 id="startusingthefunction">Start using the function</h2>
+<p>We can now actually start using the function. Remember that we gave both the factory and the function a name? Just like with the factory, we can now tell our workers (in this case, our program) to use the function <code>plusTwo</code> to process a number and add 2’.</p>
+<pre><code class="js language-js">plusTwo(3) // returns 5
+</code></pre>
+<p>We pass the number 3 into the doors that are our parentheses. In the function, this means that <code>num</code> now is a representation of 3. In our factory drawings you imagine <code>num</code> to be 3.</p>
+<p>If we pass 5, it will return 7:</p>
+<pre><code class="js language-js">plusTwo(5) // returns 7
+</code></pre>
+<p>Again, in our function <code>num</code> now is a representation of 5. In our factory drawings you imagine <code>num</code> to be 5.</p>
+<p>And that’s it! There is a lot more to learn about functions, but these are the basics that should help you get on your way! I hope it helps anyone learning this for the first time to understand the concepts a bit more.</p>]]></content:encoded>
+            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/tri97q55qgtexhhakgxe.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Awesome soft, airy and fluffy VSC themes]]></title>
+            <link>https://khendrikse.github.io/blog/awesome-soft-airy-and-fluffy-vsc-themes</link>
+            <guid>https://khendrikse.github.io/blog/awesome-soft-airy-and-fluffy-vsc-themes</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[These themes will lift you off for cozy coding.]]></description>
+            <content:encoded><![CDATA[<h2 id="1noctishttpsmarketplacevisualstudiocomitemsitemnameliviuscheranoctis"><strong>1. <a href="https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis">Noctis</a></strong></h2>
+<p>Noctis is a collection of light &amp; dark themes that have soft blends of colours with enough choice of different contrasts.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q17vuc93wq2sdk64tal0.png" alt="An image showing the Noctis Lilac theme" /></p>
+<p>I really like the different colour schemes of this theme. Enough choice between light and dark blends, but all of them have a very forgiving look that don't strain the eyes too much.</p>
+<h2 id="2horizonhttpsmarketplacevisualstudiocomitemsitemnamejolaleyehorizonthemevscode"><strong>2. <a href="https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode">Horizon</a></strong></h2>
+<p>Horizon has six options to choose from, three light options and three dark options. My favourite is the Bright Bold one, because I like that contrast the best of all the light ones.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/buw9oo7000h4gfax47g4.png" alt="An image showing the Horizon Bright Bold theme" /></p>
+<h2 id="3fairyflosshttpsmarketplacevisualstudiocomitemsitemnamenopjmpfairyfloss"><strong>3. <a href="https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss">FairyFloss</a></strong></h2>
+<p>The FairyFloss theme truly is one of my favourites of the bunch. Wonderful for those purple fans who like the highly saturated <a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple">Shades of Purple</a> theme but want something a little more mellow.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/nytxwopueddx6y9vmfrn.png" alt="An image showing the FairyFloss theme" /></p>
+<h2 id="4softerahttpsmarketplacevisualstudiocomitemsitemnamesoftaestheticsofteratheme"><strong>4. <a href="https://marketplace.visualstudio.com/items?itemName=soft-aesthetic.soft-era-theme">Soft Era</a></strong></h2>
+<p>Are you willing to look at an almost white screen? Is that your thing? Then Soft Era must be the perfect theme for you. I have been using this theme mostly on days where I truly needed some more brightness in my life. But it has extremely low contrast so it is not highly productive for me.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/2iqv8bb69roaf3fza0t6.png" alt="An image showing the Soft Era theme" /></p>
+<h2 id="5pinkcatboohttpsmarketplacevisualstudiocomitemsitemnameftsamoyedthemepinkcatboo"><strong>5. <a href="https://marketplace.visualstudio.com/items?itemName=ftsamoyed.theme-pink-cat-boo">Pink Cat Boo</a></strong></h2>
+<p>Pink Cat Boo is a very soft pink/maroon dark theme for those who are searching for more rose like colours in their coding life. The theme description describes it as being perfect for 'coder girls' but let's be honest, anyone can rock this theme if they feel like it ❤️.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/4idq8mlyvrer3bl7vku4.png" alt="An image showing the Pink Cat Boo theme" /></p>
+<h2 id="6pastelpixelshttpsmarketplacevisualstudiocomitemsitemnamequangogagepastelpixels"><strong>6. <a href="https://marketplace.visualstudio.com/items?itemName=quangogage.pastel-pixels">Pastel-Pixels</a></strong></h2>
+<p>I mostly like the editor colours of this theme, but the sidebar and tab colours are a bit much for me for everyday use. But for those who don't care, maybe an awesome look for your editor!</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/zsntl0cqajthh44tl2wm.png" alt="An image showing the Pastel-Pixels theme" /></p>
+<h2 id="7pandasyntaxhttpsmarketplacevisualstudiocomitemsitemnametinkertrainthemepanda"><strong>7. <a href="https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda">Panda Syntax</a></strong></h2>
+<p>This has been my go-to dark theme for a year now. It has soft yet good-contrast colours and I have had many colleagues ask me which one it is.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/zpyb8cgvy5jfbi7326k2.png" alt="An image showing the Panda Syntax theme" /></p>
+<h2 id="8bearhttpsmarketplacevisualstudiocomitemsitemnamedahongthemebear"><strong>8. <a href="https://marketplace.visualstudio.com/items?itemName=dahong.theme-bear">Bear</a></strong></h2>
+<p>Bear is a single option dark theme with fall colours that are easy on the eyes.</p>
+<p><img src="https://thepracticaldev.s3.amazonaws.com/i/r8rx5fslqksnheveo8tz.png" alt="An image showing the Bear theme" /></p>
+<p>Hopefully this list might help you through the seasonal changes a bit more. What are your favourite themes? And why? Share them in the comments down below!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Beautify your Raspberry Pi with the Pimoroni Blinkt!]]></title>
+            <link>https://khendrikse.github.io/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
+            <guid>https://khendrikse.github.io/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Make your Raspberry Pi shine in blue and purple colors.]]></description>
+            <content:encoded><![CDATA[<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q06jxjljnvamg81gclj0.gif" alt="LEDs light up inside a Raspberry Pi" /></p>
+<p><strong>In this post we're going to write a little Python script, and in <a href="https://dev.to/khenhey/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown-542">the next post</a> we'll turn the LEDs on as a background process at startup and switch them off again during shutdown.</strong></p>
+<h2 id="settingupthepimoroniblinkthttpsshoppimoronicomproductsblinkt">Setting up the <a href="https://shop.pimoroni.com/products/blinkt">Pimoroni Blinkt</a></h2>
+<p>Setting up the Blinkt is quite straight-forward. First, make sure to place the Blinkt on the Raspberry Pi's 40-pin header. The rounded corners of the Blinkt should align with the Pi's rounded corner.</p>
+<p>Make sure you are logged into your Pi and in the terminal run</p>
+<pre><code class="bash language-bash">$ curl https://get.pimoroni.com/blinkt | bash
+</code></pre>
+<p>This will install the software you'll need to run the Blinkt. We're using the <a href="http://docs.pimoroni.com/blinkt/">documentation</a> to learn how to set up a linear blue/purple pattern.</p>
+<p>Create and open a new Python file in your terminal. In my case I created one in the Pimoroni folder:</p>
+<pre><code class="bash language-bash">$ nano Pimoroni/blue_purple.py
+</code></pre>
+<p>I did this using the <code>nano</code> editor. You can also create a file another way and open it in your preferred editor.</p>
+<h2 id="importdependencies">Import dependencies</h2>
+<p>First, we need to import the libraries we need. At the top of the file we import <code>blinkt</code> to control the LEDs, <code>time</code> to create time-outs and <code>numpy</code> to create a range of decimals later on.</p>
+<pre><code class="py language-py">#!/usr/bin/env python
+
+import blinkt
+import time
+import numpy
+</code></pre>
+<h2 id="variables">Variables</h2>
+<p>Create a list of colors in RGB format. With this, I mean that we create a list of lists. Each small list contains a number for r, g, and b.</p>
+<p>Then we use <code>numpy</code> to create a range of floats between <code>0</code> and <code>0.5</code>. The range is made with steps of <code>0.03</code>. This range will help us gradually light up each pixel.</p>
+<pre><code class="py language-py">COLOR_LIST = [[0, 127, 255], [0, 0, 255], [127, 0, 255], [255, 0, 255], [255, 0, 127]]
+BRIGHTNESS_RANGE = numpy.arange(0, 0.5, 0.03)
+</code></pre>
+<p>Add the following script to ensure that if the script stops, the LEDs clear.</p>
+<pre><code class="py language-py">blinkt.set_clear_on_exit()
+</code></pre>
+<h2 id="settingthepixels">Setting the pixels</h2>
+<p>We will create a function that takes a pixel, the RGB colors and a range of values that represent the different brightnesses as arguments. It will loop over the list of values for brightness and for every brightness value it will set a pixel with the correct color.</p>
+<pre><code class="py language-py">def set_brightness(pixel, r, g, b, brightRange):
+    for brightness in brightRange:
+        blinkt.set_pixel(pixel, r, g, b, brightness)
+    blinkt.show()
+        # we need to run show after setting the pixel
+        # otherwise we won't see anything change.
+    time.sleep(0.01)
+        # give it a little time to add a slight effect.
+</code></pre>
+<h2 id="whileloop">While loop</h2>
+<p>Now we're going to get to the actual loop that is going to make our Pimoroni Blinkt light up.</p>
+<p>We are going to start a while loop and inside loop over every color array in <code>COLOR_LIST</code>.</p>
+<p>When we run the script inside the terminal and press <code>CTRL-C</code> it will throw a KeyboardInterrupt exception. Because we want to make sure we can stop our <code>While True</code> loop, we use <code>try</code> and listen for the exception to stop the loop.</p>
+<p>The blinkt library has its own constant called <code>blinkt.NUM_PIXELS</code> that spits out the amount of pixels that are available on the device. For every pixel, we call the <code>set_brightness</code> function. We pass the pixel and RGB colors, together with the <code>BRIGHTNESS_RANGE</code>.</p>
+<pre><code class="py language-py">try:
+    while True:
+        for color in COLOR_LIST:
+            for pixel in range(blinkt.NUM_PIXELS):
+                set_brightness(pixel, color[0], color[1], color[2], BRIGHTNESS_RANGE)
+            for pixel in reversed(range(blinkt.NUM_PIXELS)):
+                set_brightness(pixel, color[0], color[1], color[2], reversed(BRIGHTNESS_RANGE))
+except KeyboardInterrupt:
+    pass
+</code></pre>
+<p>Because we want the pixels to light up, and then gradually turn off again, we do a reversed for loop. See the difference between the two? We use <code>reversed(range(blinkt.NUM_PIXELS))</code> and we also send a reversed <code>BRIGHTNESS_RANGE</code>.</p>
+<p>This is it for now! Try it out by saving the file and running it:</p>
+<pre><code class="bash language-bash">$ python blue_purple.py
+</code></pre>
+<p>To stop the script, use <code>CTRL-C</code>.</p>
+<p>This is only the first part. In <a href="https://dev.to/khenhey/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown-542">the next post</a>, we will set up our Raspberry Pi so it starts running this script as a background process on startup, and close it when we shut the Pi down.</p>
+<p><strong>Check the <a href="https://github.com/khendrikse/blinkt-purple-blue/blob/master/blue_purple.py">finished script</a></strong></p>
+<p><em>Sources:</em>
+<a href="https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt">Get started with Blinkt</a>
+<a href="http://docs.pimoroni.com/blinkt/#enable-disable-clear-on-exit">Pimoroni Blinkt Documentation</a>
+<a href="http://effbot.org/zone/stupid-exceptions-keyboardinterrupt.htm">KeyboardInterrupt</a></p>]]></content:encoded>
+            <enclosure url="https://thepracticaldev.s3.amazonaws.com/i/jwk9ue7pvtuj151srtod.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Coding with a group of 11 year olds]]></title>
+            <link>https://khendrikse.github.io/blog/coding-with-a-group-of-11-year-olds</link>
+            <guid>https://khendrikse.github.io/blog/coding-with-a-group-of-11-year-olds</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Get them 'hacking' their favourite websites]]></description>
+            <content:encoded><![CDATA[<h2 id="gettoknowwhattheylove">Get to know what they love</h2>
+<p>Our goal was to stay as close to their own interests as possible. So with a little bit of research we discovered that these kids really loved to use mobile phones and consoles outside of school. Generally most of them knew and used apps like TikTok, SnapChat and WhatsApp, they regularly visited YouTube for watching videos and some of the kids played Minecraft or Fortnite at home.</p>
+<h2 id="makeitinteractive">Make it interactive</h2>
+<p>To keep them engaged we used <a href="https://kahoot.com/">Kahoot</a>. We wanted to switch between our (giphy-filled) slides and the Kahoot to ask them a few questions now and then about what we were talking about. When we actually had the lesson we decided to first just do all of the questions with Kahoot, talk a little about the answers and then dive deeper into them after the quiz. The kids really liked the quiz and already knew how it worked.</p>
+<p><em>Tip:</em> make them understand that it is okay if they didn't get the answer. We also need to google most of what we do when we code.</p>
+<h2 id="explainprogramming">Explain programming</h2>
+<p>As we only had 1,5 hours, we talked about a few basic things:</p>
 <ul>
-<li>You get to find out what other people and teams are working on and learning from.</li>
-<li>It is cool to find common ground and interests</li>
-<li>You build a stronger foundation for working together on projects</li>
-<li>It helps you find opportunities for your personal growth and the growth of others</li>
-<li>The next time you are stuck on something, and you might need help that your teammates can not provide, you know who to turn to.</li>
+<li>We dived into how a lot of things in our daily lives have a 'computer' inside of them. Washing machines, phones, laptops, tablets, consoles, even cars and satellites. And how cool it is that this means you can also program stuff for those devices.</li>
+<li>We discussed how a computer knows what to do. For this we used the <a href="#the-person-is-a-computer-exercise">'tell this person what to do'</a> exercise.</li>
+<li>We explained how developers write computer programs, and that there are <a href="#different-types-of-developers">different types of developers</a>. We also talked about diversity in tech when it comes to people and their backgrounds, but also about the different types of developers.</li>
 </ul>
-<h2 id="thehow">The 'how'</h2>
-<p>Default social places that we have for those who need an extra social kick:</p>
+<h2 id="thepersonisacomputerexercise">The person is a computer exercise</h2>
+<p>Inspired by <a href="https://twitter.com/FloorDrees">@FloorDrees</a> who did this exercise during a <a href="http://www.railsgirls.com">RailsGirls</a> event. We let the kids steer me into writing a word on a whiteboard. The kids were pretty good at understanding that they had to be pretty specific in telling me what to do. 'Step forward', 'put your right hand forward' 'clench your hand around the object that is now referred to as a marker' etc. Some were even quick enough to understand that I had to remove the cap before writing.</p>
+<h2 id="differenttypesofdevelopers">Different types of developers</h2>
+<p>This is where our deep dive of their hobbies and interaction with the internet came in handy. We got to show them that there are different types of developers.</p>
 <ul>
-<li><strong>The Kitchen hangout</strong> - there is still a kitchen hangout every day! And people still go there to chat a bit.</li>
-<li><strong>Game night</strong> - the game night stayed with us!</li>
-<li><strong>Borrel</strong> - there is a borrel every Friday, sometimes musical colleagues share some tunes.</li>
-<li><strong>Donut</strong> We've been really enjoying <a href="https://www.donut.com/">Donut</a>. In our case, donut will match you up with one or more people for a small chat once a week whenever you feel like it. It is still opt-in when the match is made.</li>
+<li>Some like to write software that helps get a rocket from the earth to mars.</li>
+<li>Some want to make apps for phones and tablets, like TikTok, WhatsApp and SnapChat.</li>
+<li>Some want to build websites, like the website of their favourite hiphop artists or YouTube.</li>
+<li>Some want to make games, like Minecraft and Fortnite.</li>
 </ul>
-<p>More work related:</p>
-<ul>
-<li><strong>Guilds</strong> the benefits stated above are available for us in our frontend and backend guilds. It can be super nice to visit guilds because it keeps you up-to-date on what other people are working on, and allows for more in-depth discussions and idea sharing. We provide different types of meetings, from technical discussions to show-and-tells. We also mix the frontend and backend guild every once in a while.</li>
-<li><strong>Standups</strong> - start your standup 5 minutes earlier to chat a bit more with your colleagues about something else but work.</li>
-<li><strong>Project check-ins</strong> - working on a cross-team project? How about saying no to slack every now and then and just doing a short hangout to sync up?</li>
-<li><strong>Team retro’s</strong> - just in case you’re not doing them yet. It can be super nice to help people express how they feel about the way things are going and improve on team work. We have been using <a href="https://www.parabol.co/">Parabol</a> to help manage the retro's.</li>
-<li><strong>Just message a random colleague outside your team</strong> - A fun challenge to message a random colleague and ask what they have been working on.</li>
-</ul>
-<p>That's my input! Nothing new probably. But I am curious how you stay connected and how this has all been for you?</p>]]></content:encoded>
-            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/tezp8yhoehwjfk0ryhhg.jpg" length="0" type="image/jpg"/>
+<h2 id="weletthemhackawebsite">We let them 'hack' a website</h2>
+<p>After the quiz and our explaining of what you can do with programming. We let them do a short 'hacking' exercise. On their laptops they got to go to their favourite website. Which, for most was YouTube or a popular news website as that is where we showed an example. Then by using <code>inspect</code> in the browser, we let them change the text of a video title or news article. This mostly resulted in videos of famous soccer players having titles with the kids names in them. They got to take screenshots which they got to share with their families later.</p>
+<h2 id="wrappingitup">Wrapping it up</h2>
+<p>For the last few minutes one of us sat in front of the class to change colours and fonts on websites. After this we talked about how their changes will be lost once they refresh the page. And that it is a good thing that not anyone can just change news titles because then people could change other peoples work, or change the news however they would want. I think we were both very impressed on how aware the kids were of the danger of spreading lies and 'fake news'.</p>
+<p>The kids also got to ask us a few more questions about what it is like to be a developer and how you can become one. Before we knew it, the lesson was over and the kids continued with their normal school day.</p>
+<p>We had a huge amount of fun, but were exhausted 😂🥳. It was an amazing experience and if you ever get asked to do something similar, I would really consider going for it. It was very rewarding and simply loads of fun. Have you ever done something similar? Please let me know in the comments!</p>]]></content:encoded>
+            <enclosure url="https://media.giphy.com/media/l41lZlI5EjpMCaVdC/giphy.gif" length="0" type="image/gif"/>
         </item>
         <item>
             <title><![CDATA[Finding meaning: landmarks explained]]></title>
-            <link>https://khendrikse.github.io/blog/2021-02-23-finding-meaning-landmarks-explained</link>
-            <guid>https://khendrikse.github.io/blog/2021-02-23-finding-meaning-landmarks-explained</guid>
-            <pubDate>Tue, 23 Feb 2021 00:00:00 GMT</pubDate>
+            <link>https://khendrikse.github.io/blog/finding-meaning-landmarks-explained</link>
+            <guid>https://khendrikse.github.io/blog/finding-meaning-landmarks-explained</guid>
+            <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Learning more about HTML5 elements and their landmarks]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@fallonmichaeltx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fallon Michael</a> on <a href="https://unsplash.com/s/photos/you-are-here?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <h2 id="whatisalandmark">What is a landmark?</h2>
@@ -705,37 +411,56 @@ With npm it it the same as before, but we just go to the folder of our package a
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-02-23-b7f8c6f42839ffdbdaab40eb78c22a7c.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[Using roadmap.sh for structured self-learning]]></title>
-            <link>https://khendrikse.github.io/blog/2021-07-15-using-roadmapsh-for-structured-self-learning</link>
-            <guid>https://khendrikse.github.io/blog/2021-07-15-using-roadmapsh-for-structured-self-learning</guid>
-            <pubDate>Thu, 15 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.]]></description>
-            <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-<p>The tech industry evolves quickly and as a beginner this can make you feel like you are always behind. One of the things I really had to learn is that the basics are always the right priority to dive into. It does not matter what career goal you have, be it frontend, backend or anything in between or beyond. Understanding HTML, CSS and one of the many amazing programming language out there will be a good start to your career.</p>
-<h2 id="whichlanguagetochoose">Which language to choose?</h2>
-<p>That depends on your own personal context. If you already landed a job and are expected to learn a specific language for it: choose that one. If you feel excited for another: go for the other one. When self-learning the key thing is motivation. Work with what makes you excited. Once you learn one language, the others can easily follow. Don’t feel rushed or pressured into something that does not ‘spark joy’.</p>
-<p>I started my journey through the RailsGirls community. So it felt right for me to follow some Ruby courses because I already knew people who could help me a little and it was the only language I had already seen. When I got hired as a frontend developer I picked up learning JavaScript. It was fun to see how some stuff was the same, and where the two languages differed. Again: once you know one language, others can easily follow.</p>
-<h2 id="youdontknowwhatyoudonotknow">You don’t know what you do not know</h2>
-<p>One of the reasons it is so hard when you are a beginner in tech is because you probably don’t know the gaps in your knowledge. Having a mentor, or knowing people who have more experience to help point into the right direction can be of huge help here. Luckily I was surrounded by an amazing group of people to point me into the right direction. Still, I was craving some more structure to help me set priorities when it came to learning the essentials.</p>
-<h2 id="roadmapsh">Roadmap.sh</h2>
-<p>Through some luck I found <a href="https://twitter.com/kamranahmedse">Kamran Ahmed’s</a> roadmap.sh. I checked out the frontend roadmap and was amazed at the way it helped me gain insight into things I did not know I could dive into. This is how I implemented it into my own learning:</p>
-<ol>
-<li>I created a markdown file and wrote down the list of things I wanted to learn using the roadmap.</li>
-<li>I went through the list and marked the ones that motivated me to learn, and the ones I knew could help me build the projects I was working on. I gave those extra priority.</li>
-<li>I went through the list again and for each topic I started searching the web for good resources that I could study to learn that subject matter. I did not study them immediately. I was just collecting and linking to those resources in the file. (Note: nowadays roadmap.sh has <a href="https://roadmap.sh/guides">some nice resources</a> themselves for some subjects, make sure to check them out!).</li>
-<li>Every quarter I chose some subjects and studied the resources.</li>
-<li>When a subject was done, I had the satisfaction of checking the checkbox in front of it ✨</li>
-</ol>
-<h2 id="projectswillkickstartyourcareer">Projects will kickstart your career</h2>
-<p>Last but not least: I noticed that through work and building personal projects, I was already able to check off some of the boxes on my list. Working on actual projects actually helps you learn so much quicker than doing courses, reading articles, books or watching videos. If you haven’t tried building something yourself yet: go for it! Find something that you think would be fun to build. Maybe try using a fun API that is available on the web. Like <a href="https://api.nasa.gov/">NASA</a>, <a href="https://developer.spotify.com/documentation/web-api/">Spotify</a> or the <a href="https://swapi.dev/">Star Wars API</a>. It might feel daunting to start, but if you split up the project in small tasks it will become much easier.</p>
-<p>Good luck for all of you out there starting on your journeys. Don’t forget that the only person you should compare yourself with, is yourself. And every new thing you learn is one more thing you did not know before. Be nice to yourself and others, and build fun stuff.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-07-15-04bfc211ed7209f98a0f7cab1c2c92ce.jpg" length="0" type="image/jpg"/>
+            <title><![CDATA[Get a head start with your new app - CRA custom templates]]></title>
+            <link>https://khendrikse.github.io/blog/get-a-head-start-with-your-new-app-cra-custom-templates</link>
+            <guid>https://khendrikse.github.io/blog/get-a-head-start-with-your-new-app-cra-custom-templates</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Let's take a look at Create React App's custom templates]]></description>
+            <content:encoded><![CDATA[<p>Custom templates became available with <code>react-scripts@3.3.0</code>. They make it possible to predefine exactly what you want CRA's output to be. For example, maybe you want a few basic components ready, have some dependencies or scripts pre-installed in your <code>package.json</code> or add some config files for ESlint or Prettier.</p>
+<h2 id="cratemplatesdissected">CRA Templates dissected</h2>
+<p>Templates are nothing more than npm packages exporting specific configuration options for CRA + an example of what the generated app should look like.</p>
+<p>I'm going to dive a little deeper into <a href="https://create-react-app.dev/docs/custom-templates/">the example</a> from CRA's documentation.</p>
+<p>When we look at the folder structure of a custom template, it looks something like this:</p>
+<pre><code>my-cra-template
+├── README.md // the readme of the custom template package itself
+├── template.json // more on this file later
+├── package.json // the package.json for the custom template package itself
+└── template //more on this folder later
+    ├── README.md
+    ├── gitignore
+    └── public
+       └── index.html
+    └── src
+       └── index.js (or index.tsx)
+</code></pre>
+<p>The <code>my-cra-template</code> folder contains a <code>README.md</code>, <code>template.json</code> and <code>package.json</code>. These all belong specifically to the CRA template package that you are trying to make. The <code>README.md</code> contains info about the package and the <code>package.json</code> has package info for npm. You can put whatever you want in your <code>package.json</code>, just make sure your package's name starts with <code>cra-template-...</code>.</p>
+<h2 id="whatcreatesthetemplate">What creates the template</h2>
+<p>The <code>template.json</code> file and the <code>template</code> folder are the pieces that actually tell CRA what to generate:</p>
+<p>The <code>template.json</code> file is the place where we define the following:</p>
+<ul>
+<li><strong>Dependencies</strong> - the dependencies you want CRA to install in any new app.</li>
+<li><strong>Scripts</strong> - any scripts that you want CRA to put in the <code>package.json</code> file of any new app it creates with this template.</li>
+</ul>
+<p>For now, it is not yet possible to add any <code>devDependencies</code> to the template. To make it easy for the user to add those, you can always specify them inside your package's readme so they can copy and paste it quickly.</p>
+<p>The <code>template</code> folder essentially holds an example of how you want the generated app to look like. An easy way to create it is by creating a new app with CRA, modify it exactly the way you like. You could add some configuration files (like .eslintrc for example) or specify a folder structure with files. Then copy it into the <code>templates</code> and inside that folder:</p>
+<ul>
+<li>turn <code>.gitignore</code> into <code>gitignore</code></li>
+<li>remove the <code>package.json</code> and lockfile</li>
+<li>customize how you would like the generated app's <code>README.md</code> to look like.</li>
+</ul>
+<p>Make sure you at least have the minimum files inside your <code>templates</code> folder that the <a href="https://create-react-app.dev/docs/custom-templates/">CRA documentation</a> specifies.</p>
+<p>Like mentioned above; CRA has two default templates that you can look into to understand how it works:</p>
+<ul>
+<li><a href="https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript">cra-template-typescript</a></li>
+<li><a href="https://github.com/facebook/create-react-app/tree/master/packages/cra-template">cra-template</a></li>
+</ul>
+<p>And that's it! If you want to see how other people did this, check out all the <a href="https://www.npmjs.com/search?q=cra-template-*">available packages</a> on npm.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Get to know the terminal]]></title>
-            <link>https://khendrikse.github.io/blog/2021-08-16-get-to-know-the-terminal</link>
-            <guid>https://khendrikse.github.io/blog/2021-08-16-get-to-know-the-terminal</guid>
-            <pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate>
+            <link>https://khendrikse.github.io/blog/get-to-know-the-terminal</link>
+            <guid>https://khendrikse.github.io/blog/get-to-know-the-terminal</guid>
+            <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Learn to understand the difference between the terminal, command line and shell. And become more comfortable using them.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <p>First things first: the words 'terminal' and 'command line' are often used interchangeably. Both are text based ways to help you navigate and interact with your operating system. But what is actually the difference between the terminal, command line and shell?</p>
@@ -772,54 +497,302 @@ With npm it it the same as before, but we just go to the folder of our package a
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-16-8da6f1b1effca036eaf9580413eb94cc.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
-            <title><![CDATA[9 Cozy Vim color schemes]]></title>
-            <link>https://khendrikse.github.io/blog/2021-08-17-9-cozy-vim-color-schemes</link>
-            <guid>https://khendrikse.github.io/blog/2021-08-17-9-cozy-vim-color-schemes</guid>
-            <pubDate>Tue, 17 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[A list of very cozy vim color schemes.]]></description>
-            <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@joyfulcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyful</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-<h3 id="1989httpsgithubcomsonjapeterson1989vim"><a href="https://github.com/sonjapeterson/1989.vim">1989</a></h3>
-<p>If you are a big Taylor Swift fan… Well then don't look any longer! Here she is! This Taylor Swift themed color scheme <a href="https://github.com/sonjapeterson/1989.vim">1989</a> is cute… it's pastel… there are gorgeous pinks, purples and yellows on a soft grey background. I'd say: It takes this way too far, and it'll leave you breathless.</p>
-<p><img src="vim-color-schemes/t-1989.png" alt="example of the 1989 vim colorscheme" /></p>
-<h3 id="cosmehttpsgithubcombeikomecosmevim"><a href="https://github.com/beikome/cosme.vim">Cosme</a></h3>
-<p>I know. You must think "isn't this the same as 1989?". No, it's called <a href="https://github.com/beikome/cosme.vim">Cosme</a>! It is SO MUCH like the 1989 theme (a little less cute tbh) but wait… There is more. Because have you seen that gorgeous vim-airline theme it has going on at the bottom? Yes! Hear me out: like 1989 better than Cosme? Why not combine that beauty with the cosme airline theme. Yes. You're welcome.</p>
-<p><img src="vim-color-schemes/t-cosme.png" alt="example of the Cosme vim colorscheme" /></p>
-<h3 id="alabasterhttpsgithubcomagudulinvimcolorsalabaster"><a href="https://github.com/agudulin/vim-colors-alabaster">Alabaster</a></h3>
-<p>If you are going for minimalism and the only reason you are not working full black and white is because that is too boring for you and is simply one bridge too far. This is perfect for you! <a href="https://github.com/agudulin/vim-colors-alabaster">Alabaster</a> is a super minimalistic scheme. Black text on a white background, with some sprinkles of pastel greens, purply pinks, yellows and blues. It especially thrives on a split terminal screen as seen with this example of NERDtree.</p>
-<p><img src="vim-color-schemes/t-alabaster.png" alt="example of the Alabaster vim colorscheme" /></p>
-<h3 id="dogrunhttpsgithubcomwadackelvimdogrun"><a href="https://github.com/wadackel/vim-dogrun">Dogrun</a></h3>
-<p><a href="https://github.com/wadackel/vim-dogrun">Dogrun</a> is as if a pastel puppy was (safely) put in the washer and dryer a bunch of times* and its cute coat just became fluffier and fluffier but also kind of toned down a bit. You get what I'm saying? I'm talking toned down red, light purple and some greens. It's darker for those that like it but I think it still has that cozy vibe to it.</p>
-<p>*Don't ever do this. This would not be okay. I'm scared writing this.
-<img src="vim-color-schemes/t-dogrun.png" alt="example of the Dogrun vim colorscheme" /></p>
-<h3 id="espressohttpsgithubcomgmoevimespresso"><a href="https://github.com/gmoe/vim-espresso">Espresso</a></h3>
-<p>Can you already smell <a href="https://github.com/gmoe/vim-espresso">Espresso</a>? It has a dark grey background for some bitterness. The green and blue add some fresh acidity and last but not least some popping pink that brings just the right sweetness to it. Bitter, acidic and sweet. Need I say more?</p>
-<p><img src="vim-color-schemes/t-espresso.png" alt="example of the Espresso vim colorscheme" /></p>
-<h3 id="softerahttpsgithubcomsoftaestheticsofteravim"><a href="https://github.com/soft-aesthetic/soft-era-vim">Soft Era</a></h3>
-<p>Now… Having the intense urge of sprucing up your coding experience with pastel colors that make you feel homely, cozy, relaxed and vibing does not mean that it's going to make for the most readable code. <a href="https://github.com/soft-aesthetic/soft-era-vim">Soft Era</a> is a classic when it comes to smooth color vibes. It's just not that readable. Still cute though!</p>
-<p><img src="vim-color-schemes/t-soft-era.png" alt="example of the Soft Era vim colorscheme" /></p>
-<h3 id="fairyflosshttpsailorhggithubiofairyfloss"><a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a></h3>
-<p>Those who love the pastel vibes in coding are probably already familiar with Amy Wibowo and her dreamy <a href="http://sailorhg.github.io/fairyfloss/">FairyFloss</a> theme. Thankfully <a href="https://github.com/tssm/fairyfloss.vim">FairyFloss</a> has been made available for Vim lovers too. The colors are mystical and dreamy with an actual okay amount of contrast. A classic that cannot be left out.</p>
-<p><img src="vim-color-schemes/t-fairy-floss.png" alt="example of the fairy-floss vim colorscheme" /></p>
-<h3 id="pandasyntaxhttpsgithubcommarkvinczepandavim"><a href="https://github.com/markvincze/panda-vim">Panda Syntax</a></h3>
-<p>Like mentioned before, pastel colors are not always the best when it comes to readability. This is why I've stuck with <a href="https://github.com/markvincze/panda-vim">Panda Syntax</a> for such a long time. Even though it's not very pastel, I still think it's very cute. As a little extra, I would recommend having this tasty scheme together with the <a href="https://github.com/vim-airline/vim-airline-themes/blob/master/autoload/airline/themes/fruit_punch.vim">Fruit Punch Airline Theme</a>.</p>
-<p><img src="vim-color-schemes/t-panda.png" alt="example of the Panda Syntax vim colorscheme" /></p>
-<h3 id="tsenmagentayellowhttpsgithubcommarremantsenmagentayellow"><a href="https://github.com/marreman/tsen-magenta-yellow">Tsen Magenta Yellow</a></h3>
-<p>Something about the purple inspired <a href="https://github.com/marreman/tsen-magenta-yellow">Tsen Magenta Yellow</a> calms me so much. Even though it is simple, I love the yellow notes that it brings. I could say more but I'll just let you rest and have a moment of calmth to process these blissful colors.</p>
-<p><img src="vim-color-schemes/t-tsen-magenta-yellow.png" alt="example of the Tsen Magenta Yellow vim colorscheme" /></p>
-<p>Most pastel/purple/pink themes or color schemes are really low contrast. They are therefore <a href="https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/">not very accessible</a> to everyone. Of course it still depends on the individual, but I did do a quick check. And the following should be somewhat compliant to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">WCAG 2.0 guidelines for contrast accessibility</a>:</p>
+            <title><![CDATA[How to get ready for Hacktoberfest ✨]]></title>
+            <link>https://khendrikse.github.io/blog/how-to-get-ready-for-hacktoberfest</link>
+            <guid>https://khendrikse.github.io/blog/how-to-get-ready-for-hacktoberfest</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[5 Tips to get you ready for coding]]></description>
+            <content:encoded><![CDATA[<p><em>No idea what Hacktoberfest is? Check <a href="https://hacktoberfest.digitalocean.com/">the official website</a> for information about the event and how to participate.</em></p>
+<h2 id="1readthefaq"><strong>1. 📚 Read the FAQ</strong></h2>
+<p>To understand how you can participate. Definitely read up on the  <a href="https://hacktoberfest.digitalocean.com/">official website</a> for information about the event and participation. They also have a great FAQ with tips and tricks that might help you out getting started in October.</p>
+<h2 id="2suppressthatimpostersyndrome"><strong>2. 💪 Suppress that imposter syndrome</strong></h2>
+<p>Contributing to projects you are not familiar with can be quite daunting. But: Hacktoberfest is a stage for anyone that wants to try out contributing to open source. Your contribution doesn't have to be perfect and it doesn't have to be big.</p>
+<p>This month is all about getting to know the open source community and becoming familiar with the process. Any valuable contribution counts. Improving documentation, picking up big or small issues, fixing bugs or adding new features are all an option. Even if you feel like you might not be able to do it, you are probably more than able. Still feeling insecure? Then maybe…</p>
+<h2 id="3getagroupofenthusiaststogether"><strong>3. 🍕 Get a group of enthusiasts together</strong></h2>
+<p>Why start join the event alone if you can get together for fun code evenings with friends or colleagues?</p>
+<p>Check if people around you might be interested to participate in the event and organise evenings or weekends where you chill out together and try your best at working on some PR's. It helps keep you motivated and provides a great excuse for pizza's and drinks!</p>
+<h2 id="4findprojectsyoulike"><strong>4. 🔍 Find projects you like</strong></h2>
+<p>Finding issues to work on can be tough during Hacktoberfest because loads of people jump on the chance to pick up an issue. That is why I recommend planning ahead a little bit. Maybe there is a project you use regularly in your daily job that you think could use some help? Documentation that can be improved for readability or a bug that needs fixing. Maybe you know someone who has a small open source project that they want more contributors for.</p>
+<p>Ask around with friends and check if there is anything that makes you motivated. Write down a list for yourself so you know where to start looking once the event starts.</p>
+<p>There is even <a href="https://github.com/search?utf8=%E2%9C%93&q=label%3Ahacktoberfest&type=Issues&ref=advsearch&l=&l=">a special Hacktoberfest label</a> people can add to their project's issues to let others know they are open to new contributors. This can help you find something to work on.</p>
+<h2 id="5blocktimeinyourcalendar"><strong>5. 📅 Block time in your calendar</strong></h2>
+<p>If you really want to contribute something valuable or fun, create time in your busy schedule to start coding. This will make it easier to find the time to work on something fun.</p>
+<p><em>These are my tips to get ready for Hacktoberfest! Got tips or tricks? Share them in the comments!</em></p>
+<p><strong>🍴 Extra beginner tip: learn how to fork a project</strong>
+Hacktoberfest is an awesome event for any beginner to start looking into open source contribution. Something I really needed to look into myself when I first started out is forking a project, and seeing how to keep your fork updated with the original one. So if you have no experience with that yet, maybe read <a href="https://help.github.com/en/articles/fork-a-repo">this awesome guide</a>.</p>]]></content:encoded>
+            <enclosure url="https://thepracticaldev.s3.amazonaws.com/i/jq4249imytytcvw3ewpg.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How to stay connected to your co-workers]]></title>
+            <link>https://khendrikse.github.io/blog/how-to-stay-connected-to-your-co-workers</link>
+            <guid>https://khendrikse.github.io/blog/how-to-stay-connected-to-your-co-workers</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Staying connected in a work-from-home world]]></description>
+            <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DJ Johnson</a> on <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<h2 id="inthebeginning">In the beginning…</h2>
+<p>The first Monday our department was working from home was new and interesting. People joined in a morning hangout to chat a bit and discuss what was happening in the world. I texted my friends: ‘<em>This is so much fun! I got to see a bunch of colleagues and their kids and pets in one screen!</em>’. I thought it was pretty cute to see the mayhem of cats trodding on keyboards and kids trying to get attention.</p>
+<p>Of course, trying to manage both work and kids at the same time soon became less cute and more work for most parents. For everyone reading this who dealt with that: you did a hell of a job. I look in awe at how you managed. Please try to be proud of yourself for going through this 👍.</p>
+<h2 id="socialinitiatives">Social initiatives</h2>
+<p>However, not everyone was surrounded by family or roommates. Some of us said goodbye to social moments that normally power us through the day. Thankfully it was amazing to see the initiatives people came up with. Every morning we had a 'kitchen hangout' just to pop in and chat with co-workers. But especially in those first few weeks the 'library hangout' provided some support to those who worked alone from home and felt additional stress from what was happening in the world.</p>
+<p>You’d open up the library hangout, turn off your mic and just work on stuff. No talking, just companionship. It was pretty cool. Thursday evenings became game night, and Fridays were set to have a remote afternoon of drinks and chill out.</p>
+<p>All of this has subsided somewhat now. We are all a bit more used to this way of working, and we have been able to get a bit more socialising in during our free time. Still, how can we make sure we stay connected to our coworkers while working from home?</p>
+<h2 id="thewhy">The 'why'</h2>
+<p>Now, of course social interactions can also be energy draining for people. I am very much against pushing people into interactions that they do not feel comfortable with. Still, there is more to connecting with co-workers than the social aspect:</p>
 <ul>
-<li>1989</li>
-<li>Cosme</li>
-<li>Alabaster</li>
-<li>Tsen Magento Yellow (almost)</li>
-</ul>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-17-12671b847d94152f1d5595aea5b5a734.jpg" length="0" type="image/jpg"/>
+<li>You get to find out what other people and teams are working on and learning from.</li>
+<li>It is cool to find common ground and interests</li>
+<li>You build a stronger foundation for working together on projects</li>
+<li>It helps you find opportunities for your personal growth and the growth of others</li>
+<li>The next time you are stuck on something, and you might need help that your teammates can not provide, you know who to turn to.</li>
+</ul>
+<h2 id="thehow">The 'how'</h2>
+<p>Default social places that we have for those who need an extra social kick:</p>
+<ul>
+<li><strong>The Kitchen hangout</strong> - there is still a kitchen hangout every day! And people still go there to chat a bit.</li>
+<li><strong>Game night</strong> - the game night stayed with us!</li>
+<li><strong>Borrel</strong> - there is a borrel every Friday, sometimes musical colleagues share some tunes.</li>
+<li><strong>Donut</strong> We've been really enjoying <a href="https://www.donut.com/">Donut</a>. In our case, donut will match you up with one or more people for a small chat once a week whenever you feel like it. It is still opt-in when the match is made.</li>
+</ul>
+<p>More work related:</p>
+<ul>
+<li><strong>Guilds</strong> the benefits stated above are available for us in our frontend and backend guilds. It can be super nice to visit guilds because it keeps you up-to-date on what other people are working on, and allows for more in-depth discussions and idea sharing. We provide different types of meetings, from technical discussions to show-and-tells. We also mix the frontend and backend guild every once in a while.</li>
+<li><strong>Standups</strong> - start your standup 5 minutes earlier to chat a bit more with your colleagues about something else but work.</li>
+<li><strong>Project check-ins</strong> - working on a cross-team project? How about saying no to slack every now and then and just doing a short hangout to sync up?</li>
+<li><strong>Team retro’s</strong> - just in case you’re not doing them yet. It can be super nice to help people express how they feel about the way things are going and improve on team work. We have been using <a href="https://www.parabol.co/">Parabol</a> to help manage the retro's.</li>
+<li><strong>Just message a random colleague outside your team</strong> - A fun challenge to message a random colleague and ask what they have been working on.</li>
+</ul>
+<p>That's my input! Nothing new probably. But I am curious how you stay connected and how this has all been for you?</p>]]></content:encoded>
+            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/tezp8yhoehwjfk0ryhhg.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Light up LEDs when you start your Raspberry Pi and clear them on shutdown]]></title>
+            <link>https://khendrikse.github.io/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
+            <guid>https://khendrikse.github.io/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Set up your Pimoroni Blinkt so it automatically turns on and off when you start-up or shut down your Raspberry Pi.]]></description>
+            <content:encoded><![CDATA[<p><em>You can actually use the techniques in this tutorial for any other script or board.</em></p>
+<h2 id="startthescriptwhenthepiturnson">Start the script when the Pi turns on</h2>
+<p>There are many different ways to start running a script when the Pi is booting up. We are going to use <code>crontab</code>.</p>
+<p>With <code>crontab</code> we can automate running a script at a certain moment. There are different options, such as running a script <code>yearly</code>, <code>daily</code> or on <code>reboot</code>. We will be using that last option 😉.</p>
+<p>Make sure to be logged into your Pi and in the terminal run:</p>
+<pre><code class="bash language-bash">$ crontab -e
+</code></pre>
+<p>This will open <code>crontab</code> in your editor. At the bottom of the file add:</p>
+<pre><code class="bash language-bash">@reboot python /home/pi/Pimoroni/blue_purple.py &amp;
+</code></pre>
+<p>We use <code>@reboot</code> to tell the <code>crontab</code> that we want to run the script whenever the device reboots. <code>python</code> is used to run the Python script and <code>&amp;</code> makes the script run as a background script so you can use your terminal while the script is running. Make sure to add the absolute path to the script you want to run when starting up.</p>
+<p>Save and close the file, that's it for the first part. You can now restart your Pi with <code>sudo reboot</code> and it should automatically start running your script in the background once it starts up again.</p>
+<h3 id="howtokillyourbackgroundprocess">How to kill your background process</h3>
+<p>If for any reason you want to stop the script, all you have to do is find its Process Identifier (PID) by running <code>ps aux | grep python</code> and finding the script in the list of processes. The output would look something like this:</p>
+<pre><code class="bash language-bash">pi         394 35.3  1.7  32420 16352 ?        S    12:09  34:34 python /home/pi/Pimoroni/blue_purple.py
+pi         771  0.0  0.0   7348   492 pts/0    S+   13:46   0:00 grep --color=auto python
+</code></pre>
+<p>The PID is the number right next to the <code>pi</code>. In the example, it is <code>394</code> Once you have the PID run <code>kill 349</code> replacing <code>349</code> with the number of your PID.</p>
+<h3 id="turningofftheledsandclearingthem">Turning off the LEDs and clearing them</h3>
+<p>Let's run a little test. Try shutting down your Pi while the LEDs are running. We can do that by typing:</p>
+<pre><code class="bash language-bash">$ sudo shutdown now
+</code></pre>
+<p>The Pi will shut itself down and the background script will also stop running. But you might notice that the LEDs did not clear. The Blinkt library has a function for clearing the LEDs when the script stops: <code>blinkt.set_clear_on_exit()</code>. But that only works when the script is explicitly stopped by us. On shutdown, this will have no effect. And as the Blinkt pixels seem to have memory, they will not clear unless we tell them to, or turn off the power.</p>
+<p>So, let's fix this.</p>
+<p>Inside our Python script we are going to add a new library called <code>signal</code> underneath our other libraries:</p>
+<pre><code class="py language-py">#!/usr/bin/env python
+
+import blinkt
+import time
+import numpy
+import signal # new one!
+</code></pre>
+<p>This will import the <code>signal</code> library. This library listens for signals from the system and makes it possible to run a function when we receive a specific signal.</p>
+<p>When our Pi shuts down, it will send a signal called <code>SIGTERM</code>. This signal is sent whenever the system is doing a soft shutdown.</p>
+<p>If our script receives this signal, we want to clear the LEDs and exit from the Python script. So in our Python file, add:</p>
+<pre><code class="py language-py">def clear_leds(signum, frame):
+        blinkt.clear()
+        blinkt.show()
+        exit(0)
+
+signal.signal(signal.SIGTERM, clear_leds)
+</code></pre>
+<p>The <code>clear_led</code> function has two arguments it automatically receives from the <code>signal.signal()</code> function. We don't really need to use that so we just keep them there. The <code>blinkt.clear()</code> clears the LEDs and the <code>blinkt.show()</code> sets the new changes to the Blinkt so they can be seen. We then exit the Python script with <code>exit(0)</code>.</p>
+<p>By writing <code>signal.signal(signal.SIGTERM, clear_leds)</code> the script will listen for the <code>SIGTERM</code> signal. Once it receives it, it will run the <code>clear_leds</code> function.</p>
+<p>And that's it! Reboot your system and once your LEDs are running again, try shutting the Pi off by using <code>sudo shutdown now</code>. After a second or so the LEDs should clear.</p>
+<p>I had to find different sources to create this flow, so hopefully, this helps out anyone who wants to set it up the same way. Have fun and if you have it running, please share pictures of your awesome Pi!</p>
+<p><strong>Check the <a href="https://github.com/khendrikse/blinkt-purple-blue/blob/master/blue_purple_with_cleanup.py">finished script</a></strong></p>
+<p><em>Sources:</em>
+<a href="https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/">Five ways to run a program on your Raspberry Pi at startup</a>
+<a href="http://man7.org/linux/man-pages/man5/crontab.5.html">crontab</a>
+<a href="https://docs.python.org/3/library/signal.html">Signal</a>
+<a href="https://stackabuse.com/handling-unix-signals-in-python/">Handling Unix Signals in Python</a>
+<a href="https://docs.python.org/2/library/sys.html">Sys exit</a></p>]]></content:encoded>
+            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/5o1drx3yby1z853rjm8d.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Personalize your Linux terminal prompt ✨]]></title>
+            <link>https://khendrikse.github.io/blog/personalize-your-Linux-terminal-prompt</link>
+            <guid>https://khendrikse.github.io/blog/personalize-your-Linux-terminal-prompt</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[Add your own personal touch to your Linux terminal when you're not using a GUI.]]></description>
+            <content:encoded><![CDATA[<p>In this blog, I'll explain how you can change the terminal's prompt to look just the way you want to.</p>
+<h2 id="whatistheps1variable">What is the PS1 variable?</h2>
+<p>When looking at our terminal we can see the command prompt. Depending on your system it will have some information in there. In the case of a standard Raspberry Pi it might look something like this:</p>
+<pre><code class="bash language-bash">pi@raspberrypi:~ $
+</code></pre>
+<p>The part <code>pi@raspberrypi:~ $</code> is actually a shell variable called <code>PS1</code>. There are actually five of these variables. <code>PS0</code>, <code>PS1</code>, <code>PS2</code>, <code>PS3</code>, <code>PS4</code>. Each of them is set up in a different way. To find out more about these variables you can look it up in <em>the manual</em> 📖 (<code>$ man bash</code>) underneath <code>Shell Variables</code>.</p>
+<h2 id="howisps1setup">How is PS1 set up?</h2>
+<p>We can see how the variable is set up by typing</p>
+<pre><code class="bash language-bash">$ echo $PS1
+</code></pre>
+<p>This will return <code>\\u@\\h:\\W\\a\\] $</code> in our example. The characters here actually represent a few things.</p>
+<p>The <code>PS1</code> variable in our example consists of:</p>
+<ul>
+<li><strong>\u = pi</strong> - the username</li>
+<li><strong>@</strong> - the character <code>@</code></li>
+<li><strong>\h = raspberrypi</strong> - the hostname</li>
+<li><strong>:</strong> - the character <code>:</code></li>
+<li><strong>\W = ~~</strong> - the current working directory</li>
+<li><strong>\a]</strong> - an ASCII bell character</li>
+<li>** $** - a space and the <code>$</code> character</li>
+</ul>
+<p>There are many of these characters that you can use. It's easy to find them by opening the bash manual (<code>man bash</code>) and searching for <code>PROMPTING</code>. It will give you a list of available backslash-escaped special characters.</p>
+<p>We can change this variable very easily. Let's set it up to only show the username and current working directory:</p>
+<pre><code>$ PS1=\"\\u [\\w]: \"
+</code></pre>
+<h2 id="usingcolors">Using colors</h2>
+<p>We can also use different colors in our Prompt. To check out what options we have, we can find them using <code>man terminal colors</code>. You'll find a list of available colors there:</p>
+<pre><code>0 to restore default color
+
+1 for brighter colors
+4 for underlined text
+5 for flashing text
+30 for black foreground
+31 for red foreground
+32 for green foreground
+33 for yellow (or brown) foreground
+34 for blue foreground
+35 for purple foreground
+36 for cyan foreground
+37 for white (or gray) foreground
+40 for black background
+41 for red background
+42 for green background
+43 for yellow (or brown) background
+44 for blue background
+45 for purple background
+46 for cyan background
+47 for white (or gray) background
+</code></pre>
+<p>We can set a foreground and background color for our prompt. For example, let's turn the background purple and the foreground a white color.</p>
+<p>Inside your terminal type:</p>
+<pre><code>$ PS1=\"\\e[45;37m\\ \\u [\\w]:\\e[0m \"
+</code></pre>
+<p>Let's look at the first part <code>\\e[45;37m</code>.</p>
+<ul>
+<li><code>\\e[</code> tells bash that we are giving new color information</li>
+<li><code>45</code> the background color purple</li>
+<li><code>;</code> just a separation between the colors</li>
+<li><code>37</code> the foreground color white</li>
+<li><code>m</code> indicates the end of the color definitions</li>
+</ul>
+<p>Knowing this, we can also see that the end part <code>\\e[0m</code> resets everything back to default. To see what happens if we keep this out, try setting it without the end part.</p>
+<p>Now for the last personalization…</p>
+<h2 id="usingspecialcharacters">Using special characters</h2>
+<p>Let's spice it up a bit more by adding a few more bits and bobs. (Get it? bits? No? Alrighty…).</p>
+<p>I want to use a few special characters to give a fading look, <code>▓</code>, <code>▒</code> and <code>░</code>. In order to include these in the <code>PS1</code> variable, we're going to need their octal numbers. I used <a href="http://graphemica.com/unicode/characters">Graphemica.com</a> to find the octal numbers.</p>
+<ul>
+<li>▓ = <code>\\342\\226\\223</code></li>
+<li>▒ = <code>\\342\\226\\222</code></li>
+<li>░ = <code>\\342\\226\\221</code></li>
+</ul>
+<p>When we want to put them together we just chain the numbers: <code>\\342\\226\\223\\342\\226\\222\\342\\226\\221</code>. We also want to set the right colors. So we'll turn the foreground color purple and the background color back to default by adding <code>\\e[0;35m</code>. We add this right after the working directory character as such:</p>
+<pre><code>$ PS1=\"\\e[45;37m \\u [\\w]\\e[0;35m\\342\\226\\223\\342\\226\\222\\342\\226\\221:\\e[0m \"
+</code></pre>
+<p>This will set up us with something looking like this:</p>
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/1ihzx5aquvinnreuo2xa.png" alt="The end result" /></p>
+<p>Of course, there are other creative things you can do and other characters you can use.</p>
+<h2 id="settingitinyourbashfiles">Setting it in your bash files</h2>
+<p>Now that we have something fun set up, let's make sure it is permanent. You can do this by setting this variable in your <code>~/.bashrc</code> or <code>~/.bash_profile</code>:</p>
+<pre><code>PS1="\e[45;37m \u [\w]\e[0;35m\342\226\223\342\226\222\342\226\221:\e[0m"
+</code></pre>
+<p>And that's it! This way, your prompt will look this way, even if you restart your computer.</p>
+<p>I'm really curious about other awesome ways there are to personalize the terminal. And also to see what types of combinations people can come up with to personalize their prompt, so please share your creations!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Redirection and pipeline magic]]></title>
+            <link>https://khendrikse.github.io/blog/redirection-and-pipeline-magic</link>
+            <guid>https://khendrikse.github.io/blog/redirection-and-pipeline-magic</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[For when you don't feel like diving deep into bash but do want to know what redirection is when you see it.]]></description>
+            <content:encoded><![CDATA[<h2 id="redirection">Redirection</h2>
+<p>A program that runs in the command line always has three important ways to connect with it; the input, output, and possible error output of the program. We call these types of connections data- or file streams.</p>
+<p>Examples:</p>
+<ul>
+<li>The <em>input</em> of a program can be a keyboard or the output of another command, file, or program.</li>
+<li>Examples of the <em>output</em> or <em>error output</em> could be another file or the terminal.</li>
+</ul>
+<p>These three file streams have specific names and even values. These values are called 'file descriptors'. File descriptors are nothing more than numbers that are given to specific files. These three, have the numbers 0 to 2:</p>
+<p>| Name            | Symbolic name | File descriptor | Sign | Default  |
+| --------------- | ------------- | :-------------: | :--: | -------- |
+| Standard input  | stdin         |        0        |  <   | Keyboard |
+| Standard output | stdout        |        1        |  >   | Terminal |
+| Standard error  | stderr        |        2        |  2&gt;  | Terminal |</p>
+<p>We can change the sources of these streams. This is what we call redirection.</p>
+<p><em>Example</em></p>
+<p>Let's say we have a list of animals in a file called <code>animals.txt</code>.</p>
+<pre><code class="text language-text">puppy
+kangaroo
+kitten
+snake
+wombat
+tiger
+bird
+</code></pre>
+<p>What if we want to sort this list and save the outcome to a new file?</p>
+<pre><code>$ sort &lt; animals.txt &gt; sortedAnimals.txt
+</code></pre>
+<p>We call the <code>sort</code> command and give it <code>animals.txt</code> as input by using the <code>&lt;</code> symbol. Then we set the <code>sortedAnimals.txt</code> file as the output by using the <code>&gt;</code> symbol.</p>
+<p>When we open the <code>sortedAnimals.txt</code> file we will find:</p>
+<pre><code class="text language-text">bird
+kangaroo
+kitten
+puppy
+snake
+tiger
+wombat
+</code></pre>
+<p>Now, what if we wanted to sort a file that does not exist? For example:</p>
+<pre><code class="shell language-shell">$ sort &lt; ghostFile.txt &gt; sortedGhostFile.txt
+-bash: ghostFile.txt: No such file or directory
+</code></pre>
+<p>We get an error thrown into the terminal. Of course, this is good because we want to get feedback on why something is not working. But what if we didn’t want the error to be thrown into the terminal, but written to a file? We could redirect the standard error (<code>stderr</code>) to a file as well:</p>
+<pre><code class="shell language-shell">$ sort 2&gt; sortedGhostFileError.txt &lt; ghostFile.txt
+</code></pre>
+<p>We first say where the <code>stderr</code> of <code>sort</code> needs to direct to with the 2&gt; sign. Then we say that <code>ghostFile.txt</code> needs to be input for the sort command by using the <code>&lt;</code> sign. If you were to check, you would see that the file <code>sortedGhostFileError.txt</code> has been created and it contains the same error we saw printed into the terminal before.</p>
+<p>You can also write the standard output and standard error to the same file. There are two ways to do this.</p>
+<pre><code class="shell language-shell">$ sort &gt; ghostFileOutput.txt 2&gt;&amp;1 &lt; ghostFile.txt
+</code></pre>
+<p>We first define that <code>ghostFileOutput.txt</code> is the output, and then use the <code>2&gt;&amp;1</code> sign to redirect the standard error (2) to standard output (1).</p>
+<p>You can also use the shorthand:</p>
+<pre><code class="shell language-shell">$ sort &amp;&gt; ghostFileOutput.txt &lt; ghostFile.txt
+</code></pre>
+<h2 id="pipelines">Pipelines</h2>
+<p>Our next step in understanding redirection is by understanding ‘Pipelines’. The pipe operator <code>|</code> lets us chain different commands together. This can be very useful. It lets us write small programs or commands, and chain them to let them perform more complex tasks. With the pipe symbol, you can use the output of one command as the input of the next.</p>
+<p>Let's say that we want to use the same <code>list.txt</code> we had before. We want to sort the list and grab the animal that is first in the list after sorting. We could do:</p>
+<pre><code class="shell language-shell">$ sort animals.txt | head -1
+</code></pre>
+<p>This will first sort the <code>list.txt</code> file, use the outcome of that as the input of the <code>head -1</code> command, which will grab only the first line of the input it gets. As we have not specified what output the last command should have, it just prints <code>bird</code> to the terminal. As it is the first animal in the sorted list.</p>
+<p>We could also save that animal as a separate file by combining our pipe symbol with one of the redirection symbols:</p>
+<pre><code class="shell language-shell">$ sort animals.txt | head -1 &gt; first-animal.txt
+</code></pre>
+<p>This will save the outcome to a file called <code>first-animal.txt</code>.</p>
+<h2 id="redirectionsummary">Redirection summary</h2>
+<p>So, a file can have input, output, and error output. We can explicitly say where these three need to point at. This is possible by using different signs or operators. Including <code>&lt;</code>, <code>&gt;</code>, <code>2&gt;</code>, and the pipe operator <code>|</code>. If you want to read more about this try typing <code>man bash</code> in your terminal and search for <code>/REDIRECTION</code>. Other than that, try it out yourself by fiddling around in your terminal. Have fun!</p>
+<p>Do you know an interesting fact about redirection? Make sure to share it in the comments below!</p>]]></content:encoded>
+            <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/sp68ef6310avveg2dxjp.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[TIL: How to set security headers for Gatsby Develop]]></title>
-            <link>https://khendrikse.github.io/blog/2021-09-25-set-your-gatsby-develop-security-headers</link>
-            <guid>https://khendrikse.github.io/blog/2021-09-25-set-your-gatsby-develop-security-headers</guid>
-            <pubDate>Sat, 25 Sep 2021 00:00:00 GMT</pubDate>
+            <link>https://khendrikse.github.io/blog/set-your-gatsby-develop-security-headers</link>
+            <guid>https://khendrikse.github.io/blog/set-your-gatsby-develop-security-headers</guid>
+            <pubDate>Invalid Date</pubDate>
             <description><![CDATA[If, for any reason, you need to run gatsby develop and set security headers. Using advanced proxying is the way to go.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@hngstrm">Henry & Co</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <p>There might come a time that you want to run your <a href="https://www.gatsbyjs.com/">Gatsby</a> app with security headers in development. To do this, you can utilize advanced proxying. Gatsby has a way to expose the <a href="https://expressjs.com/">Express.js</a> development server it uses to run the app whenever you use <code>gatsby develop</code>. This way you can add Express middleware.</p>
@@ -860,6 +833,33 @@ module.exports = {
 </code></pre>
 <p>Done! You should now be able to run <code>gatsby develop</code> and see the proper security headers on the documents that it serves you. Make sure to restart your server if you already had it running though, otherwise the changes won't come through.</p>]]></content:encoded>
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Using roadmap.sh for structured self-learning]]></title>
+            <link>https://khendrikse.github.io/blog/using-roadmapsh-for-structured-self-learning</link>
+            <guid>https://khendrikse.github.io/blog/using-roadmapsh-for-structured-self-learning</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.]]></description>
+            <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<p>The tech industry evolves quickly and as a beginner this can make you feel like you are always behind. One of the things I really had to learn is that the basics are always the right priority to dive into. It does not matter what career goal you have, be it frontend, backend or anything in between or beyond. Understanding HTML, CSS and one of the many amazing programming language out there will be a good start to your career.</p>
+<h2 id="whichlanguagetochoose">Which language to choose?</h2>
+<p>That depends on your own personal context. If you already landed a job and are expected to learn a specific language for it: choose that one. If you feel excited for another: go for the other one. When self-learning the key thing is motivation. Work with what makes you excited. Once you learn one language, the others can easily follow. Don’t feel rushed or pressured into something that does not ‘spark joy’.</p>
+<p>I started my journey through the RailsGirls community. So it felt right for me to follow some Ruby courses because I already knew people who could help me a little and it was the only language I had already seen. When I got hired as a frontend developer I picked up learning JavaScript. It was fun to see how some stuff was the same, and where the two languages differed. Again: once you know one language, others can easily follow.</p>
+<h2 id="youdontknowwhatyoudonotknow">You don’t know what you do not know</h2>
+<p>One of the reasons it is so hard when you are a beginner in tech is because you probably don’t know the gaps in your knowledge. Having a mentor, or knowing people who have more experience to help point into the right direction can be of huge help here. Luckily I was surrounded by an amazing group of people to point me into the right direction. Still, I was craving some more structure to help me set priorities when it came to learning the essentials.</p>
+<h2 id="roadmapsh">Roadmap.sh</h2>
+<p>Through some luck I found <a href="https://twitter.com/kamranahmedse">Kamran Ahmed’s</a> roadmap.sh. I checked out the frontend roadmap and was amazed at the way it helped me gain insight into things I did not know I could dive into. This is how I implemented it into my own learning:</p>
+<ol>
+<li>I created a markdown file and wrote down the list of things I wanted to learn using the roadmap.</li>
+<li>I went through the list and marked the ones that motivated me to learn, and the ones I knew could help me build the projects I was working on. I gave those extra priority.</li>
+<li>I went through the list again and for each topic I started searching the web for good resources that I could study to learn that subject matter. I did not study them immediately. I was just collecting and linking to those resources in the file. (Note: nowadays roadmap.sh has <a href="https://roadmap.sh/guides">some nice resources</a> themselves for some subjects, make sure to check them out!).</li>
+<li>Every quarter I chose some subjects and studied the resources.</li>
+<li>When a subject was done, I had the satisfaction of checking the checkbox in front of it ✨</li>
+</ol>
+<h2 id="projectswillkickstartyourcareer">Projects will kickstart your career</h2>
+<p>Last but not least: I noticed that through work and building personal projects, I was already able to check off some of the boxes on my list. Working on actual projects actually helps you learn so much quicker than doing courses, reading articles, books or watching videos. If you haven’t tried building something yourself yet: go for it! Find something that you think would be fun to build. Maybe try using a fun API that is available on the web. Like <a href="https://api.nasa.gov/">NASA</a>, <a href="https://developer.spotify.com/documentation/web-api/">Spotify</a> or the <a href="https://swapi.dev/">Star Wars API</a>. It might feel daunting to start, but if you split up the project in small tasks it will become much easier.</p>
+<p>Good luck for all of you out there starting on your journeys. Don’t forget that the only person you should compare yourself with, is yourself. And every new thing you learn is one more thing you did not know before. Be nice to yourself and others, and build fun stuff.</p>]]></content:encoded>
+            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-07-15-04bfc211ed7209f98a0f7cab1c2c92ce.jpg" length="0" type="image/jpg"/>
         </item>
     </channel>
 </rss>
