@@ -67,5 +67,6 @@ Layout.propTypes = {
     url: PropTypes.string
   }),
   structured: PropTypes.array,
-  canonical: PropTypes.string
+  canonical: PropTypes.string,
+  refreshUrl: PropTypes.string
 };
