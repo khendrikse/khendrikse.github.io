@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
+import { BsFillRssFill } from 'react-icons/bs';
 import styles from './navbar.module.scss';
-import Rss from '../../public/assets/images/rss.svg';
 
 // TODO: current page styling for links
 
@@ -42,7 +42,7 @@ export default function Header() {
                 aria-label='RSS feed'
                 href='https://khendrikse.github.io/feeds/feed.xml'
               >
-                <Rss width='14px' height='14px' alt='RSS' />
+                <BsFillRssFill size='14px' alt='RSS' />
               </a>
             </li>
           </ul>

@@ -1,8 +1,6 @@
+import { BsGithub, BsLinkedin, BsFillRssFill, BsTwitter } from 'react-icons/bs';
+import { SiDevdotto } from 'react-icons/si';
 import styles from './footer.module.scss';
-import DevTo from '../../public/assets/images/devto.svg';
-import GitHub from '../../public/assets/images/github.svg';
-import LinkedIn from '../../public/assets/images/linkedin.svg';
-import Rss from '../../public/assets/images/rss.svg';
 
 export default function Footer() {
   return (
@@ -10,31 +8,38 @@ export default function Footer() {
       <div className={styles.footer__links}>
         <a
           className={styles.footer__link}
-          aria-label='DEV.to'
-          href='https://dev.to/khenhey'
-        >
-          <DevTo width='24px' height='24px' alt='DEV.to' />
-        </a>
-        <a
-          className={styles.footer__link}
           aria-label='GitHub'
           href='https://github.com/khendrikse'
         >
-          <GitHub width='24px' height='24px' alt='GitHub' />
+          <BsGithub size='24px' alt='GitHub' />
         </a>
         <a
           className={styles.footer__link}
           aria-label='linkedin'
           href='https://www.linkedin.com/in/karinhendrikse/'
         >
-          <LinkedIn width='24px' height='24px' alt='LinkedIn' />
+          <BsLinkedin size='24px' alt='LinkedIn' />
+        </a>
+        <a
+          className={styles.footer__link}
+          aria-label='Twitter'
+          href='https://twitter.com/k_henhey'
+        >
+          <BsTwitter size='24px' alt='Twitter' />
+        </a>
+        <a
+          className={styles.footer__link}
+          aria-label='DEV.to'
+          href='https://dev.to/khenhey'
+        >
+          <SiDevdotto size='24px' alt='DEV.to' />
         </a>
         <a
           className={styles.footer__link}
           aria-label='RSS feed'
           href='https://khendrikse.github.io/feeds/feed.xml'
         >
-          <Rss width='24px' height='24px' alt='RSS' />
+          <BsFillRssFill size='24px' alt='RSS' />
         </a>
         © {new Date().getFullYear()} Karin Hendrikse
       </div>
