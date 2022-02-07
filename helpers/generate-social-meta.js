@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-const trimContent = (content, maxLength) => {
+export const trimContent = (content, maxLength) => {
   let trimmed = content.substr(0, maxLength);
 
   if (trimmed.length !== content.length) {
