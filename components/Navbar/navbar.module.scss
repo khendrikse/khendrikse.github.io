@@ -61,11 +61,7 @@
       }
 
       &:hover {
-        color: $pastel-purple;
-
-        @media (prefers-color-scheme: dark) {
-          color: $pastel-dark-purple;
-        }
+        border-bottom: none;
       }
 
       &--current {
