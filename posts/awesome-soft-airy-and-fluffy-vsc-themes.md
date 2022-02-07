@@ -5,7 +5,7 @@ published: true
 oldBlog: true
 date: '2019-09-17'
 description: These themes will lift you off for cozy coding.
-tags: theme, vsc, pastel, productivity
+tags: curated-color-schemes
 intro: When coding I sometimes feel the need to change the aesthetics of my workspace. Why? I don't know. Maybe because it gives me a fresh look at my code. Maybe because with the seasons changing, I feel the need to lighten or darken my workspace colours. Either way, for those searching for something airy and new. Here is a list of wonderful Visual Studio Code themes that have a cozy, soft or fluffy aesthetic.
 ---
 
