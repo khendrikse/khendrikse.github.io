@@ -3,6 +3,7 @@ layout: post
 title: '9 Cozy Vim color schemes'
 published: true
 oldBlog: true
+tags: curated-color-schemes
 date: '2021-08-17'
 description: A list of very cozy vim color schemes.
 intro: Ahh... to be as cozy as a cat loaf. It's hard for us humans to achieve the same comfort. But having your Vim scheme set up properly to give you a relaxed vibe might just be the next best thing. If you are looking for some cute, cozy, fluffy and pastel color schemes for Vim, you've come to the right place. Here are 9 highly curated schemes just for you.
