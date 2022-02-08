@@ -4,6 +4,16 @@ import generateBreadcrumbs from 'helpers/generate-breadcrumbs';
 import generateSocialMeta from 'helpers/generate-social-meta';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import { Breadcrumb, SocialMeta } from 'interfaces';
+
+type LayoutProps = {
+  breadcrumbs?: Array<Breadcrumb>;
+  socialMeta?: SocialMeta;
+  canonical?: string;
+  refreshUrl?: string;
+  structured?: Array<string>;
+  children?: React.ReactNode;
+};
 
 export default function Layout({
   children,
@@ -12,7 +22,7 @@ export default function Layout({
   structured,
   canonical,
   refreshUrl
-}) {
+}: LayoutProps) {
   return (
     <>
       <Head>
@@ -51,22 +61,3 @@ export default function Layout({
     </>
   );
 }
-
-Layout.propTypes = {
-  children: PropTypes.element,
-  breadcrumbs: PropTypes.arrayOf(
-    PropTypes.shape({ name: PropTypes.string, item: PropTypes.string })
-  ),
-  socialMeta: PropTypes.shape({
-    twitterCardType: PropTypes.string,
-    description: PropTypes.string,
-    title: PropTypes.string,
-    image: PropTypes.string,
-    imageAlt: PropTypes.string,
-    type: PropTypes.string,
-    url: PropTypes.string
-  }),
-  structured: PropTypes.array,
-  canonical: PropTypes.string,
-  refreshUrl: PropTypes.string
-};

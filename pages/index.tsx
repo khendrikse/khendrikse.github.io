@@ -1,9 +1,10 @@
-import PropTypes from 'prop-types';
+import { GetStaticProps } from 'next';
 import Layout from 'components/Layout';
 import PostList from 'components/PostList';
-import styles from 'styles/home.module.scss';
 import parsePosts from 'helpers/parse-posts';
 import createFeeds from '../scripts/feed';
+import styles from 'styles/home.module.scss';
+import { Post } from 'interfaces';
 
 const socialMeta = {
   image:
@@ -11,7 +12,12 @@ const socialMeta = {
   imageAlt: 'Drawn avatar of khendrikse'
 };
 
-const Index = ({ posts, title }) => (
+type IndexProps = {
+  posts: Array<Post>;
+  title: string;
+};
+
+const Index = ({ posts, title }: IndexProps) => (
   <Layout socialMeta={{ ...socialMeta, title }}>
     <div className='container'>
       <div className={styles.home__intro}>
@@ -28,14 +34,9 @@ const Index = ({ posts, title }) => (
   </Layout>
 );
 
-Index.propTypes = {
-  posts: PropTypes.array,
-  title: PropTypes.string
-};
-
 export default Index;
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const configData = await import('../siteconfig.json');
   if (process.env.NODE_ENV !== 'development') {
     createFeeds();
@@ -50,4 +51,4 @@ export async function getStaticProps() {
       description: configData.default.description
     }
   };
-}
+};

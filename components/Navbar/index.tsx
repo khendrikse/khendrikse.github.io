@@ -42,7 +42,7 @@ export default function Header() {
                 aria-label='RSS feed'
                 href='https://khendrikse.github.io/feeds/feed.xml'
               >
-                <BsFillRssFill size='14px' alt='RSS' />
+                <BsFillRssFill size='14px' title='RSS' />
               </a>
             </li>
           </ul>

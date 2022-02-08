@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from './post-item.module.scss';
+import { Post } from 'interfaces';
 
-export default function PostItem({ item }) {
+export default function PostItem({ item }: { item: Post }) {
   return (
     <li className={styles.post_item}>
       <div className={styles.post_item__label_wrapper}>
@@ -22,7 +22,3 @@ export default function PostItem({ item }) {
     </li>
   );
 }
-
-PostItem.propTypes = {
-  item: PropTypes.object
-};

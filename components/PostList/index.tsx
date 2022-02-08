@@ -1,9 +1,14 @@
-import PropTypes from 'prop-types';
 import PostItem from 'components/PostItem';
 import styles from './post-list.module.scss';
+import { Post } from 'interfaces';
 
-export default function PostList({ posts, max }) {
-  if (posts === 'undefined') return null;
+type PostListProps = {
+  posts: Array<Post>;
+  max?: number;
+}
+
+export default function PostList({ posts, max }: PostListProps) {
+  if (posts === undefined) return null;
 
   return (
     <div>
@@ -11,15 +16,10 @@ export default function PostList({ posts, max }) {
       <ul className={styles.post_list}>
         {posts &&
           posts.map((post, i) => {
-            if (i > max - 1) return null;
+            if (max && i > max - 1) return null;
             return <PostItem key={post.slug} item={post} />;
           })}
       </ul>
     </div>
   );
 }
-
-PostList.propTypes = {
-  posts: PropTypes.array,
-  max: PropTypes.number
-};

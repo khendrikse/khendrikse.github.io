@@ -1,3 +1,4 @@
+import { GetStaticProps } from 'next';
 import PropTypes from 'prop-types';
 import Layout from 'components/Layout';
 import ProgressiveImage from 'components/ProgressiveImage';
@@ -10,7 +11,11 @@ const socialMeta = {
   url: 'about'
 };
 
-const About = ({ title }) => (
+type AboutProps = {
+  title: string;
+};
+
+const About = ({ title }: AboutProps) => (
   <Layout
     socialMeta={{ ...socialMeta, title }}
     breadcrumbs={[{ name: 'about', item: 'about/' }]}
@@ -63,7 +68,7 @@ About.propTypes = { title: PropTypes.string };
 
 export default About;
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const configData = await import('../siteconfig.json');
 
   return {
@@ -71,4 +76,4 @@ export async function getStaticProps() {
       title: configData.default.title
     }
   };
-}
+};
