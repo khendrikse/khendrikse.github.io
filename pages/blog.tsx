@@ -1,7 +1,8 @@
-import PropTypes from 'prop-types';
+import { GetStaticProps } from 'next';
 import BlogPage from 'components/BlogPage';
 import parsePosts from 'helpers/parse-posts';
 import getCategories from 'helpers/get-categories';
+import { Post, Breadcrumb } from 'interfaces';
 
 const socialMeta = {
   image:
@@ -12,7 +13,16 @@ const socialMeta = {
   url: 'blog'
 };
 
-const Index = props => (
+type IndexProps = {
+  title: string;
+  posts: Array<Post>;
+  currentCategory: string;
+  socialMeta: object;
+  categories: Array<string>;
+  breadcrumbs: Array<Breadcrumb>;
+};
+
+const Index = (props: IndexProps) => (
   <BlogPage
     {...props}
     socialMeta={{ ...socialMeta, title: props.title }}
@@ -20,14 +30,9 @@ const Index = props => (
   />
 );
 
-Index.propTypes = {
-  title: PropTypes.string,
-  currentCategory: PropTypes.string
-};
-
 export default Index;
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const configData = await import('../siteconfig.json');
 
   const posts = parsePosts(require.context('../posts', true, /\.\/.*\.md$/));
@@ -42,4 +47,4 @@ export async function getStaticProps() {
       title: 'Blog | '.concat(configData.default.title)
     }
   };
-}
+};
