@@ -29,13 +29,12 @@ const About = ({ title }) => (
         </figure>
         <p>
           <strong>
-            I am a front-end software engineer from The Netherlands 🇳🇱 with a
-            background in communication, photography and design. I spend my
-            workdays happily coding at{' '}
-            <a href='http://www.youngcapital.nl'>YoungCapital</a>. During my
-            free time I expand my knowledge, tinker on projects in software and
-            sometimes hardware and enjoy myself with friends, games and plants
-            🌱.
+            I am a Full-Stack Developer from The Netherlands with a background
+            in communication, photography and design. Eager to learn, I spend my
+            workdays coding in JavaScript, Node.js, React, and of course HTML
+            and CSS. During my free time I like to learn more, tinker on
+            projects and enjoy myself with friends, creative projects, games and
+            plants. 🌱.
           </strong>
         </p>
         <h3>Tech</h3>
