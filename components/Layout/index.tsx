@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import Head from 'next/head';
 import generateBreadcrumbs from 'helpers/generate-breadcrumbs';
 import generateSocialMeta from 'helpers/generate-social-meta';
@@ -11,7 +10,7 @@ type LayoutProps = {
   socialMeta?: SocialMeta;
   canonical?: string;
   refreshUrl?: string;
-  structured?: Array<string>;
+  structured?: Array<string | null>;
   children?: React.ReactNode;
 };
 

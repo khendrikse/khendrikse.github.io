@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import isExternalImage from 'helpers/is-external-image';
 
-type ProgressiveImageProps = {
-  src: string;
-  alt: string;
-  style?: object;
-  className?: string;
-};
-
-const ProgressiveImage = (props: ProgressiveImageProps) => {
+const ProgressiveImage = (
+  props: React.DetailedHTMLProps<
+    React.ImgHTMLAttributes<HTMLImageElement>,
+    HTMLImageElement
+  >
+) => {
   const isExternal = isExternalImage(props.src);
 
   const [currentImage, setCurrentImage] = useState(
@@ -37,7 +35,6 @@ const ProgressiveImage = (props: ProgressiveImageProps) => {
 
   return (
     <img
-      {...props}
       style={{ ...props.style, ...style() }}
       src={currentImage}
       alt={props.alt}

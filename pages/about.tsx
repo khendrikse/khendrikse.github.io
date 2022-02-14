@@ -1,5 +1,4 @@
 import { GetStaticProps } from 'next';
-import PropTypes from 'prop-types';
 import Layout from 'components/Layout';
 import ProgressiveImage from 'components/ProgressiveImage';
 import styles from 'styles/about.module.scss';
@@ -11,11 +10,7 @@ const socialMeta = {
   url: 'about'
 };
 
-type AboutProps = {
-  title: string;
-};
-
-const About = ({ title }: AboutProps) => (
+const About = ({ title }: { title: string }) => (
   <Layout
     socialMeta={{ ...socialMeta, title }}
     breadcrumbs={[{ name: 'about', item: 'about/' }]}
@@ -63,8 +58,6 @@ const About = ({ title }: AboutProps) => (
     </div>
   </Layout>
 );
-
-About.propTypes = { title: PropTypes.string };
 
 export default About;
 

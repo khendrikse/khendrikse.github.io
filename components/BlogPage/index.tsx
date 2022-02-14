@@ -2,15 +2,7 @@
 import Link from 'next/link';
 import Layout from 'components/Layout';
 import PostList from 'components/PostList';
-import { Breadcrumb, Post } from 'interfaces';
-
-type BlogPageProps = {
-  posts: Array<Post>;
-  currentCategory: string;
-  socialMeta: object;
-  categories: Array<string>;
-  breadcrumbs: Array<Breadcrumb>;
-};
+import { BlogProps } from 'interfaces';
 
 const BlogPage = ({
   posts,
@@ -18,7 +10,7 @@ const BlogPage = ({
   socialMeta,
   categories,
   breadcrumbs
-}: BlogPageProps) => (
+}: BlogProps) => (
   <Layout socialMeta={socialMeta} breadcrumbs={breadcrumbs}>
     <div className='container'>
       <h2 className='section__title'>Blog</h2>

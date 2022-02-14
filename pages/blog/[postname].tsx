@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
-import PropTypes from 'prop-types';
+import { GetStaticProps } from 'next';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -14,15 +14,16 @@ import isExternalImage from 'helpers/is-external-image';
 import generateArticleStructuredData from 'helpers/generate-article-structured-data';
 import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
 import parsePosts from 'helpers/parse-posts';
+import { Post, StaticPropsContextParams, BlogPostProps } from 'interfaces';
 
-export default function BlogPost({
+export const BlogPost = ({
   siteTitle,
   frontmatter,
   markdownBody,
   date,
   slug,
   image
-}) {
+}: BlogPostProps) => {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
 
@@ -101,22 +102,15 @@ export default function BlogPost({
       </article>
     </Layout>
   );
-}
-
-BlogPost.propTypes = {
-  siteTitle: PropTypes.string,
-  frontmatter: PropTypes.object,
-  markdownBody: PropTypes.string,
-  date: PropTypes.array,
-  slug: PropTypes.string,
-  image: PropTypes.string
 };
 
-export async function getStaticProps({ ...ctx }) {
-  const { postname } = ctx.params;
+export default BlogPost;
+
+export const getStaticProps: GetStaticProps = async context => {
+  const { postname = '' } = context.params as StaticPropsContextParams;
   const content = await import(`../../posts/${postname}.md`);
   const config = await import('../../siteconfig.json');
-  const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
+  const date = `${postname}`.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
   let image = data.data.cover_image || null;
 
@@ -141,9 +135,9 @@ export async function getStaticProps({ ...ctx }) {
 export async function getStaticPaths() {
   const allPosts = parsePosts(
     require.context('../../posts', true, /\.\/.*\.md$/)
-  ).map(post => post.slug);
+  ).map((post: Post) => post.slug);
 
-  const paths = allPosts.map(slug => `/blog/${slug}`);
+  const paths = allPosts.map((slug: string) => `/blog/${slug}`);
 
   return {
     paths,

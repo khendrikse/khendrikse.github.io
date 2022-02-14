@@ -1,10 +1,27 @@
+import { ParsedUrlQuery } from 'querystring';
+
+export type FaqItem = {
+  question: string;
+  answer: string;
+}
+
+export type Faq = Array<FaqItem> | null;
 export type Post = {
   slug: string;
   intro: string;
   date: string;
+  tags: string;
   description: string;
   title: string;
+  cover_image_alt: string;
+  cover_image: string;
+  faq: Faq;
+  oldBlog?: boolean;
 };
+
+export interface StaticPropsContextParams extends ParsedUrlQuery {
+  slug: string;
+}
 
 export type Breadcrumb = {
   item: string;
@@ -32,3 +49,19 @@ export type Project = {
 export type RequireContext = {
   [x: string]: any;
 }
+
+export interface BlogPostProps extends Post {
+  image: string;
+  markdownBody: string;
+  frontmatter: Post;
+  siteTitle: string;
+}
+
+export type BlogProps = {
+  title: string;
+  posts: Array<Post>;
+  currentCategory: string;
+  socialMeta: SocialMeta;
+  categories: Array<string>;
+  breadcrumbs: Array<Breadcrumb>;
+};
