@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import BlogPage from 'components/BlogPage';
 import parsePosts from 'helpers/parse-posts';
 import getCategories from 'helpers/get-categories';
-import { Post, Breadcrumb } from 'interfaces';
+import { BlogProps } from 'interfaces';
 
 const socialMeta = {
   image:
@@ -13,16 +13,7 @@ const socialMeta = {
   url: 'blog'
 };
 
-type IndexProps = {
-  title: string;
-  posts: Array<Post>;
-  currentCategory: string;
-  socialMeta: object;
-  categories: Array<string>;
-  breadcrumbs: Array<Breadcrumb>;
-};
-
-const Index = (props: IndexProps) => (
+const Index = (props: BlogProps) => (
   <BlogPage
     {...props}
     socialMeta={{ ...socialMeta, title: props.title }}

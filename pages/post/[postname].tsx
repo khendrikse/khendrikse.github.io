@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
-import PropTypes from 'prop-types';
+import { GetStaticProps } from 'next';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -14,6 +14,7 @@ import isExternalImage from 'helpers/is-external-image';
 import generateArticleStructuredData from 'helpers/generate-article-structured-data';
 import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
 import parsePosts from '../../helpers/parse-posts';
+import { Post, StaticPropsContextParams, BlogPostProps } from 'interfaces';
 
 export default function BlogPost({
   siteTitle,
@@ -22,7 +23,7 @@ export default function BlogPost({
   date,
   slug,
   image
-}) {
+}: BlogPostProps) {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
 
@@ -105,23 +106,15 @@ export default function BlogPost({
   );
 }
 
-BlogPost.propTypes = {
-  siteTitle: PropTypes.string,
-  frontmatter: PropTypes.object,
-  markdownBody: PropTypes.string,
-  date: PropTypes.array,
-  slug: PropTypes.string,
-  image: PropTypes.string
-};
+export const getStaticProps: GetStaticProps = async context => {
+  const { postname = '' } = context.params as StaticPropsContextParams;
 
-export async function getStaticProps({ ...ctx }) {
-  const { postname } = ctx.params;
-  const slug = postname
+  const slug = `${postname}`
     .replace(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g, '')
     .substring(1);
   const content = await import(`../../posts/${slug}.md`);
   const config = await import('../../siteconfig.json');
-  const date = postname.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
+  const date = `${postname}`.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
   let image = data.data.cover_image || null;
 
@@ -141,16 +134,16 @@ export async function getStaticProps({ ...ctx }) {
       image
     }
   };
-}
+};
 
 export async function getStaticPaths() {
   const allPosts = parsePosts(
     require.context('../../posts', true, /\.\/.*\.md$/)
   )
-    .filter(post => post.oldBlog)
-    .map(post => post.date.concat('-', post.slug));
+    .filter((post: Post) => post.oldBlog)
+    .map((post: Post) => post.date.concat('-', post.slug));
 
-  const paths = allPosts.map(slug => `/post/${slug}`);
+  const paths = allPosts.map((slug: string) => `/post/${slug}`);
 
   return {
     paths,
