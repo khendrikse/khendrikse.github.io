@@ -1,4 +1,6 @@
-const generateFaqStructuredData = faq => {
+import { Faq } from '../interfaces';
+
+const generateFaqStructuredData = (faq: Faq) => {
   if (!faq) return null;
 
   const json = {
