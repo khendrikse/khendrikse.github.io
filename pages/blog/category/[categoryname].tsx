@@ -1,8 +1,9 @@
-import PropTypes from 'prop-types';
+import { GetStaticProps } from 'next';
 import matter from 'gray-matter';
 import BlogPage from 'components/BlogPage';
 import parsePosts from 'helpers/parse-posts';
 import getCategories from 'helpers/get-categories';
+import { Post, StaticPropsContextParams, BlogProps } from 'interfaces';
 
 const socialMeta = {
   image:
@@ -10,7 +11,7 @@ const socialMeta = {
   imageAlt: 'Drawn avatar of khendrikse'
 };
 
-const Index = props => (
+const Index = (props: BlogProps) => (
   <BlogPage
     {...props}
     socialMeta={{
@@ -19,37 +20,36 @@ const Index = props => (
       description: `Blog about ${props.currentCategory}`,
       title: props.title
     }}
-    breadcrumbs={[{ name: 'blog', item: `blog/category/${props.currentCategory}` }]}
+    breadcrumbs={[
+      { name: 'blog', item: `blog/category/${props.currentCategory}` }
+    ]}
   />
 );
 
-Index.propTypes = {
-  title: PropTypes.string,
-  currentCategory: PropTypes.string
-};
-
 export default Index;
 
-export async function getStaticProps({ ...ctx }) {
-  const { categoryname } = ctx.params;
+export const getStaticProps: GetStaticProps = async context => {
+  const { categoryname = '' } = context.params as StaticPropsContextParams;
   const allPosts = parsePosts(
     require.context('../../../posts', true, /\.\/.*\.md$/)
   );
 
   const categories = getCategories(allPosts);
-  const posts = allPosts.filter(post => post?.tags?.includes(categoryname));
+  const posts = allPosts.filter((post: Post) =>
+    post?.tags?.includes(`${categoryname}`)
+  );
 
   const config = await import('../../../siteconfig.json');
 
   return {
     props: {
-      title: 'Blog - '.concat(categoryname, ' | ', config.title),
+      title: 'Blog - '.concat(`${categoryname}`, ' | ', config.title),
       categories,
       posts,
       currentCategory: categoryname
     }
   };
-}
+};
 
 export async function getStaticPaths() {
   const posts = await (async context => {
@@ -63,7 +63,7 @@ export async function getStaticPaths() {
   })(require.context('../../../posts', true, /\.\/.*\.md$/));
   const categorySlugs = getCategories(posts);
 
-  const paths = categorySlugs.map(slug => `/blog/category/${slug}`);
+  const paths = categorySlugs.map((slug: string) => `/blog/category/${slug}`);
 
   return {
     paths,
