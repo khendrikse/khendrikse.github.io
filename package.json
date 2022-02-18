@@ -36,7 +36,10 @@
     "showdown": "^1.9.1"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "@types/react": "^17.0.39",
+    "@types/react-syntax-highlighter": "^13.5.2",
+    "@types/react-test-renderer": "^17.0.1",
     "@types/webpack-env": "^1.16.3",
     "eslint": "^8.6.0",
     "eslint-config-airbnb": "^19.0.4",

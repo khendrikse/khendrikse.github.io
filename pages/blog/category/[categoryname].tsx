@@ -3,7 +3,7 @@ import matter from 'gray-matter';
 import BlogPage from 'components/BlogPage';
 import parsePosts from 'helpers/parse-posts';
 import getCategories from 'helpers/get-categories';
-import { Post, StaticPropsContextParams, BlogProps } from 'interfaces';
+import { StaticPropsContextParams, BlogProps } from 'interfaces';
 
 const socialMeta = {
   image:
@@ -35,7 +35,7 @@ export const getStaticProps: GetStaticProps = async context => {
   );
 
   const categories = getCategories(allPosts);
-  const posts = allPosts.filter((post: Post) =>
+  const posts = allPosts.filter(post =>
     post?.tags?.includes(`${categoryname}`)
   );
 

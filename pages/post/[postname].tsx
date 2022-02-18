@@ -14,7 +14,7 @@ import isExternalImage from 'helpers/is-external-image';
 import generateArticleStructuredData from 'helpers/generate-article-structured-data';
 import generateFaqStructuredData from 'helpers/generate-faq-structured-data';
 import parsePosts from '../../helpers/parse-posts';
-import { Post, StaticPropsContextParams, BlogPostProps } from 'interfaces';
+import { StaticPropsContextParams, BlogPostProps } from 'interfaces';
 
 export default function BlogPost({
   siteTitle,
@@ -140,8 +140,8 @@ export async function getStaticPaths() {
   const allPosts = parsePosts(
     require.context('../../posts', true, /\.\/.*\.md$/)
   )
-    .filter((post: Post) => post.oldBlog)
-    .map((post: Post) => post.date.concat('-', post.slug));
+    .filter(post => post.oldBlog)
+    .map(post => post.date.concat('-', post.slug));
 
   const paths = allPosts.map((slug: string) => `/post/${slug}`);
 
