@@ -39,6 +39,7 @@ const ProgressiveImage = (
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
+      {...props}
       style={{ ...props.style, ...style() }}
       src={currentImage}
       alt={props.alt}
