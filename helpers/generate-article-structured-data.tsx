@@ -1,3 +1,5 @@
+import { Fragment } from 'react';
+
 type StructuredDataInput = {
   title: string;
   slug: string;

@@ -1,4 +1,3 @@
-import renderer from 'react-test-renderer';
 import generateArticleStructuredData from './generate-article-structured-data';
 
 describe('generateArticleStructuredData', () => {
@@ -11,7 +10,7 @@ describe('generateArticleStructuredData', () => {
       date: '2015-02-05T09:20:00+08:00'
     };
 
-    const tree = renderer.create(generateArticleStructuredData(input)).toJSON();
-    expect(tree).toMatchSnapshot();
+    const result = generateArticleStructuredData(input)
+    expect(result).toMatchSnapshot();
   });
 });
