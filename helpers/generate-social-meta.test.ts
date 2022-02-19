@@ -1,4 +1,3 @@
-import renderer from 'react-test-renderer';
 import generateSocialMeta, { trimContent } from './generate-social-meta';
 
 describe('trimContent', () => {

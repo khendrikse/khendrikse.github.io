@@ -45,7 +45,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const projects = ((context: RequireContext) => {
     const keys = context.keys();
     const values: Array<Value> = keys.map(context);
-    console.log({ keys, values });
+
     const data = keys
       .map((key: string, index: number) => {
         const value: Value = values[index];
