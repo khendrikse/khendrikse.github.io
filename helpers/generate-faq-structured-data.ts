@@ -1,6 +1,6 @@
 import { Faq } from '../interfaces';
 
-const generateFaqStructuredData = (faq: Faq) => {
+const generateFaqStructuredData = (faq?: Faq) => {
   if (!faq) return null;
 
   const json = {

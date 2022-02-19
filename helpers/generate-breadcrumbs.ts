@@ -1,4 +1,6 @@
-const generateBreadcrumbs = (crumbs = []) => {
+import { Breadcrumb } from 'interfaces';
+
+const generateBreadcrumbs = (crumbs: Array<Breadcrumb> = []) => {
   const BASE_URL = 'https://khendrikse.github.io/';
   const crumbsList = [{ name: 'home', item: '' }, ...crumbs];
 
