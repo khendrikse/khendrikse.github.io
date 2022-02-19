@@ -11,8 +11,8 @@ describe('trimContent', () => {
 
 describe('generateSocialMeta', () => {
   it('generates social meta tags using default fields', () => {
-    const tree = renderer.create(generateSocialMeta()).toJSON();
-    expect(tree).toMatchSnapshot();
+    const result = generateSocialMeta();
+    expect(result).toMatchSnapshot();
   });
 
   it('generates social meta tags using the passed object', () => {
@@ -27,7 +27,7 @@ describe('generateSocialMeta', () => {
       type: 'website',
       url: 'fake-url'
     };
-    const tree = renderer.create(generateSocialMeta(input)).toJSON();
-    expect(tree).toMatchSnapshot();
+    const result = generateSocialMeta(input);
+    expect(result).toMatchSnapshot();
   });
 });

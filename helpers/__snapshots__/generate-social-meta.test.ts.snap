@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateSocialMeta generates social meta tags using default fields 1`] = `
+Array [
+  <React.Fragment>
+    <title>
+      Karin Hendrikse
+    </title>
+    <meta
+      content="Karin Hendrikse"
+      name="twitter:title"
+    />
+    <meta
+      content="Karin Hendrikse"
+      property="og:title"
+    />
+  </React.Fragment>,
+  <React.Fragment>
+    <meta
+      content="A personal playground and portfolio."
+      name="description"
+    />
+    <meta
+      content="A personal playground and portfolio."
+      name="twitter:description"
+    />
+    <meta
+      content="A personal playground and portfolio."
+      property="og:description"
+    />
+  </React.Fragment>,
+  <meta
+    content="@k_henhey"
+    name="twitter:site"
+  />,
+  <meta
+    content="@k_henhey"
+    name="twitter:creator"
+  />,
+  <meta
+    content="summary"
+    name="twitter:card"
+  />,
+  <meta
+    content="website"
+    property="og:type"
+  />,
+]
+`;
+
+exports[`generateSocialMeta generates social meta tags using the passed object 1`] = `
+Array [
+  <React.Fragment>
+    <title>
+      A title
+    </title>
+    <meta
+      content="A title"
+      name="twitter:title"
+    />
+    <meta
+      content="A title"
+      property="og:title"
+    />
+  </React.Fragment>,
+  <React.Fragment>
+    <meta
+      content="A description"
+      name="description"
+    />
+    <meta
+      content="A description"
+      name="twitter:description"
+    />
+    <meta
+      content="A description"
+      property="og:description"
+    />
+  </React.Fragment>,
+  <meta
+    content="A site"
+    name="twitter:site"
+  />,
+  <meta
+    content="A creator"
+    name="twitter:creator"
+  />,
+  <meta
+    content="summary"
+    name="twitter:card"
+  />,
+  <meta
+    content="website"
+    property="og:type"
+  />,
+  <meta
+    content="https://khendrikse.github.io/fake-url"
+    property="og:url"
+  />,
+  <React.Fragment>
+    <meta
+      content="image-alt.png"
+      name="twitter:image"
+    />
+    <meta
+      content="image-alt.png"
+      property="og:image"
+    />
+  </React.Fragment>,
+  <meta
+    content="An image alt"
+    name="twitter:image:alt"
+  />,
+]
+`;
