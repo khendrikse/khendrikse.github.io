@@ -8,7 +8,6 @@ const ProgressiveImage = (
   >
 ) => {
   const { src } = props;
-  if (!src) return null
   const isExternal = isExternalImage(src);
 
   const [currentImage, setCurrentImage] = useState(
@@ -27,15 +26,18 @@ const ProgressiveImage = (
   };
 
   useEffect(() => {
-    fetchImage(isExternal ? props.src : require(`images/${props.src}`));
-  }, []);
+    fetchImage(isExternal ? src : require(`images/${src}`));
+  }, [isExternal, src]);
 
   const style = () => ({
     transition: '0.2s filter linear',
     filter: `${loading ? 'blur(20px)' : ''}`
   });
 
+  if (!src) return null;
+
   return (
+    // eslint-disable-next-line @next/next/no-img-element
     <img
       style={{ ...props.style, ...style() }}
       src={currentImage}
