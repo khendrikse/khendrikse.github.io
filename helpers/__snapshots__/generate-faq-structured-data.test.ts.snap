@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateFaqStructuredData generates faq structured data 1`] = `"{\\"@context\\":\\"https://schema.org\\",\\"@type\\":\\"FAQPage\\",\\"mainEntity\\":[[{\\"@type\\":\\"Question\\",\\"name\\":\\"a question\\",\\"acceptedAnswer\\":{\\"@type\\":\\"Answer\\",\\"text\\":\\"an answer\\"}}]]}"`;

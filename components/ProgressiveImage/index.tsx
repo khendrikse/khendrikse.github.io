@@ -7,7 +7,9 @@ const ProgressiveImage = (
     HTMLImageElement
   >
 ) => {
-  const isExternal = isExternalImage(props.src);
+  const { src } = props;
+  if (!src) return null
+  const isExternal = isExternalImage(src);
 
   const [currentImage, setCurrentImage] = useState(
     isExternal ? `${props.src}?lqip` : require(`images/${props.src}?lqip`)
