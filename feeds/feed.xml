@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Sat, 19 Feb 2022 15:23:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Feb 2022 08:56:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -624,6 +624,265 @@ signal.signal(signal.SIGTERM, clear_leds)
 <a href="https://stackabuse.com/handling-unix-signals-in-python/">Handling Unix Signals in Python</a>
 <a href="https://docs.python.org/2/library/sys.html">Sys exit</a></p>]]></content:encoded>
             <enclosure url="https://dev-to-uploads.s3.amazonaws.com/i/5o1drx3yby1z853rjm8d.JPG" length="0" type="image/JPG"/>
+        </item>
+        <item>
+            <title><![CDATA[Authenticate third-party API's in Next.js using HttpOnly cookies and axios interceptors]]></title>
+            <link>https://khendrikse.github.io/blog/nextjs-auth-with-httponly-cookies-incl-refresh</link>
+            <guid>https://khendrikse.github.io/blog/nextjs-auth-with-httponly-cookies-incl-refresh</guid>
+            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[How to store third-party API tokens using HttpOnly, including refreshing tokens using axios request interceptors.]]></description>
+            <content:encoded><![CDATA[<p><em>It's the beginning of 2022, and before I dive into this tech filled post, I just wanted to start off cozy and calm. With this amazing picture by Aleksandar Cvetianovic. Take it in. Breathe… and let's go.</em></p>
+<p>Photo by <a href="https://unsplash.com/@lemonzandtea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aleksandar Cvetanovic</a> on <a href="https://unsplash.com/s/photos/cozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<h2 id="tldr">TL;DR</h2>
+<p>In this article, we're going to look into storing and managing refreshing authentication tokens from third-party API's using Next.js. We'll use <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies">HttpOnly cookies</a> and deal with expiring tokens using <a href="https://axios-http.com/docs/interceptors">axios interceptors</a>. Scroll down to "The setup" for all the details.</p>
+<h2 id="background">Background</h2>
+<p>Last year I was working on a personal project where I was using a third-party API. I researched ways in which I could store the user access token <strong>without</strong> having to create my own database. One of the possibilities was using HttpOnly cookies. I had already decided to go for Next.js because of the quick server setup that comes with it. I implemented the authentication flow and searched for the logic to refresh tokens. This is how I solved it:</p>
+<h2 id="thesetup">The setup</h2>
+<h3 id="preface">Preface</h3>
+<p>To follow along, you need to already know how to do the following:</p>
+<ul>
+<li><a href="https://nextjs.org/docs/getting-started">set up a Next.js project</a></li>
+<li>authenticate the third-party API you're going to use through <a href="https://nextjs.org/docs/api-routes/introduction">Next.js API routes</a>.</li>
+<li>understand the logic to refresh your tokens for your third-party API.</li>
+</ul>
+<h3 id="storingyourtokensinsidehttponlycookies">Storing your tokens inside HttpOnly cookies</h3>
+<p>To securely store the third-party API tokens, we'll use HttpOnly cookies. To read more about the security they can provide, <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies">check out the docs at MDN.</a>.</p>
+<blockquote>
+  <p><strong>To figure out yourself:</strong></p>
+  <p>To start, make sure you have your Next.js project setup with a server that manages getting the tokens from your third-party API. I'm assuming you've created your own endpoint in the <code>pages/api</code> folder. For this example, I'll call the file <code>getToken.js</code>.</p>
+</blockquote>
+<p>We're going to use the <a href="https://www.npmjs.com/package/cookie">cookie</a> library to help deal with setting our cookies. To add it to our project:</p>
+<pre><code class="shell language-shell">$ npm install cookie
+
+// or
+
+$ yarn add cookie
+</code></pre>
+<p>We will create our cookies in the <code>getToken.js</code> file. After getting your tokens, use the <code>res</code> parameter that is exposed from the request handler in the <code>get-token</code> endpoint.</p>
+<pre><code class="js language-js">// pages/api/getToken.js
+
+// --- all the logic you wrote yourself to get the access_token
+
+res.setHeader('Set-Cookie', [
+  cookie.serialize('accessToken', access_token, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV !== 'development',
+    maxAge: 60 * 60 * 24,
+    sameSite: 'strict',
+    path: '/'
+  })
+  cookie.serialize('refreshToken', refresh_token, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV !== 'development',
+    maxAge: 60 * 60 * 24,
+    sameSite: 'strict',
+    path: '/'
+  })
+]);
+</code></pre>
+<p>To enable these cookies as HttpOnly, we set <code>httpOnly: true</code>. To only allow access through HTTPS protocol, add <code>secure: process.env.NODE_ENV !== 'development'</code>. Currently, HTTPS is usually not used on <code>localhost</code>, so  we set it up to only use <code>secure: true</code> on production. If you're curious about this, you can <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#restrict_access_to_cookies">read up on it on MDN</a>.</p>
+<p>Set <code>maxAge: 60 * 60 * 24</code>, to define the amount of seconds before the cookie expires. In this case it sets it to 24 hours. This will force the token to be invalidated after 24 hours.</p>
+<p>Add this logic for all the cookies you want to set. Eventually the endpoint will look something like this:</p>
+<pre><code class="js language-js">// pages/api/getToken.js
+import axios from 'axios';
+import cookie from 'cookie';
+
+const getToken = async (req, res) =&gt; { // we use this 'res' parameter to set the cookies.
+
+  // any logic you need to get your tokens, including
+
+  const options = {
+    // all necessary options for getting the right tokens
+  };
+
+  const fetchData = () =&gt;
+    axios(options)
+      .then(async response =&gt; {
+        const { access_token, refresh_token } = response.data;
+
+        res.setHeader('Set-Cookie', [
+          cookie.serialize('accessToken', access_token, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV !== 'development',
+            maxAge: 60 * 60 * 24,
+            sameSite: 'strict',
+            path: '/'
+          }),
+          cookie.serialize('refreshToken', refresh_token, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV !== 'development',
+            maxAge: 60 * 60 * 24,
+            sameSite: 'strict',
+            path: '/'
+          })
+        ]);
+
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(JSON.stringify({ access_token, refresh_token }));
+      })
+      .catch(error =&gt; {
+        // logic for handling errors
+      });
+
+  await fetchData();
+};
+
+export default getToken;
+</code></pre>
+<p>If you want to ever use these cookies, you can find them on the <code>req</code> object on any call to your Next.js server. They will be available in <code>req.cookies</code>.</p>
+<h3 id="encryptingourrefreshtoken">Encrypting our refresh token</h3>
+<p>Because a refresh token is an important part of the authentication flow, we'll add an extra layer of security by encrypting it. We will use the library <a href="https://www.npmjs.com/package/crypto-js"><code>crypto-js</code></a> for this. This library can help us encrypt our token using an 'encryption key' or password. This password will only be available to our server. This way the server is able to encrypt and decrypt the token.</p>
+<pre><code class="shell language-shell">$ npm install crypto-js
+
+// or
+
+$ yarn add crypto-js
+</code></pre>
+<p>In our <code>env.local</code> file (which we do not commit!) we add an environment variable with a encryption key of approximately 32 characters. Make sure this key is truly random.</p>
+<pre><code class="env language-env">// .env.local
+ENCRYPT_KEY=theverylongpasswordwith32characters
+</code></pre>
+<p>In the <code>getToken.js</code> file, import <code>AES</code> from <code>crypto-js/aes</code>. In the object where we set <code>refreshToken</code>, use the <code>encode</code> key in the cookie object to pass the function that will encrypt the token:</p>
+<pre><code class="js language-js">// pages/api/getToken.js
+
+import AES from 'crypto-js/aes';
+
+// ...
+
+cookie.serialize('refreshToken', refresh_token, {
+  httpOnly: true,
+  secure: process.env.NODE_ENV !== 'development',
+  maxAge: 60 * 60 * 24,
+  sameSite: 'strict',
+  path: '/',
+  encode: value =&gt; AES.encrypt(value, process.env.ENCRYPT_KEY).toString()
+});
+</code></pre>
+<p>Whenever you want to use this token you do need to decrypt it using the encryption key like so:</p>
+<pre><code class="js language-js">import CryptoJS from 'crypto-js';
+
+// In the place where you use your refresh token:
+const { refreshToken } = req.cookies;
+const decryptedRefresh = CryptoJS.AES.decrypt(
+  refreshToken,
+  process.env.ENCRYPT_KEY
+).toString(CryptoJS.enc.Utf8);
+</code></pre>
+<h3 id="settingupanaxiosinstancetomanagerefreshtokens">Setting up an axios instance to manage refresh tokens</h3>
+<p>Whenever a token expires or is incorrect, we'll try and refresh them. Usually, in the cases that this happens, an API would return <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"><code>401 Unauthorized</code></a>.</p>
+<p>To deal with this we're going to use <a href="https://axios-http.com/docs/interceptors">axios Interceptors</a>.</p>
+<p>You can use an interceptor to 'intercept' requests or responses before they are actually handled. In this example we're going to:</p>
+<ul>
+<li>Create an endpoint that grabs the token from our cookies.</li>
+<li>Create our own axios instance and add a request and response interceptor to it.</li>
+<li>Use this axios instance everywhere we are doing calls that use a token.</li>
+</ul>
+<p>This way, if an endpoint is using a token to get data, and receives an <code>401 Unauthorized</code>, we can handle this by refreshing our token. Let's break this down:</p>
+<p>Create an endpoint inside the <code>api</code> folder to grab the token from our cookie.</p>
+<pre><code class="js language-js">// api/getToken.js
+
+const getToken = async (req, res) =&gt; {
+  const { accessToken } = req.cookies; // we are able to get our cookies from our request object.
+
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'application/json');
+  res.end(JSON.stringify({ accessToken }));
+};
+
+export default getToken;
+</code></pre>
+<p>Then we create our own axios instance inside a file called <code>axios-instance.js</code>:</p>
+<pre><code class="js language-js">// axios-instance.js
+import axios from 'axios';
+
+const axiosInstance = axios.create();
+
+export default axiosInstance;
+</code></pre>
+<p>To add our interceptor logic we'll start with the response interceptor. Whenever we get a response from an API we check if it is <code>401 Unauthorized</code>. If that is the case we refresh the token and try the call again. To do this we'll be using <a href="https://www.npmjs.com/package/axios-auth-refresh">axios-auth-refresh</a> which makes it really easy to set this up.</p>
+<p>Add the library:</p>
+<pre><code class="js language-js">npm install 'axios-auth-refresh'
+
+// or
+
+yarn add 'axios-auth-refresh'
+</code></pre>
+<p>Inside the <code>axios-instance.js</code> file, import <code>createAuthRefreshInterceptor</code>. Then create a <code>refreshAuthLogic</code> function. This function has a failedRequest parameter that we receive from our interceptor.</p>
+<blockquote>
+  <p><strong>To figure out yourself:</strong></p>
+  <p>Now it's up to you to create a function we can call that handles refreshing the access token from your third-party API. You can grab the refresh token from <code>req.cookies</code>. Don't forget to decrypt it like I showed you before!</p>
+</blockquote>
+<p>Inside <code>refreshAuthLogic</code> we will use the refresh function you created yourself, in this example it's called <code>refreshAccessToken</code>. That function returns our new token, which we set as the response Authorization header. Finally, we return a resolved promise.</p>
+<p>We then call the <code>createAuthRefreshInterceptor</code> function and pass in the <code>axiosInstance</code> and <code>refreshAuthLogic</code> function we created.</p>
+<pre><code class="js language-js">// axios-instance.js
+import axios from 'axios';
+import createAuthRefreshInterceptor from 'axios-auth-refresh';
+import refreshAccessToken from './refresh-access-token'; // this file contains any logic you need to refresh your token with your third-party API
+
+const axiosInstance = axios.create();
+
+const refreshAuthLogic = failedRequest =&gt;
+  refreshAccessToken().then(tokenRefreshResponse =&gt; {
+    // get the new token
+    failedRequest.response.config.headers.Authorization = `Bearer ${tokenRefreshResponse.accessToken}`; // set the new token as the authorization header.
+    return Promise.resolve();
+  });
+
+createAuthRefreshInterceptor(axiosInstance, refreshAuthLogic);
+
+export default axiosInstance;
+</code></pre>
+<blockquote>
+  <p><strong>To figure out yourself:</strong></p>
+  <p>Something to keep in mind for the <code>refreshAccessToken</code> logic that you'll be creating yourself to get your refreshed token, is that you're going to have to make sure you also set these new tokens as cookies. You can use the same logic as we have used before for that.</p>
+</blockquote>
+<p>This solution works if you are doing just one call at a time. It will refresh the token, set the token in our cookies and try the call again. After that, if you do a brand new call, it will use the updated token from the cookie.</p>
+<p>But if you are doing multiple calls at the same time, we run into a problem.</p>
+<p><strong>Example</strong></p>
+<p>Let's say I'm using the <a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a> and I've got a list of 10 artist. For each artists I want to do a call to get more information on them:</p>
+<pre><code class="js language-js">Promise.all(tenArtists.map(artist =&gt; doCall(artist)));
+</code></pre>
+<p>Each call will start off with the old token, and will try to use it when doing its call. It will get a response with <code>401 Unauthorized</code> and refresh the token, set the new cookie and try again. This will happen again and again 10 times. This is because all of these calls started off with the old token, which does not get updated after the first call has refreshed it. So let's fix this.</p>
+<p>Inside our <code>axios-instance.js</code> file, we're going to create a <code>let requestToken;</code> empty variable. Then inside <code>refreshAuthLogic</code>, we assign the refreshed token to <code>requestToken</code>. This way, <code>requestToken</code> will always be up to date with the latest version of our token.</p>
+<p>After this we're going to set our own request interceptor. we tell it to check if <code>requestToken</code> is empty or not. If it is empty, we'll use the endpoint we made in the beginning to get the token from our cookies. If it is not empty, we use that token as our authorization header:</p>
+<pre><code class="js language-js">// axios-instance.js
+import axios from 'axios';
+import createAuthRefreshInterceptor from 'axios-auth-refresh';
+import refreshAccessToken from './refresh-access-token';
+
+let requestToken;
+
+const axiosInstance = axios.create();
+
+const refreshAuthLogic = failedRequest =&gt;
+  refreshAccessToken().then(tokenRefreshResponse =&gt; {
+    failedRequest.response.config.headers.Authorization = `Bearer ${tokenRefreshResponse.accessToken}`;
+    requestToken = tokenRefreshResponse.accessToken; // change the requestToken with the refreshed one
+    return Promise.resolve();
+  });
+
+createAuthRefreshInterceptor(axiosInstance, refreshAuthLogic);
+
+axiosInstance.interceptors.request.use(async request =&gt; {
+  if (!requestToken) {
+    const { accessToken } = await axios
+      .get('/api/getToken')
+      .then(({ data }) =&gt; data)
+      .catch(error =&gt; Promise.reject(error.response.data));
+
+    requestToken = accessToken;
+  }
+
+  request.headers.Authorization = `Bearer ${requestToken}`;
+  return request;
+});
+
+export default axiosInstance;
+</code></pre>
+<p>From this point on, any request that is made using the axios instance, will grab the authorization token from the <code>let requestToken</code> in this file <em>before</em> doing a request. So if an earlier request refreshed the token, the next one is able to use the refreshed one.</p>
+<p>And that's it! This solution hardly feels perfect for me. But for an app that has a lot of client-side calls, without a real database and trying to use HttpOnly cookies, this was one of the solutions I was able to come up with.</p>]]></content:encoded>
+            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2022-02-21-a75a39c7f14850cc4cdf9e10a5fc635f.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Personalize your Linux terminal prompt ✨]]></title>
