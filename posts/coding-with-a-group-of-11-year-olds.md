@@ -5,7 +5,7 @@ published: true
 oldBlog: true
 date: '2019-10-07'
 description: Get them 'hacking' their favourite websites
-tags: beginner, teaching, tutorial, programming
+tags: beginner, tutorial
 intro: Recently a we were asked if we could give a short lesson about coding to a group of 11 year olds in primary school. So my colleague and me started preparing a 1,5 hour workshop with the goal of showing the kids how much fun programming could be. This is the story of how it went.
 cover_image: https://media.giphy.com/media/l41lZlI5EjpMCaVdC/giphy.gif
 cover_image_alt: a cute moving image with a keyboard and cartoon cats going up and down

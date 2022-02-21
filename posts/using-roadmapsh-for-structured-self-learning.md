@@ -6,7 +6,7 @@ oldBlog: true
 date: '2021-07-15'
 description: These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.
 intro: Three years ago I made the switch from an entirely different work field to becoming a software developer. I got lucky enough to be hired at a company that allowed me to learn on the job. Yet, I had no formal computer science education and there was no plan set up for me to structurally start learning programming. I had to devise my own. These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.
-tags: beginner, programming, learning
+tags: beginner
 cover_image: 2021-07-15.jpg
 cover_image_alt: a long winding road in a valley
 ---
