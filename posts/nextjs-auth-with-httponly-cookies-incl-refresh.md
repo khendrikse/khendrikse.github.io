@@ -2,9 +2,9 @@
 layout: post
 title: Authenticate third-party API's in Next.js using HttpOnly cookies and axios interceptors
 published: true
-date: '2022-02-22'
+date: '2022-02-21'
 description: How to store third-party API tokens using HttpOnly, including refreshing tokens using axios request interceptors.
-cover_image: 2022-01-10.jpg
+cover_image: 2022-02-21.jpg
 cover_image_alt: a cat taking a very cozy nap
 tags: tutorial, javascript, nextjs
 
