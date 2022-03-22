@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Mon, 21 Feb 2022 15:42:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Mar 2022 18:47:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -495,6 +495,34 @@ except KeyboardInterrupt:
 <p>Some examples of things you can do with a terminal are: writing commands to navigate files and folders (also called directories) on your computer, make directories and files and look at their content. Or install apps and programs and use them (which we call 'running'). It's also possible to fetch data from a source online and do something with that data. The uses are endless!</p>
 <p>While you're on the journey to learn more about programming you'll find a lot of uses for the terminal, its CLI and the shell that interprets the commands you're typing. There is a lot to learn, but hopefully this has given you a good basis to start from. Have fun coding!</p>]]></content:encoded>
             <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-16-8da6f1b1effca036eaf9580413eb94cc.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Hashes are surprisingly fun]]></title>
+            <link>https://khendrikse.github.io/blog/hashes-are-surprisingly-fun</link>
+            <guid>https://khendrikse.github.io/blog/hashes-are-surprisingly-fun</guid>
+            <pubDate>Invalid Date</pubDate>
+            <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jankolar">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+<h2 id="whatisthisnonfoodhttpsenwikipediaorgwikihash_foodhashyoutalkabout">What is this non-<a href="https://en.wikipedia.org/wiki/Hash_(food)">food</a> hash you talk about?</h2>
+<p>First of all. What are hashes? They are the result of something called <code>a hash function</code> that maps data of a random size, to a fixed-sized hash value.</p>
+<blockquote>
+  <p>To simplify: imagine a file of a thousand characters. We could use a hash to turn it into a 10 character long string that is unique to whatever was in the original file.</p>
+</blockquote>
+<p>There are a <a href="https://en.wikipedia.org/wiki/List_of_hash_functions">bunch of different hash functions</a> out there. They do amazing math things (this is my professional description of what they do) and return a hash value. Some of these hash values are 8 characters long, others 48 or 64, you name it. It all depends on the function you choose.</p>
+<h2 id="kindofremindsmeofencryption">Kind of reminds me of encryption</h2>
+<p>Yeah, but hashing is not the same as encryption though. An encrypted piece of data can be decrypted again, resulting in the original piece of data.</p>
+<p>It's different with a hash value. You cannot simply convert a hash value back into the value it was before it was hashed. (There are ways to try it, like using <a href="https://en.wikipedia.org/wiki/Rainbow_table">Rainbow Tables</a>, but to keep it simple: you can’t. Mkay?)</p>
+<p>What you can do, is compare hashes! If we use a <a href="https://en.m.wikipedia.org/wiki/Fowler–Noll–Vo_hash_function">'Fowler-Noll-Vo Hash Function'</a> to convert the string <code>Hi there</code> to a hash, it will result into <code>D08C24B3D5F93F02</code>.</p>
+<p>If we hash the same string again, it will return the exact same hash value <code>D08C24B3D5F93F02</code> (fun!). But! If I change the text to <code>Hi there!</code> The hash will be totally different. In this case the hash would be <code>57615F9496861047</code>. I know, what a shocking difference for adding only one character.</p>
+<h2 id="alrightbutwhysoexcited">… alright but why so excited?</h2>
+<p>Now why do I enjoy this mathematical function and what it returns? Because it is so useful! And it has been in front of my eyes all along. These are a few ways in which you might be using hashes yourself on a daily basis:</p>
+<h3 id="git">Git</h3>
+<p>Git uses <a href="https://en.wikipedia.org/wiki/SHA-1">‘Secure Hash Algorithm 1’ or SHA-1</a> to do <a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection">a few things</a>. It uses the hash of file contents to check if the contents of a file have changed or not. But it also uses hashes as database keys to look up files and data. It makes so much sense as well. If git wants to check if a file changed, it can compare the new hash to the previous one. And if a hash has not changed, it knows that it does not need to save something again, it can just point to the already stored value. Smart!</p>
+<h3 id="passwordsecurity">Password security</h3>
+<p>Instead of storing passwords in a database, apps can also store hashed passwords. Simply put you can’t convert a hash back to its original value, so if someone were to read the database, they would not be able to read the original password. And when someone wants to log in, the app would only have to compare the hashed inserted password to the hashed password in the database. Neat! If you want to read a bit more, <a href="https://auth0.com/blog/hashing-passwords-one-way-road-to-security/">here is an interesting article</a>.</p>
+<h3 id="caching">Caching</h3>
+<p>Hashes are also used to help the browser understand if a resource (file) has changed. This can help with optimising caching in the browser. One way a resource can implement it is with an <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag#caching_of_unchanged_resources">ETag HTTP response header</a>. This resource response header will contain a hash that the client will send to the server to verify if the resource has changed or not. Efficient!</p>
+<p>There are much more uses for hashes than just these three. But when I realised hashes pop up in different ways, I was delighted. If two hashes are the same and they were hashed using the same hash function, you can be sure the content is the same, and I think that is just lovely.</p>]]></content:encoded>
+            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2022-03-22-d4253f94a861b9421fc176a837101ae2.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[How to get ready for Hacktoberfest ✨]]></title>
