@@ -3,7 +3,7 @@ layout: post
 title: 'Hashes are surprisingly fun'
 published: true
 date: '2022-03-22'
-intro: I am no mathematical genius. In fact, far from it. But I’ve learned to appreciate the small things in life, like encountering a chatty cat on the street or having a cup of tea in the afternoon. And just recently I started to really appreciate hashes. Not the food, but the mathmatical algorithm type. Why? Let me tell you.
+intro: I am no mathematical genius. In fact, far from it. But I’ve learned to appreciate the small things in life, like encountering a chatty cat on the street or having a cup of tea in the afternoon. And just recently I started to really appreciate hashes. Not the food, but the mathematical algorithm type. Why? Let me tell you.
 tags: beginner
 cover_image: 2022-03-22.jpg
 cover_image_alt: a cabinet with little drawers.
