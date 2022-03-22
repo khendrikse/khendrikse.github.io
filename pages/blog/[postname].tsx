@@ -22,7 +22,8 @@ export const BlogPost = ({
   markdownBody,
   date,
   slug,
-  image
+  image,
+  ...props
 }: BlogPostProps) => {
   // eslint-disable-next-line react/jsx-no-useless-fragment
   if (!frontmatter) return <></>;
@@ -110,8 +111,12 @@ export const getStaticProps: GetStaticProps = async context => {
   const { postname = '' } = context.params as StaticPropsContextParams;
   const content = await import(`../../posts/${postname}.md`);
   const config = await import('../../siteconfig.json');
-  const date = `${postname}`.match(/(\d{1,4}([.\--])\d{1,2}([.\--])\d{1,4})/g);
   const data = matter(content.default);
+  const date = data.data.date
+    ? new Intl.DateTimeFormat('en-US', { dateStyle: 'long' }).format(
+        new Date(data.data.date)
+      )
+    : undefined;
   let image = data.data.cover_image || null;
 
   if (image && !isExternalImage(image)) {
@@ -130,12 +135,12 @@ export const getStaticProps: GetStaticProps = async context => {
       image
     }
   };
-}
+};
 
 export async function getStaticPaths() {
   const allPosts = parsePosts(
     require.context('../../posts', true, /\.\/.*\.md$/)
-  ).map((post) => post.slug);
+  ).map(post => post.slug);
 
   const paths = allPosts.map((slug: string) => `/blog/${slug}`);
 
