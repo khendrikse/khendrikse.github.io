@@ -13,7 +13,7 @@ Cover image by  [Jan Antonin Kolar](https://unsplash.com/@jankolar) on [Unsplash
 
 ## What is this non-[food](https://en.wikipedia.org/wiki/Hash_(food)) hash you talk about?
 
-First of all. What are hashes? They are the result of something called `a hash function` that maps data of a random size, to a fixed-sized hash value.
+First of all. What are hashes? They are the result of something called `a hash function` that maps data of any size, to a fixed-sized hash value.
 
 > To simplify: imagine a file of a thousand characters. We could use a hash to turn it into a 10 character long string that is unique to whatever was in the original file.
 
