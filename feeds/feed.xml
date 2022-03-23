@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Wed, 23 Mar 2022 08:31:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Mar 2022 09:37:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -503,7 +503,7 @@ except KeyboardInterrupt:
             <pubDate>Invalid Date</pubDate>
             <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jankolar">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <h2 id="whatisthisnonfoodhttpsenwikipediaorgwikihash_foodhashyoutalkabout">What is this non-<a href="https://en.wikipedia.org/wiki/Hash_(food)">food</a> hash you talk about?</h2>
-<p>First of all. What are hashes? They are the result of something called <code>a hash function</code> that maps data of a random size, to a fixed-sized hash value.</p>
+<p>First of all. What are hashes? They are the result of something called <code>a hash function</code> that maps data of any size, to a fixed-sized hash value.</p>
 <blockquote>
   <p>To simplify: imagine a file of a thousand characters. We could use a hash to turn it into a 10 character long string that is unique to whatever was in the original file.</p>
 </blockquote>
