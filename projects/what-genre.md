@@ -1,7 +1,7 @@
 ---
 title: What genre
 image: whatgenre.png
-link: https://whatgenre.herokuapp.com/
+link: https://whatgenre.netlify.app/
 order: 3
 ---
 
