@@ -5,10 +5,21 @@ published: true
 oldBlog: true
 date: '2020-06-16'
 description: A quick guide on testing out local global npm packages line using npm or yarn.
-intro: You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are  working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.
+intro: You might already be used to creating symlinks between projects locally using yarn or npm. But what if you are working on a cli package that you want the user to use globally? You also want to be able to test your package locally to make sure everything is working as it should. But how do you do this? Here’s an easy guide on achieving a link to a local project to test out globally in your command line using either yarn or npm.
 tags: beginner, javascript, npm-and-yarn
 cover_image: 2020-06-16.png
 cover_image_alt: illustration of chains
+faq:
+  [
+    {
+      question: 'How to test global npm packages using yarn or npm>',
+      answer: 'Use yarn link or npm link in the package you want to test globally. Then figure out where your global yarn or npm folder is by doing yarn global list or npm ls -g --depth=0 --link=true. Then with yarn run yarn global add /full/path/to/package. or npm link.'
+    },
+		{
+			question: 'How to remove a global yarn package',
+			answer: 'Run yarn global remove “package name” to remove a global yarn package.'
+		}
+  ]
 ---
 
 ## How do you link projects?
@@ -26,7 +37,6 @@ yarn link
 # npm
 npm link
 ```
-
 
 **What does this do?**
 
@@ -49,11 +59,10 @@ cd {prefix}/lib/node_modules
 
 Then run `ls` to see a list of all the packages that are installed.
 
-
 > **You keep talking about symlinks. What are those?**
 > A symlink (or ‘symbolic link’) is a file that has a reference to another file. You can also explain it as being a file that points to another file, or you can see it as a ‘shortcut’ on your computer.
 >
->When you create a symlink you are telling your computer to create a link to file A. This link is saved in file B. When we want to use file B, we are essentially using file A.
+> When you create a symlink you are telling your computer to create a link to file A. This link is saved in file B. When we want to use file B, we are essentially using file A.
 
 ### 2. Linking to your package
 
@@ -95,7 +104,6 @@ yarn unlink
 npm unlink
 ```
 
-
 ## How to link to your package globally?
 
 So it’s all great to know how to create local links between projects, but how about when you don’t have a project, but your computer that needs to globally link to your local package? Well, it’s actually a bit different, but still super easy. First, let’s check which packages you already have installed globally by running:
@@ -130,6 +138,7 @@ If you now run `npm ls -g --depth=0 --link=true` you’ll see that your package 
 You remove it from the list by going into the package folder and running `npm unlink`.
 
 ## Conclusion
+
 Using either yarn or npm, once you know how, it can be easy to create symlinks to test any package between projects, or in global mode. Right now, npm seems to have the easiest workflow.
 
 I got stuck the first time I had to develop something that I wanted to test globally and it took me some time to figure out how to make this work. I hope this helps others who might encounter the same problem. If you have any other way to do this please share them in the comments so we can all learn from it 👍.
