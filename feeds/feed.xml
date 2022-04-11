@@ -4,7 +4,7 @@
         <title>Karin Hendrikse blog feed</title>
         <link>https://khendrikse.github.io/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Fri, 25 Mar 2022 12:13:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Apr 2022 18:50:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1090,7 +1090,7 @@ module.exports = {
             <guid>https://khendrikse.github.io/blog/using-roadmapsh-for-structured-self-learning</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.]]></description>
-            <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+            <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <p>The tech industry evolves quickly and as a beginner this can make you feel like you are always behind. One of the things I really had to learn is that the basics are always the right priority to dive into. It does not matter what career goal you have, be it frontend, backend or anything in between or beyond. Understanding HTML, CSS and one of the many amazing programming language out there will be a good start to your career.</p>
 <h2 id="whichlanguagetochoose">Which language to choose?</h2>
 <p>That depends on your own personal context. If you already landed a job and are expected to learn a specific language for it: choose that one. If you feel excited for another: go for the other one. When self-learning the key thing is motivation. Work with what makes you excited. Once you learn one language, the others can easily follow. Don’t feel rushed or pressured into something that does not ‘spark joy’.</p>
