@@ -8,7 +8,7 @@ import { Post } from 'interfaces';
 
 const socialMeta = {
   image:
-    'https://khendrikse.github.io/_next/static/chunks/images/portait-linoosk-db0fc2adaa55eb6080c20ff88376c1ba.png',
+    'https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/portait-linoosk-db0fc2adaa55eb6080c20ff88376c1ba.png',
   imageAlt: 'Drawn avatar of khendrikse'
 };
 

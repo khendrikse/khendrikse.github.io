@@ -59,7 +59,7 @@ const META_TAG_TYPES = {
     <meta
       key='og:url'
       property='og:url'
-      content={`https://khendrikse.github.io/${content}`}
+      content={`https://velvety-tartufo-f1de54.netlify.app/${content}`}
     />
   )
 };

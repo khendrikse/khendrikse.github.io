@@ -37,7 +37,7 @@ export default function Footer() {
         <a
           className={styles.footer__link}
           aria-label='RSS feed'
-          href='https://khendrikse.github.io/feeds/feed.xml'
+          href='https://velvety-tartufo-f1de54.netlify.app/feeds/feed.xml'
         >
           <BsFillRssFill size='24px' title='RSS' />
         </a>

@@ -15,7 +15,7 @@ const generateArticleStructuredData = ({
   image,
   date
 }: StructuredDataInput) => {
-  const BASE_URL = 'https://khendrikse.github.io/';
+  const BASE_URL = 'https://velvety-tartufo-f1de54.netlify.app/';
 
   const json = {
     '@context': 'https://schema.org',

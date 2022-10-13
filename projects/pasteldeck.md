@@ -1,7 +1,7 @@
 ---
 title: Pasteldeck
 image: pasteldeck.png
-link: https://khendrikse.github.io/pasteldeck/
+link: https://velvety-tartufo-f1de54.netlify.app/pasteldeck/
 order: 5
 ---
 

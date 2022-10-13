@@ -35,13 +35,13 @@ export default function Layout({
         {refreshUrl && (
           <meta
             httpEquiv='refresh'
-            content={`2;url=https://khendrikse.github.io/${refreshUrl}`}
+            content={`2;url=https://velvety-tartufo-f1de54.netlify.app/${refreshUrl}`}
           />
         )}
         {canonical && (
           <link
             rel='canonical'
-            href={`https://khendrikse.github.io/${canonical}`}
+            href={`https://velvety-tartufo-f1de54.netlify.app/${canonical}`}
           />
         )}
         <script type='application/ld+json'>

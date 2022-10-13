@@ -1,7 +1,7 @@
 ---
 title: Onoes
 image: onoes.png
-link: https://khendrikse.github.io/onoes/
+link: https://velvety-tartufo-f1de54.netlify.app/onoes/
 order: 1
 ---
 

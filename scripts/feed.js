@@ -31,12 +31,12 @@ const getImageFileName = filename => {
     .readdirSync(path.resolve(root, '.next/static/chunks/images'))
     .find(name => name.includes(fileWithoutExtension));
 
-  const url = `https://khendrikse.github.io/_next/static/chunks/images/${filePath}`;
+  const url = `https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/${filePath}`;
   return url;
 };
 
 const parsePostData = (data, filename) => {
-  const link = `https://khendrikse.github.io/blog/${filename.replace(
+  const link = `https://velvety-tartufo-f1de54.netlify.app/blog/${filename.replace(
     '.md',
     ''
   )}`;
@@ -79,7 +79,7 @@ const createFeeds = () => {
     title: 'Karin Hendrikse blog feed',
     description:
       'This is a feed of all blogs on the website of Karin Hendrikse',
-    link: 'https://khendrikse.github.io/',
+    link: 'https://velvety-tartufo-f1de54.netlify.app/',
     language: 'en',
     copyright: `All rights reserved ${new Date().getFullYear()}, Karin Hendrikse`
   });

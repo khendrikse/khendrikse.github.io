@@ -94,7 +94,7 @@ Array [
     property="og:type"
   />,
   <meta
-    content="https://khendrikse.github.io/fake-url"
+    content="https://velvety-tartufo-f1de54.netlify.app/fake-url"
     property="og:url"
   />,
   <React.Fragment>

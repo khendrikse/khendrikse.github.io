@@ -1,7 +1,7 @@
 import { Breadcrumb } from 'interfaces';
 
 const generateBreadcrumbs = (crumbs: Array<Breadcrumb> = []) => {
-  const BASE_URL = 'https://khendrikse.github.io/';
+  const BASE_URL = 'https://velvety-tartufo-f1de54.netlify.app/';
   const crumbsList = [{ name: 'home', item: '' }, ...crumbs];
 
   const json = {
