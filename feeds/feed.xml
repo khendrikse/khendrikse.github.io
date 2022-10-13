@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Karin Hendrikse blog feed</title>
-        <link>https://khendrikse.github.io/</link>
+        <link>https://velvety-tartufo-f1de54.netlify.app/</link>
         <description>This is a feed of all blogs on the website of Karin Hendrikse</description>
-        <lastBuildDate>Thu, 26 May 2022 20:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Oct 2022 17:03:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>All rights reserved 2022, Karin Hendrikse</copyright>
         <item>
             <title><![CDATA[9 Cozy Vim color schemes]]></title>
-            <link>https://khendrikse.github.io/blog/9-cozy-vim-color-schemes</link>
-            <guid>https://khendrikse.github.io/blog/9-cozy-vim-color-schemes</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/9-cozy-vim-color-schemes</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/9-cozy-vim-color-schemes</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[A list of very cozy vim color schemes.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@joyfulcaptures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joyful</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -51,12 +51,12 @@
 <li>Alabaster</li>
 <li>Tsen Magento Yellow (almost)</li>
 </ul>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-17-12671b847d94152f1d5595aea5b5a734.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2021-08-17-12671b847d94152f1d5595aea5b5a734.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Test global npm packages in a quick and easy way]]></title>
-            <link>https://khendrikse.github.io/blog/Test-global-npm-packages-in-a-quick-and-easy-way</link>
-            <guid>https://khendrikse.github.io/blog/Test-global-npm-packages-in-a-quick-and-easy-way</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/Test-global-npm-packages-in-a-quick-and-easy-way</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/Test-global-npm-packages-in-a-quick-and-easy-way</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[A quick guide on testing out local global npm packages line using npm or yarn.]]></description>
             <content:encoded><![CDATA[<h2 id="howdoyoulinkprojects">How do you link projects?</h2>
@@ -142,12 +142,12 @@ With npm it it the same as before, but we just go to the folder of our package a
 <h2 id="conclusion">Conclusion</h2>
 <p>Using either yarn or npm, once you know how, it can be easy to create symlinks to test any package between projects, or in global mode. Right now, npm seems to have the easiest workflow.</p>
 <p>I got stuck the first time I had to develop something that I wanted to test globally and it took me some time to figure out how to make this work. I hope this helps others who might encounter the same problem. If you have any other way to do this please share them in the comments so we can all learn from it 👍.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2020-06-16-7b76f14b67656058487186e5a204b7e3.png" length="0" type="image/png"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2020-06-16-7b76f14b67656058487186e5a204b7e3.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[The basics of a function, illustrated! ✨]]></title>
-            <link>https://khendrikse.github.io/blog/The-basics-of-a-function-illustrated</link>
-            <guid>https://khendrikse.github.io/blog/The-basics-of-a-function-illustrated</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/The-basics-of-a-function-illustrated</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/The-basics-of-a-function-illustrated</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Learn about JavaScript functions with a simple metaphor.]]></description>
             <content:encoded><![CDATA[<h2 id="whatisafunction">What is a function</h2>
@@ -213,8 +213,8 @@ function plusTwoApples(numberOfApples) {
         </item>
         <item>
             <title><![CDATA[Awesome soft, airy and fluffy VSC themes]]></title>
-            <link>https://khendrikse.github.io/blog/awesome-soft-airy-and-fluffy-vsc-themes</link>
-            <guid>https://khendrikse.github.io/blog/awesome-soft-airy-and-fluffy-vsc-themes</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/awesome-soft-airy-and-fluffy-vsc-themes</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/awesome-soft-airy-and-fluffy-vsc-themes</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[These themes will lift you off for cozy coding.]]></description>
             <content:encoded><![CDATA[<h2 id="1noctishttpsmarketplacevisualstudiocomitemsitemnameliviuscheranoctis"><strong>1. <a href="https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis">Noctis</a></strong></h2>
@@ -246,8 +246,8 @@ function plusTwoApples(numberOfApples) {
         </item>
         <item>
             <title><![CDATA[Beautify your Raspberry Pi with the Pimoroni Blinkt!]]></title>
-            <link>https://khendrikse.github.io/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
-            <guid>https://khendrikse.github.io/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/beautify-your-raspberry-pi-with-the-pimoroni-blinkt</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Make your Raspberry Pi shine in blue and purple colors.]]></description>
             <content:encoded><![CDATA[<p><img src="https://thepracticaldev.s3.amazonaws.com/i/q06jxjljnvamg81gclj0.gif" alt="LEDs light up inside a Raspberry Pi" /></p>
@@ -320,8 +320,8 @@ except KeyboardInterrupt:
         </item>
         <item>
             <title><![CDATA[Coding with a group of 11 year olds]]></title>
-            <link>https://khendrikse.github.io/blog/coding-with-a-group-of-11-year-olds</link>
-            <guid>https://khendrikse.github.io/blog/coding-with-a-group-of-11-year-olds</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/coding-with-a-group-of-11-year-olds</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/coding-with-a-group-of-11-year-olds</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Get them 'hacking' their favourite websites]]></description>
             <content:encoded><![CDATA[<h2 id="gettoknowwhattheylove">Get to know what they love</h2>
@@ -356,8 +356,8 @@ except KeyboardInterrupt:
         </item>
         <item>
             <title><![CDATA[Finding meaning: landmarks explained]]></title>
-            <link>https://khendrikse.github.io/blog/finding-meaning-landmarks-explained</link>
-            <guid>https://khendrikse.github.io/blog/finding-meaning-landmarks-explained</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/finding-meaning-landmarks-explained</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/finding-meaning-landmarks-explained</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Learning more about HTML5 elements and their landmarks]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@fallonmichaeltx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fallon Michael</a> on <a href="https://unsplash.com/s/photos/you-are-here?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -408,12 +408,12 @@ except KeyboardInterrupt:
 <p>In this case, adding a unique label to each of these sections can help them become actual <code>regions</code>. For example by using <code>section[aria-labelledby]</code>, <code>section[aria-label]</code> or <code>section[title]</code>.</p>
 <h2 id="tellmemore">Tell me more!</h2>
 <p>If you want to know more about the specifics of landmarks, one resource that I really love is <a href="https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html">ARIA landmarks example</a>. It has great quick and easy examples on how the different elements and landmark roles can, and should be used.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-02-23-b7f8c6f42839ffdbdaab40eb78c22a7c.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2021-02-23-b7f8c6f42839ffdbdaab40eb78c22a7c.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Get a head start with your new app - CRA custom templates]]></title>
-            <link>https://khendrikse.github.io/blog/get-a-head-start-with-your-new-app-cra-custom-templates</link>
-            <guid>https://khendrikse.github.io/blog/get-a-head-start-with-your-new-app-cra-custom-templates</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/get-a-head-start-with-your-new-app-cra-custom-templates</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/get-a-head-start-with-your-new-app-cra-custom-templates</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Let's take a look at Create React App's custom templates]]></description>
             <content:encoded><![CDATA[<p>Custom templates became available with <code>react-scripts@3.3.0</code>. They make it possible to predefine exactly what you want CRA's output to be. For example, maybe you want a few basic components ready, have some dependencies or scripts pre-installed in your <code>package.json</code> or add some config files for ESlint or Prettier.</p>
@@ -458,8 +458,8 @@ except KeyboardInterrupt:
         </item>
         <item>
             <title><![CDATA[Get to know the terminal]]></title>
-            <link>https://khendrikse.github.io/blog/get-to-know-the-terminal</link>
-            <guid>https://khendrikse.github.io/blog/get-to-know-the-terminal</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/get-to-know-the-terminal</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/get-to-know-the-terminal</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Learn to understand the difference between the terminal, command line and shell. And become more comfortable using them.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -494,12 +494,12 @@ except KeyboardInterrupt:
 <p>We've learned that a terminal is an emulator that we can open on our computer to enter commands through the CLI. That CLI passes commands to the shell that interprets them and tells the computer what to do.</p>
 <p>Some examples of things you can do with a terminal are: writing commands to navigate files and folders (also called directories) on your computer, make directories and files and look at their content. Or install apps and programs and use them (which we call 'running'). It's also possible to fetch data from a source online and do something with that data. The uses are endless!</p>
 <p>While you're on the journey to learn more about programming you'll find a lot of uses for the terminal, its CLI and the shell that interprets the commands you're typing. There is a lot to learn, but hopefully this has given you a good basis to start from. Have fun coding!</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-08-16-8da6f1b1effca036eaf9580413eb94cc.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2021-08-16-8da6f1b1effca036eaf9580413eb94cc.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Hashes are surprisingly fun]]></title>
-            <link>https://khendrikse.github.io/blog/hashes-are-surprisingly-fun</link>
-            <guid>https://khendrikse.github.io/blog/hashes-are-surprisingly-fun</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/hashes-are-surprisingly-fun</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/hashes-are-surprisingly-fun</guid>
             <pubDate>Invalid Date</pubDate>
             <content:encoded><![CDATA[<p>Cover image by  <a href="https://unsplash.com/@jankolar">Jan Antonin Kolar</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 <h2 id="whatisthisnonfoodhttpsenwikipediaorgwikihash_foodhashyoutalkabout">What is this non-<a href="https://en.wikipedia.org/wiki/Hash_(food)">food</a> hash you talk about?</h2>
@@ -522,12 +522,12 @@ except KeyboardInterrupt:
 <h3 id="caching">Caching</h3>
 <p>Hashes are also used to help the browser understand if a resource (file) has changed. This can help with optimising caching in the browser. One way a resource can implement it is with an <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag#caching_of_unchanged_resources">ETag HTTP response header</a>. This resource response header will contain a hash that the client will send to the server to verify if the resource has changed or not. Efficient!</p>
 <p>There are much more uses for hashes than just these three. But when I realised hashes pop up in different ways, I was delighted. If two hashes are the same and they were hashed using the same hash function, you can be sure the content is the same, and I think that is just lovely.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2022-03-22-d4253f94a861b9421fc176a837101ae2.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2022-03-22-d4253f94a861b9421fc176a837101ae2.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[How to get ready for Hacktoberfest ✨]]></title>
-            <link>https://khendrikse.github.io/blog/how-to-get-ready-for-hacktoberfest</link>
-            <guid>https://khendrikse.github.io/blog/how-to-get-ready-for-hacktoberfest</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/how-to-get-ready-for-hacktoberfest</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/how-to-get-ready-for-hacktoberfest</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[5 Tips to get you ready for coding]]></description>
             <content:encoded><![CDATA[<p><em>No idea what Hacktoberfest is? Check <a href="https://hacktoberfest.digitalocean.com/">the official website</a> for information about the event and how to participate.</em></p>
@@ -552,8 +552,8 @@ Hacktoberfest is an awesome event for any beginner to start looking into open so
         </item>
         <item>
             <title><![CDATA[How to stay connected to your co-workers]]></title>
-            <link>https://khendrikse.github.io/blog/how-to-stay-connected-to-your-co-workers</link>
-            <guid>https://khendrikse.github.io/blog/how-to-stay-connected-to-your-co-workers</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/how-to-stay-connected-to-your-co-workers</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/how-to-stay-connected-to-your-co-workers</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Staying connected in a work-from-home world]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">DJ Johnson</a> on <a href="https://unsplash.com/@dj_johns1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
@@ -594,8 +594,8 @@ Hacktoberfest is an awesome event for any beginner to start looking into open so
         </item>
         <item>
             <title><![CDATA[Light up LEDs when you start your Raspberry Pi and clear them on shutdown]]></title>
-            <link>https://khendrikse.github.io/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
-            <guid>https://khendrikse.github.io/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/light-up-leds-when-you-start-your-raspberry-pi-and-clear-them-on-shutdown</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Set up your Pimoroni Blinkt so it automatically turns on and off when you start-up or shut down your Raspberry Pi.]]></description>
             <content:encoded><![CDATA[<p><em>You can actually use the techniques in this tutorial for any other script or board.</em></p>
@@ -655,8 +655,8 @@ signal.signal(signal.SIGTERM, clear_leds)
         </item>
         <item>
             <title><![CDATA[Authenticate third-party API's in Next.js using HttpOnly cookies and axios interceptors]]></title>
-            <link>https://khendrikse.github.io/blog/nextjs-auth-with-httponly-cookies-incl-refresh</link>
-            <guid>https://khendrikse.github.io/blog/nextjs-auth-with-httponly-cookies-incl-refresh</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/nextjs-auth-with-httponly-cookies-incl-refresh</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/nextjs-auth-with-httponly-cookies-incl-refresh</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[How to store third-party API tokens using HttpOnly, including refreshing tokens using axios request interceptors.]]></description>
             <content:encoded><![CDATA[<p><em>It's the beginning of 2022, and before I dive into this tech filled post, I just wanted to start off cozy and calm. With this amazing picture by Aleksandar Cvetianovic. Take it in. Breathe… and let's go.</em></p>
@@ -873,12 +873,12 @@ axiosInstance.interceptors.request.use(async request =&gt; {
 export default axiosInstance;
 </code></pre>
 <p>From this point on, any request that is made using the axios instance, will grab the authorization token from the <code>let requestToken</code> in this file <em>before</em> doing a request. So if an earlier request refreshed the token, the next one is able to use the refreshed one. And that's it!</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2022-02-21-a75a39c7f14850cc4cdf9e10a5fc635f.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2022-02-21-a75a39c7f14850cc4cdf9e10a5fc635f.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Personalize your Linux terminal prompt ✨]]></title>
-            <link>https://khendrikse.github.io/blog/personalize-your-Linux-terminal-prompt</link>
-            <guid>https://khendrikse.github.io/blog/personalize-your-Linux-terminal-prompt</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/personalize-your-Linux-terminal-prompt</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/personalize-your-Linux-terminal-prompt</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[Add your own personal touch to your Linux terminal when you're not using a GUI.]]></description>
             <content:encoded><![CDATA[<p>In this blog, I'll explain how you can change the terminal's prompt to look just the way you want to.</p>
@@ -967,8 +967,8 @@ export default axiosInstance;
         </item>
         <item>
             <title><![CDATA[Redirection and pipeline magic]]></title>
-            <link>https://khendrikse.github.io/blog/redirection-and-pipeline-magic</link>
-            <guid>https://khendrikse.github.io/blog/redirection-and-pipeline-magic</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/redirection-and-pipeline-magic</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/redirection-and-pipeline-magic</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[For when you don't feel like diving deep into bash but do want to know what redirection is when you see it.]]></description>
             <content:encoded><![CDATA[<h2 id="redirection">Redirection</h2>
@@ -1040,8 +1040,8 @@ wombat
         </item>
         <item>
             <title><![CDATA[TIL: How to set security headers for Gatsby Develop]]></title>
-            <link>https://khendrikse.github.io/blog/set-your-gatsby-develop-security-headers</link>
-            <guid>https://khendrikse.github.io/blog/set-your-gatsby-develop-security-headers</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/set-your-gatsby-develop-security-headers</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/set-your-gatsby-develop-security-headers</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[If, for any reason, you need to run gatsby develop and set security headers. Using advanced proxying is the way to go.]]></description>
             <content:encoded><![CDATA[<p>Photo by <a href="https://unsplash.com/@hngstrm">Henry & Co</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -1082,12 +1082,12 @@ module.exports = {
 };
 </code></pre>
 <p>Done! You should now be able to run <code>gatsby develop</code> and see the proper security headers on the documents that it serves you. Make sure to restart your server if you already had it running though, otherwise the changes won't come through.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2021-09-25-ba6efe028c4e0290126182196eec765f.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Using roadmap.sh for structured self-learning]]></title>
-            <link>https://khendrikse.github.io/blog/using-roadmapsh-for-structured-self-learning</link>
-            <guid>https://khendrikse.github.io/blog/using-roadmapsh-for-structured-self-learning</guid>
+            <link>https://velvety-tartufo-f1de54.netlify.app/blog/using-roadmapsh-for-structured-self-learning</link>
+            <guid>https://velvety-tartufo-f1de54.netlify.app/blog/using-roadmapsh-for-structured-self-learning</guid>
             <pubDate>Invalid Date</pubDate>
             <description><![CDATA[These tips, tricks and resources helped me become a self-taught software developer and hopefully they can help you too.]]></description>
             <content:encoded><![CDATA[<p>Cover image by <a href="https://unsplash.com/@jerrykavan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaromír Kavan</a> on <a href="https://unsplash.com/s/photos/roadmap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
@@ -1109,7 +1109,7 @@ module.exports = {
 <h2 id="projectswillkickstartyourcareer">Projects will kickstart your career</h2>
 <p>Last but not least: I noticed that through work and building personal projects, I was already able to check off some of the boxes on my list. Working on actual projects actually helps you learn so much quicker than doing courses, reading articles, books or watching videos. If you haven’t tried building something yourself yet: go for it! Find something that you think would be fun to build. Maybe try using a fun API that is available on the web. Like <a href="https://api.nasa.gov/">NASA</a>, <a href="https://developer.spotify.com/documentation/web-api/">Spotify</a> or the <a href="https://swapi.dev/">Star Wars API</a>. It might feel daunting to start, but if you split up the project in small tasks it will become much easier.</p>
 <p>Good luck for all of you out there starting on your journeys. Don’t forget that the only person you should compare yourself with, is yourself. And every new thing you learn is one more thing you did not know before. Be nice to yourself and others, and build fun stuff.</p>]]></content:encoded>
-            <enclosure url="https://khendrikse.github.io/_next/static/chunks/images/2021-07-15-04bfc211ed7209f98a0f7cab1c2c92ce.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://velvety-tartufo-f1de54.netlify.app/_next/static/chunks/images/2021-07-15-04bfc211ed7209f98a0f7cab1c2c92ce.jpg" length="0" type="image/jpg"/>
         </item>
     </channel>
 </rss>
