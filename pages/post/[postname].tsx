@@ -121,7 +121,7 @@ export const getStaticProps: GetStaticProps = async context => {
   if (image && !isExternalImage(image)) {
     const src = require(`images/${data.data.cover_image}`);
 
-    image = 'https://khendrikse.github.io'.concat(src.src);
+    image = 'https://velvety-tartufo-f1de54.netlify.app'.concat(src.src);
   }
 
   return {
